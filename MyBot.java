@@ -22,7 +22,7 @@ public class MyBot {
         // As soon as you call "ready" function below, the 2 second per turn timer will start.
         game.ready("MyJavaBot");
 
-        Log.log("Successfully created bot! My Player ID is " + game.myId + ". Bot rng seed is " + rngSeed + ".");
+        //Log.log("Successfully created bot! My Player ID is " + game.myId + ". Bot rng seed is " + rngSeed + ".");
 
         for (;;) {
             game.updateFrame();

@@ -9,11 +9,8 @@ import java.util.Random;
 public class MyBot {
     public static void main(final String[] args) {
         final long rngSeed;
-        if (args.length > 1) {
-            rngSeed = Integer.parseInt(args[1]);
-        } else {
-            rngSeed = System.nanoTime();
-        }
+        rngSeed = System.nanoTime();
+        Log.log(args[0]);
         final Random rng = new Random(rngSeed);
 
         Game game = new Game();

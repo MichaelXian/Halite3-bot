@@ -25,7 +25,7 @@ public class Trainer {
     private static JSONObject playMatch() throws JSONException {
         String filePath =  new File("").getAbsolutePath(); // Get path of root dir
         filePath = filePath.concat("/run_game.sh"); // Add the bash script
-        String[] cmd = new String[]{"/bin/sh", filePath}; // Command to run
+        String[] cmd = new String[]{"/bin/sh", filePath, "4", "5"}; // Command to run
         String result = ""; // Initialize result & ret value
         JSONObject stats = null;
         try {

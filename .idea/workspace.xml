@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e69f32d-ca61-44d2-addf-680a1984cddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hlt/GNN/Networks/NetworkFileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hlt/GNN/StatFileManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Halite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Halite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trainer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/GNN/Networks/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/GNN/Networks/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlt/GNN/Networks/NetworkFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/GNN/Networks/NetworkFileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlt/GNN/Networks/NewGenNaughtNetworks.java" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/GNN/Networks/NewGenNaughtNetworks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hlt/GNN/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/GNN/Trainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Halite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Halite/Halite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/Halite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Halite/run_game.sh" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/run_game.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_game.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run_game.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlt/Networks.md" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/Networks.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +30,7 @@
           <entry key="class" value="1" />
           <entry key="halite" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="29" />
+          <entry key="java" value="32" />
           <entry key="sh" value="2" />
           <entry key="txt" value="1" />
         </counts>
@@ -44,34 +39,58 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="29" />
+          <entry key="JAVA" value="32" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="47" />
-          <entry key="java" value="5816" />
+          <entry key="java" value="6646" />
           <entry key="sh" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5816" />
+          <entry key="JAVA" value="6646" />
           <entry key="PLAIN_TEXT" value="146" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.33853152">
+    <splitter split-orientation="horizontal" split-proportion="0.5354126">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/hlt/GNN/Trainer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="241">
-                  <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+                <state relative-caret-position="135">
+                  <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/NewGenNaughtNetworks.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/hlt/GNN/StatFileManager.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="510">
+                  <caret line="44" column="98" selection-start-line="44" selection-start-column="98" selection-end-line="44" selection-end-column="98" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -86,8 +105,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/NetworkFileManager.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+                <state relative-caret-position="315">
+                  <caret line="54" column="66" selection-start-line="54" selection-start-column="66" selection-end-line="54" selection-end-column="66" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -144,16 +163,17 @@
         <option value="$PROJECT_DIR$/hlt/GNN/MyBotTraining.java" />
         <option value="$PROJECT_DIR$/hlt/GNN/Networks/NeuronFactory.java" />
         <option value="$PROJECT_DIR$/hlt/GNN/Networks/NeuralNetworkFactory.java" />
-        <option value="$PROJECT_DIR$/hlt/GNN/Networks/NewGenNaughtNetworks.java" />
         <option value="$PROJECT_DIR$/hlt/GNN/InsertionSort.java" />
         <option value="$PROJECT_DIR$/hlt/GNN/Networks/AI.java" />
         <option value="$PROJECT_DIR$/hlt/GNN/Networks/ShipBot.java" />
         <option value="$PROJECT_DIR$/hlt/GNN/Networks/ControllerBot.java" />
         <option value="$PROJECT_DIR$/hlt/GNN/Matchup.java" />
         <option value="$PROJECT_DIR$/run_game.sh" />
-        <option value="$PROJECT_DIR$/hlt/GNN/Trainer.java" />
         <option value="$PROJECT_DIR$/hlt/GNN/Networks/Bot.java" />
         <option value="$PROJECT_DIR$/hlt/GNN/Networks/NetworkFileManager.java" />
+        <option value="$PROJECT_DIR$/hlt/GNN/Trainer.java" />
+        <option value="$PROJECT_DIR$/hlt/GNN/Networks/NewGenNaughtNetworks.java" />
+        <option value="$PROJECT_DIR$/hlt/GNN/StatFileManager.java" />
       </list>
     </option>
   </component>
@@ -213,7 +233,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542324145854" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542325306224" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/hlt/neuroph-2.94/libs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -277,12 +297,12 @@
       <option name="presentableId" value="Default" />
       <updated>1542270287558</updated>
       <workItem from="1542270290446" duration="2868000" />
-      <workItem from="1542312479633" duration="10995000" />
+      <workItem from="1542312479633" duration="12155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13863000" />
+    <option name="totallyTimeSpent" value="15023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1053" extended-state="6" />
@@ -494,16 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/NewGenNaughtNetworks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="61" lean-forward="true" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/run_game.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -528,16 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hlt/GNN/Trainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/Bot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -557,8 +557,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/NetworkFileManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+        <state relative-caret-position="315">
+          <caret line="54" column="66" selection-start-line="54" selection-start-column="66" selection-end-line="54" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/GNN/Trainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/NewGenNaughtNetworks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/GNN/StatFileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="44" column="98" selection-start-line="44" selection-start-column="98" selection-end-line="44" selection-end-column="98" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

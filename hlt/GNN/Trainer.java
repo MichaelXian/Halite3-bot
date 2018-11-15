@@ -8,7 +8,6 @@ import org.json.JSONException;
 // Can't resolve org.json.* but can resolve org.json.specificClass... ok then...
 
 public class Trainer {
-    public static final String GENERATION_FILE_PATH = "hlt/Generation/generation.txt";
     public static void main(String[] args) {
         JSONObject matchResults = playMatch(); // Play the matchup
         JSONObject bot0Stats = getBotStats(matchResults, "0"); // Get the performance of bot0

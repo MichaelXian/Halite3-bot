@@ -1,5 +1,6 @@
 package hlt.GNN.Networks;
 
+import hlt.GNN.StatFileManager;
 import hlt.GNN.Trainer;
 import org.neuroph.core.NeuralNetwork;
 
@@ -8,28 +9,20 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 
 public class NewGenNaughtNetworks {
-    static NeuralNetwork neuralNetwork;
 
     /**
      * Creates new gen1 neural networks, and resets the generation to 1
      * @param args
      */
     public static void main(String[] args) {
+        NeuralNetwork shipNetwork;
+        NeuralNetwork controllerNetwork;
         for (int i = 0; i < 100; i ++) {
-
-            neuralNetwork = NeuralNetworkFactory.randomNeuralNet(1,6);
-            neuralNetwork.save("hlt/NeuralNets/ship" + i + ".nnet");
+            shipNetwork = NeuralNetworkFactory.randomNeuralNet(13,6);
+            controllerNetwork = NeuralNetworkFactory.randomNeuralNet(2, 2);
+            NetworkFileManager.saveBot(shipNetwork, controllerNetwork, i);
         }
-
-        try {
-            File generationFile = new File(Trainer.GENERATION_FILE_PATH);
-            PrintWriter writer = new PrintWriter(generationFile);
-            writer.print(0);
-            writer.close();
-        } catch (FileNotFoundException e) {
-            throw new NullPointerException("File not found");
-        }
-
+        StatFileManager.setGeneration(0);
         //neuralNetwork = NeuralNetworkFactory.emptyNeuralNet();
         //neuralNetwork.save("NeuralNets/net2.nnet");
     }

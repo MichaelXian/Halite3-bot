@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e69f32d-ca61-44d2-addf-680a1984cddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hlt/GNN/Evolution/Selection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/GNN/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/GNN/Util/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/GNN/Matchup.java" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/GNN/Util/Matchup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/GNN/Networks/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/GNN/Networks/Bot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/GNN/Networks/ControllerBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/GNN/Networks/ControllerBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/GNN/Networks/NetworkFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/GNN/Util/NetworkFileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/GNN/Networks/NewGenNaughtNetworks.java" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/GNN/Networks/NewGenNaughtNetworks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/GNN/Networks/ShipBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/GNN/Networks/ShipBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/GNN/StatFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/GNN/Util/StatFileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hlt/GNN/Evolution/Mutator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlt/GNN/Evolution/MatchMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/GNN/Evolution/MatchMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlt/GNN/Util/Matchup.java" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/GNN/Util/Matchup.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +27,7 @@
           <entry key="class" value="1" />
           <entry key="halite" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="35" />
+          <entry key="java" value="38" />
           <entry key="sh" value="2" />
           <entry key="txt" value="1" />
         </counts>
@@ -43,20 +36,20 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="35" />
+          <entry key="JAVA" value="38" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="47" />
-          <entry key="java" value="8864" />
+          <entry key="java" value="10036" />
           <entry key="sh" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8864" />
+          <entry key="JAVA" value="10036" />
           <entry key="PLAIN_TEXT" value="146" />
         </counts>
       </usages-collector>
@@ -79,17 +72,45 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hlt/GNN/Util/Matchup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="150">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hlt/GNN/Evolution/Selection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hlt/GNN/Evolution/MatchMaker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1847#1848#0" expanded="true" />
+                <element signature="e#1905#1906#0" expanded="true" />
+                <element signature="e#1947#1948#0" expanded="true" />
+                <element signature="e#1978#1979#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hlt/GNN/Evolution/Selection.java">
+        <entry file="file://$PROJECT_DIR$/hlt/GNN/Evolution/Mutator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            <state relative-caret-position="195">
+              <caret line="59" column="33" lean-forward="true" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,6 +155,9 @@
         <option value="$PROJECT_DIR$/hlt/GNN/Networks/NewGenNaughtNetworks.java" />
         <option value="$PROJECT_DIR$/hlt/GNN/Networks/Bot.java" />
         <option value="$PROJECT_DIR$/hlt/GNN/Evolution/Selection.java" />
+        <option value="$PROJECT_DIR$/hlt/GNN/Util/Matchup.java" />
+        <option value="$PROJECT_DIR$/hlt/GNN/Evolution/MatchMaker.java" />
+        <option value="$PROJECT_DIR$/hlt/GNN/Evolution/Mutator.java" />
       </list>
     </option>
   </component>
@@ -144,8 +168,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
-    <option name="y" value="146" />
+    <option name="x" value="24" />
+    <option name="y" value="62" />
     <option name="width" value="1366" />
     <option name="height" value="734" />
   </component>
@@ -207,7 +231,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542327795721" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542329060619" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/hlt/neuroph-2.94/libs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -271,18 +295,18 @@
       <option name="presentableId" value="Default" />
       <updated>1542270287558</updated>
       <workItem from="1542270290446" duration="2868000" />
-      <workItem from="1542312479633" duration="14643000" />
+      <workItem from="1542312479633" duration="15907000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17511000" />
+    <option name="totallyTimeSpent" value="18775000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="176" y="120" width="1366" height="734" extended-state="0" />
+    <frame x="24" y="62" width="1366" height="734" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.36692223" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36666667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -536,13 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hlt/GNN/Util/Matchup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hlt/GNN/Util/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -563,10 +580,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="298" column="6" lean-forward="true" selection-start-line="298" selection-start-column="6" selection-end-line="298" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/GNN/Util/Matchup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hlt/GNN/Evolution/Selection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state>
           <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/GNN/Evolution/MatchMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1847#1848#0" expanded="true" />
+            <element signature="e#1905#1906#0" expanded="true" />
+            <element signature="e#1947#1948#0" expanded="true" />
+            <element signature="e#1978#1979#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/GNN/Evolution/Mutator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="59" column="33" lean-forward="true" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

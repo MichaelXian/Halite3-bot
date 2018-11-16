@@ -6,10 +6,9 @@ public class Matchup {
     private Bot bot1;
     private Bot bot2;
 
-    Matchup(Bot bot1, Bot bot2) {
+    public Matchup(Bot bot1, Bot bot2) {
         this.bot1 = bot1;
         this.bot2 = bot2;
-
     }
 
     public Bot getBot1() {

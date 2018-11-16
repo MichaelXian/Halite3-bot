@@ -8,7 +8,7 @@ CP=".:${NEUROPH}:${SLF}:${NOP}"
 BOT1="java -cp ${CP} MyBot ${1}"
 BOT2="java -cp ${CP} MyBot ${2}"
 
-javac -cp "${CP}" MyBot.java
+#javac -cp "${CP}" MyBot.java
 
 #javac MyBot.java
 #./halite --replay-directory replays/ -vvv --width 32 --height 32 "java MyBot" "java MyBot"

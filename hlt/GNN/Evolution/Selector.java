@@ -150,10 +150,8 @@ public class Selector {
     private void normalize() {
         Double sum = 0d;
         for (Bot bot : bots) { // Sum up all grades
-            if (averageGrades.get(bot) < 5000) {
-                averageGrades.put(bot, 5000d); // Try to nudge it away from the relative safety of doing nothing
-            } else if (averageGrades.get(bot) > 5005) {
-                averageGrades.put(bot, 1000 * averageGrades.get(bot)); // Heavily reward actually doing something and getting halite
+            if (averageGrades.get(bot) == 5001) {
+                averageGrades.put(bot, 0.1d); // Try to nudge it away from the relative safety of doing nothing
             }
             sum += averageGrades.get(bot);
         }

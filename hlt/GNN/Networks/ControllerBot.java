@@ -11,6 +11,8 @@ import java.util.Map;
 public class ControllerBot implements AI{
     private NeuralNetwork network;
     private String filePath;
+    private final double TOTAL_HALITE_MULTIPLIER = 1/10000;
+    private final double NUM_SHIPS_MULTIPLIER = 1/10000;
 
     public ControllerBot(NeuralNetwork network) {
         this.network = network;
@@ -25,8 +27,8 @@ public class ControllerBot implements AI{
     @Override
     public void setInput(Map<String, Integer> data) {
         network.setInput(
-                data.get("totalHalite"),
-                data.get("numShips")
+                data.get("totalHalite") * TOTAL_HALITE_MULTIPLIER,
+                data.get("numShips") * NUM_SHIPS_MULTIPLIER
         ); // Set the input with given data
         network.calculate(); // Calculateify
     }

@@ -21,6 +21,7 @@ import org.neuroph.core.NeuralNetwork;
 
 public class Trainer {
     static final int NUM_SURVIVORS = 50;
+    static final int NUM_BOTS = 100;
     static List<Bot> bots;
     static List<Matchup> matchups;
     static MatchMaker matchMaker;
@@ -63,11 +64,12 @@ public class Trainer {
             }
             saveBots();
             generation ++;
+            StatFileManager.setGeneration(generation);
         }
     }
 
     private static void saveBots() {
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < NUM_BOTS; i++) {
             NetworkFileManager.saveBot(bots.get(i), i);
         }
     }
@@ -79,7 +81,7 @@ public class Trainer {
     }
 
     private static void loadBots() {
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < NUM_BOTS; i++) {
             bots.add(NetworkFileManager.loadBot(i));
         }
     }

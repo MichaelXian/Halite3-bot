@@ -49,7 +49,7 @@ public class StatFileManager {
      */
     public static void updateScores(int generation, double highScore, double average) {
         String scores = "Generation: " + generation + " High: " + highScore + " Mean: " + average;
-        try(PrintWriter output = new PrintWriter(new FileWriter("log.txt",true)))
+        try(PrintWriter output = new PrintWriter(new FileWriter(SCORE_FILE_PATH,true)))
         {
             output.printf("%s\r\n", scores);
         }

@@ -40,9 +40,8 @@ public class Selector {
         List<Integer> bot2Grades = grades.get(bot2);
         JSONObject bot2Stats = stats.getJSONObject("1");
         int bot2Score = bot2Stats.getInt("score");
-        bot1Grades.set(0, bot2Grades.get(0) + 1);
-        bot1Grades.set(1, bot2Grades.get(1) + bot2Score + 1);
-
+        bot2Grades.set(0, bot2Grades.get(0) + 1);
+        bot2Grades.set(1, bot2Grades.get(1) + bot2Score + 1);
     }
 
 
@@ -55,6 +54,9 @@ public class Selector {
         for (Bot bot: bots) { // Calculate the averages
             List<Integer> botGrades = grades.get(bot);
             Double average =   new Double(botGrades.get(1)) / new Double(botGrades.get(0));
+            if (botGrades.get(0) == 0) {
+                average = 5000d;
+            }
             averageGrades.put(bot, average);
         }
         List<Bot> ret = new ArrayList<>();
@@ -122,7 +124,7 @@ public class Selector {
         Double sum = 0d;
         for (Bot bot : bots) {
             sum += averageGrades.get(bot);
-            if (random < sum) {
+            if (random <= sum) {
                 return bot;
             }
         }

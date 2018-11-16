@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Random;
 
 public class MatchMaker {
-    private final int MAX_MATCHUPS = 5;
+    private final int MAX_MATCHUPS = 1;
     private List<Matchup> matchups;
     private HashMap<Bot, Integer> numMatches; // Keeps track of the number of matches each bot has had.
     private HashMap<Bot, List<Bot>> prevMatches; // Keeps track of the matches each bot has played.

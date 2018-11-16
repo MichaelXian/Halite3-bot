@@ -31,18 +31,24 @@ public class MyBot {
             final Player me = game.me;
             final GameMap gameMap = game.gameMap;
             ArrayList<Player> players = game.players;
-            Player enemy = players.get(0) == me ? players.get(1) : players.get(0);
+            Map<EntityId, Ship> enemyShips = new HashMap<>(); // Make a hashmap to put all enemy ships in
+            for (Player player: game.players) {
+                if (player != me) { // Only add to the map if it's not an ally
+                    enemyShips.putAll(player.ships);
+                }
+            }
             final ArrayList<Command> commandQueue = new ArrayList<>();
+
             curHalite = me.halite;
-            data = new HashMap<>();
+            data = new HashMap<>(); // Reset data
             data.put("totalHalite", me.halite);
-            data.put("numShips", me.ships.size());
+            data.put("numShips", me.ships.size()); // Get data
             controllerBot.setInput(data);
-            handleOutput(controllerBot.getOutput(), commandQueue, me, gameMap);
+            handleOutput(controllerBot.getOutput(), commandQueue, me, gameMap); // Do we build a ship?
             for (final Ship ship : me.ships.values()) {
-                Entity enemyShip = closest(ship, enemy.ships);
-                Entity allyShip = closest(ship, me.ships);
-                Entity drop = closest(ship, me.dropoffs);
+                Entity enemyShip = closest(ship, enemyShips);   // Find closest enemy
+                Entity allyShip = closest(ship, me.ships);      // Find closest ally (hopefully it helps not crash)
+                Entity drop = closest(ship, me.dropoffs);       // Find closest dropoff
                 if (drop == null) {
                     drop = me.shipyard;
                 } else {

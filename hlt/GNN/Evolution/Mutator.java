@@ -1,6 +1,7 @@
 package hlt.GNN.Evolution;
 
 
+import hlt.GNN.Networks.Bot;
 import hlt.GNN.Networks.NeuronFactory;
 import org.neuroph.core.Connection;
 import org.neuroph.core.Layer;
@@ -20,6 +21,13 @@ public class Mutator {
     private static final Double ADD_LAYER_CHANCE = 0.005 * MULTIPLIER;
     private static final Double WEIGHT_DELTA = 0.01 * MULTIPLIER;
     private static Random random = new Random();
+
+
+    public static void mutate(Bot bot) {
+        mutate(bot.getControllerBot().getNeuralNetwork());
+        mutate(bot.getShipBot().getNeuralNetwork());
+    }
+
     /**
      * Mutates the given network
      * @param network

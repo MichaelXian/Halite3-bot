@@ -46,6 +46,16 @@ public class NetworkFileManager {
     }
 
     /**
+     * Saves a bot into the neural networks directory with a custom id
+     * @param bot The bot to save
+     */
+    public static void saveBot(Bot bot, int botNum) {
+        String shipPath = SHIPS_PATH + botNum + ".nnet";
+        String controllerPath = CONTROLLERS_PATH  + botNum + ".nnet";
+        saveBotToFile(bot, shipPath, controllerPath);
+    }
+
+    /**
      * Creates and saves a bot into the neural networksdirectory
      * @param shipNetwork
      * @param controllerNetwork

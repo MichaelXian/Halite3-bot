@@ -6,12 +6,12 @@ import org.json.JSONObject;
 
 import java.util.*;
 
-public class Selection {
+public class Selector {
     private Map<Bot, List<Integer>> grades; // The value is <Number of matchups the bot has played, total score>
     private Map<Bot, Double> averageGrades; // The average score over the bot's games
     private List<Bot> bots;
 
-    Selection(List<Bot> bots) {
+    public Selector(List<Bot> bots) {
         this.bots = new ArrayList<>(bots);
         grades = new HashMap<>();
         averageGrades = new HashMap<>();

@@ -1,6 +1,6 @@
 # Ships
 
-Each ship takes in inputs
+Each ship takes in 13 inputs
 
 Note "distance" is actually displacement, negative if it is west/south, positive if east/north.
 
@@ -20,7 +20,7 @@ Note "distance" is actually displacement, negative if it is west/south, positive
 
 
 
-And has outputs
+And has 6 outputs
 
 * Convert to drop-off
 * Move North
@@ -35,14 +35,14 @@ The highest of the outputs will be the output that is taken. If that output woul
 
 # Controller
 
-The controller takes in inputs
+The controller takes in 2 inputs
 
 * Amount of halite
 * Number of ships
 
 
 
-And has the outputs
+And has 2 outputs
 
 * Create ship
 * Do nothing

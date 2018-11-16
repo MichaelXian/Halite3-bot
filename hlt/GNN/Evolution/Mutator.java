@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Random;
 
 public class Mutator {
-    private static final Double MULTIPLIER = 10.0;
+    private static final Double MULTIPLIER = 50.0;
     private static final Double REMOVE_NEURON_CHANCE = 0.05 * MULTIPLIER;
     private static final Double ADD_NEURON_CHANCE = 0.05 * MULTIPLIER;
     private static final Double REMOVE_CONNECTION_CHANCE = 0.01 * MULTIPLIER;

@@ -43,3 +43,4 @@ Generation: 36 High: 0.0 Mean: NaN
 Generation: 37 High: 0.0 Mean: NaN
 Generation: 38 High: 0.0 Mean: NaN
 Generation: 39 High: 0.0 Mean: NaN
+Generation: 0 High: 0.0 Mean: NaN

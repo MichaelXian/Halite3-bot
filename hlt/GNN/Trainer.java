@@ -29,11 +29,11 @@ public class Trainer {
     static int generation;
 
     public static void main(String[] args) {
-        bots = new ArrayList<>();
         generation = StatFileManager.getGeneration();
         while (true) {
             System.out.println("Generation: " + generation);
-            // Load botsException in thread "main" java.lang.NoClassDefFoundError: org/neuroph/core/NeuralNetwork
+            bots = new ArrayList<>();
+            // Load botsException in thread "main"
             loadBots();
             // Initialize matchmaker and selector
             matchMaker = new MatchMaker(bots);
@@ -51,6 +51,8 @@ public class Trainer {
             }
             // Record some stats
             StatFileManager.updateScores(generation, selector.getBestScore(), selector.getAverageScore());
+            Bot bestBot = selector.getBestBot(); // Save the best bot for the actual competition
+            NetworkFileManager.saveBest(bestBot);
             // Select bots to survive to next generation
             bots = selector.select(NUM_SURVIVORS);
             // Breed back to 100 neural nets

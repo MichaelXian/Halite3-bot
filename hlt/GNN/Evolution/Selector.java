@@ -51,14 +51,7 @@ public class Selector {
      * @return
      */
     public List<Bot> select(int number) {
-        for (Bot bot: bots) { // Calculate the averages
-            List<Integer> botGrades = grades.get(bot);
-            Double average =   new Double(botGrades.get(1)) / new Double(botGrades.get(0));
-            if (botGrades.get(0) == 0) {
-                average = 5000d;
-            }
-            averageGrades.put(bot, average);
-        }
+        calcAverageGrades();
         List<Bot> ret = new ArrayList<>();
         for (int i = 0; i < number; i ++) { // Repeatedly select 1 bot until we've reached the desired number of bots
             Bot botToAdd = selectOne();
@@ -70,10 +63,27 @@ public class Selector {
     }
 
     /**
+     * Calculates average grades for each bot and initializes the averageGrades map, if it has not already been done.
+     */
+    private void calcAverageGrades() {
+        if (averageGrades.isEmpty()) {
+            for (Bot bot : bots) { // Calculate the averages
+                List<Integer> botGrades = grades.get(bot);
+                Double average = new Double(botGrades.get(1)) / new Double(botGrades.get(0));
+                if (botGrades.get(0) == 0) {
+                    average = 5000d;
+                }
+                averageGrades.put(bot, average);
+            }
+        }
+    }
+
+    /**
      * Returns the bot with the best grade. Should be run before select(n)
      * @return
      */
     public Bot getBestBot() {
+        calcAverageGrades();
         Double maxGrade = 0d;
         Bot bot = null; // might not have been initialized
         for (Map.Entry<Bot, Double>  entry : averageGrades.entrySet()){
@@ -90,6 +100,7 @@ public class Selector {
      * @return
      */
     public Double getBestScore() {
+        calcAverageGrades();
         Double maxGrade = 0d;
         for (Map.Entry<Bot, Double>  entry : averageGrades.entrySet()){
             if (entry.getValue() >= maxGrade) {
@@ -104,6 +115,7 @@ public class Selector {
      * @return
      */
     public Double getAverageScore() {
+        calcAverageGrades();
         Double sum = 0d;
         int num = 0;
         for (Map.Entry<Bot, Double>  entry : averageGrades.entrySet()){
@@ -138,6 +150,11 @@ public class Selector {
     private void normalize() {
         Double sum = 0d;
         for (Bot bot : bots) { // Sum up all grades
+            if (averageGrades.get(bot) < 5000) {
+                averageGrades.put(bot, 5000d); // Try to nudge it away from the relative safety of doing nothing
+            } else if (averageGrades.get(bot) > 5005) {
+                averageGrades.put(bot, 1000 * averageGrades.get(bot)); // Heavily reward actually doing something and getting halite
+            }
             sum += averageGrades.get(bot);
         }
         for (Map.Entry<Bot, Double> entry: averageGrades.entrySet()) {

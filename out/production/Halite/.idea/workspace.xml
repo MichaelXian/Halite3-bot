@@ -2,14 +2,214 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e69f32d-ca61-44d2-addf-680a1984cddc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hlt/GNN/Networks/NetworkFileManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Halite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Halite.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trainer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hlt/GNN/Networks/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/GNN/Networks/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlt/GNN/Evolution/MatchMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/GNN/Evolution/MatchMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlt/GNN/Networks/ControllerBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/GNN/Networks/ControllerBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlt/GNN/Networks/ShipBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/GNN/Networks/ShipBot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hlt/GNN/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/GNN/Trainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Halite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hlt/Networks.md" beforeDir="false" afterPath="$PROJECT_DIR$/hlt/Networks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/Networks.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/Networks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller0.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller0.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller1.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller1.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller10.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller10.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller11.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller11.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller12.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller12.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller13.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller13.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller14.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller14.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller15.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller15.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller16.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller16.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller17.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller17.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller18.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller18.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller19.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller19.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller2.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller2.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller20.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller20.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller21.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller21.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller22.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller22.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller23.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller23.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller24.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller24.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller25.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller25.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller26.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller26.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller27.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller27.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller28.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller28.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller29.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller29.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller3.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller3.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller30.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller30.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller31.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller31.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller32.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller32.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller33.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller33.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller34.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller34.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller35.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller35.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller36.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller36.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller37.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller37.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller38.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller38.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller39.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller39.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller4.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller4.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller40.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller40.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller41.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller41.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller42.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller42.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller43.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller43.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller44.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller44.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller45.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller45.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller46.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller46.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller47.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller47.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller48.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller48.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller49.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller49.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller5.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller5.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller50.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller50.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller51.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller51.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller52.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller52.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller53.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller53.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller54.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller54.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller55.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller55.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller56.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller56.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller57.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller57.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller58.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller58.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller59.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller59.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller6.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller6.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller60.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller60.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller61.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller61.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller62.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller62.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller63.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller63.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller64.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller64.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller65.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller65.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller66.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller66.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller67.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller67.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller68.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller68.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller69.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller69.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller7.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller7.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller70.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller70.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller71.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller71.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller72.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller72.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller73.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller73.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller74.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller74.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller75.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller75.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller76.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller76.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller77.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller77.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller78.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller78.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller79.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller79.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller8.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller8.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller80.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller80.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller81.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller81.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller82.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller82.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller83.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller83.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller84.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller84.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller85.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller85.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller86.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller86.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller87.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller87.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller88.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller88.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller89.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller89.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller9.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller9.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller90.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller90.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller91.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller91.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller92.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller92.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller93.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller93.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller94.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller94.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller95.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller95.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller96.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller96.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller97.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller97.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller98.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller98.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller99.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/controllers/controller99.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship0.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship0.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship1.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship1.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship10.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship10.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship11.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship11.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship12.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship12.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship13.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship13.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship14.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship14.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship15.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship15.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship16.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship16.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship17.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship17.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship18.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship18.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship19.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship19.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship2.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship2.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship20.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship20.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship21.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship21.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship22.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship22.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship23.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship23.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship24.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship24.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship25.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship25.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship26.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship26.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship27.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship27.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship28.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship28.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship29.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship29.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship3.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship3.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship30.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship30.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship31.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship31.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship32.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship32.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship33.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship33.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship34.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship34.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship35.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship35.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship36.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship36.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship37.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship37.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship38.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship38.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship39.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship39.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship4.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship4.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship40.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship40.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship41.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship41.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship42.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship42.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship43.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship43.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship44.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship44.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship45.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship45.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship46.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship46.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship47.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship47.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship48.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship48.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship49.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship49.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship5.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship5.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship50.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship50.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship51.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship51.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship52.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship52.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship53.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship53.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship54.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship54.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship55.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship55.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship56.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship56.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship57.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship57.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship58.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship58.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship59.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship59.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship6.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship6.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship60.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship60.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship61.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship61.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship62.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship62.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship63.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship63.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship64.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship64.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship65.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship65.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship66.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship66.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship67.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship67.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship68.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship68.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship69.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship69.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship7.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship7.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship70.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship70.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship71.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship71.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship72.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship72.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship73.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship73.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship74.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship74.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship75.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship75.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship76.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship76.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship77.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship77.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship78.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship78.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship79.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship79.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship8.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship8.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship80.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship80.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship81.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship81.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship82.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship82.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship83.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship83.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship84.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship84.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship85.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship85.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship86.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship86.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship87.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship87.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship88.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship88.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship89.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship89.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship9.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship9.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship90.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship90.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship91.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship91.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship92.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship92.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship93.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship93.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship94.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship94.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship95.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship95.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship96.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship96.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship97.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship97.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship98.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship98.nnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship99.nnet" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/hlt/NeuralNets/ships/ship99.nnet" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Halite/run_game.sh" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Halite/run_game.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run_game.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run_game.sh" afterDir="false" />
     </list>
@@ -31,185 +231,91 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
+          <entry key="bat" value="1" />
+          <entry key="class" value="6" />
           <entry key="halite" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="27" />
-          <entry key="sh" value="1" />
+          <entry key="java" value="66" />
+          <entry key="sh" value="4" />
           <entry key="txt" value="1" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
+          <entry key="CLASS" value="6" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="27" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="JAVA" value="66" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="47" />
-          <entry key="java" value="5092" />
-          <entry key="sh" value="89" />
+          <entry key="dummy" value="55" />
+          <entry key="java" value="15515" />
+          <entry key="sh" value="295" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5092" />
-          <entry key="PLAIN_TEXT" value="136" />
+          <entry key="JAVA" value="15515" />
+          <entry key="PLAIN_TEXT" value="350" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.33853152">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/hlt/GNN/Trainer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="226">
-                  <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/hlt/GNN/Matchup.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-                  <folding>
-                    <element signature="e#247#248#0" expanded="true" />
-                    <element signature="e#274#275#0" expanded="true" />
-                    <element signature="e#302#303#0" expanded="true" />
-                    <element signature="e#329#330#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/NewGenNaughtNetworks.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="29" column="61" lean-forward="true" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/NetworkFileManager.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/AI.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/MyBot.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="33" column="65" lean-forward="true" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/ShipBot.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="206">
-                  <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#2213#2214#0" expanded="true" />
-                    <element signature="e#2243#2244#0" expanded="true" />
-                    <element signature="e#1775#1776#0" expanded="true" />
-                    <element signature="e#1806#1807#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/ControllerBot.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-                  <folding>
-                    <element signature="e#1391#1392#0" expanded="true" />
-                    <element signature="e#1422#1423#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/Bot.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-                  <folding>
-                    <element signature="e#460#461#0" expanded="true" />
-                    <element signature="e#496#497#0" expanded="true" />
-                    <element signature="e#531#532#0" expanded="true" />
-                    <element signature="e#561#562#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/hlt/GNN/InsertionSort.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="82" lean-forward="true" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/NetworkFileManager.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
-                  <caret line="49" column="43" lean-forward="true" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hlt/GNN/Trainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_game.bat">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/Bot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyBot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#7976#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run_game.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="169" selection-start-line="5" selection-start-column="169" selection-end-line="5" selection-end-column="169" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -222,6 +328,9 @@
     <findStrings>
       <find>Log.lo</find>
       <find>sort</find>
+      <find>conver</find>
+      <find>convert</find>
+      <find>NeuralNet</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -231,22 +340,32 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/hlt/JSON-java-master/JSONObject.java" />
-        <option value="$PROJECT_DIR$/MyBot.java" />
         <option value="$PROJECT_DIR$/Trainer.java" />
         <option value="$PROJECT_DIR$/MyBot (copy).java" />
         <option value="$PROJECT_DIR$/hlt/GNN/MyBotTraining.java" />
-        <option value="$PROJECT_DIR$/run_game.sh" />
         <option value="$PROJECT_DIR$/hlt/GNN/Networks/NeuronFactory.java" />
         <option value="$PROJECT_DIR$/hlt/GNN/Networks/NeuralNetworkFactory.java" />
-        <option value="$PROJECT_DIR$/hlt/GNN/Networks/NewGenNaughtNetworks.java" />
         <option value="$PROJECT_DIR$/hlt/GNN/InsertionSort.java" />
         <option value="$PROJECT_DIR$/hlt/GNN/Networks/AI.java" />
-        <option value="$PROJECT_DIR$/hlt/GNN/Networks/ShipBot.java" />
-        <option value="$PROJECT_DIR$/hlt/GNN/Networks/ControllerBot.java" />
         <option value="$PROJECT_DIR$/hlt/GNN/Matchup.java" />
-        <option value="$PROJECT_DIR$/hlt/GNN/Networks/Bot.java" />
         <option value="$PROJECT_DIR$/hlt/GNN/Networks/NetworkFileManager.java" />
+        <option value="$PROJECT_DIR$/hlt/GNN/StatFileManager.java" />
+        <option value="$PROJECT_DIR$/hlt/GNN/Networks/NewGenNaughtNetworks.java" />
+        <option value="$PROJECT_DIR$/hlt/GNN/Networks/Bot.java" />
+        <option value="$PROJECT_DIR$/hlt/GNN/Evolution/Selection.java" />
+        <option value="$PROJECT_DIR$/hlt/GNN/Util/Matchup.java" />
+        <option value="$PROJECT_DIR$/hlt/GNN/Util/NetworkFileManager.java" />
+        <option value="$PROJECT_DIR$/hlt/GNN/Evolution/Mutator.java" />
+        <option value="$PROJECT_DIR$/hlt/GNN/Evolution/Crossover.java" />
+        <option value="$PROJECT_DIR$/hlt/GNN/Evolution/Selector.java" />
+        <option value="$PROJECT_DIR$/hlt/GNN/Util/StatFileManager.java" />
+        <option value="$PROJECT_DIR$/hlt/GNN/Networks/ControllerBot.java" />
+        <option value="$PROJECT_DIR$/hlt/GNN/Networks/ShipBot.java" />
+        <option value="$PROJECT_DIR$/hlt/GNN/Evolution/MatchMaker.java" />
+        <option value="$PROJECT_DIR$/out/production/Halite/run_game.sh" />
+        <option value="$PROJECT_DIR$/MyBot.java" />
         <option value="$PROJECT_DIR$/hlt/GNN/Trainer.java" />
+        <option value="$PROJECT_DIR$/run_game.sh" />
       </list>
     </option>
   </component>
@@ -256,11 +375,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="645" />
-    <option name="y" value="478" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="78" />
+    <option name="y" value="38" />
     <option name="width" value="1366" />
-    <option name="height" value="741" />
+    <option name="height" value="808" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -285,14 +404,22 @@
               <item name="Halite" type="b2602c69:ProjectViewProjectNode" />
               <item name="Halite" type="462c0819:PsiDirectoryNode" />
               <item name="hlt" type="462c0819:PsiDirectoryNode" />
-              <item name="GNN" type="462c0819:PsiDirectoryNode" />
+              <item name="neuroph-2.94" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Halite" type="b2602c69:ProjectViewProjectNode" />
               <item name="Halite" type="462c0819:PsiDirectoryNode" />
               <item name="hlt" type="462c0819:PsiDirectoryNode" />
-              <item name="GNN" type="462c0819:PsiDirectoryNode" />
-              <item name="Networks" type="462c0819:PsiDirectoryNode" />
+              <item name="neuroph-2.94" type="462c0819:PsiDirectoryNode" />
+              <item name="neuroph-core-2.94.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="Halite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Halite" type="462c0819:PsiDirectoryNode" />
+              <item name="hlt" type="462c0819:PsiDirectoryNode" />
+              <item name="neuroph-2.94" type="462c0819:PsiDirectoryNode" />
+              <item name="neuroph-core-2.94.jar" type="ab9368bb:PsiFileNode" />
+              <item name="neuroph" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -306,7 +433,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542323222854" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542342313896" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/hlt/neuroph-2.94/libs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -341,6 +468,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NewGenNaughtNetworks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hlt.GNN.Networks.NewGenNaughtNetworks" />
+      <module name="Halite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hlt.GNN.Networks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Trainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hlt.GNN.Trainer" />
       <module name="Halite" />
@@ -351,11 +491,13 @@
     <list>
       <item itemvalue="Application.Trainer" />
       <item itemvalue="Application.MyBot" />
+      <item itemvalue="Application.NewGenNaughtNetworks" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Trainer" />
         <item itemvalue="Application.MyBot" />
+        <item itemvalue="Application.NewGenNaughtNetworks" />
       </list>
     </recent_temporary>
   </component>
@@ -370,18 +512,48 @@
       <option name="presentableId" value="Default" />
       <updated>1542270287558</updated>
       <workItem from="1542270290446" duration="2868000" />
-      <workItem from="1542312479633" duration="10005000" />
+      <workItem from="1542312479633" duration="28328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12873000" />
+    <option name="totallyTimeSpent" value="31196000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1920" height="1053" extended-state="6" />
+    <frame x="-188" y="53" width="1366" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.178762" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25757575" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29721814" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39737275" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32954547" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25773746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -409,31 +581,16 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sh" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MyBot.java</url>
-          <line>11</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hlt/GNN/Trainer.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Halite.iml">
@@ -473,23 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hlt/JSON-java-master/JSONTokener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="504" selection-start-line="504" selection-end-line="504" />
-          <folding>
-            <element signature="e#15976#15977#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_game.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyBotCopy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -524,93 +664,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hlt/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hlt/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="13" column="56" lean-forward="true" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hlt/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="1145" column="24" selection-start-line="1145" selection-start-column="20" selection-end-line="1145" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/ShipBot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2213#2214#0" expanded="true" />
-            <element signature="e#2243#2244#0" expanded="true" />
-            <element signature="e#1775#1776#0" expanded="true" />
-            <element signature="e#1806#1807#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/NewGenNaughtNetworks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="61" lean-forward="true" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/Bot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/NetworkFileManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/ControllerBot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#1391#1392#0" expanded="true" />
-            <element signature="e#1422#1423#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyBot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="33" column="65" lean-forward="true" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -624,36 +681,262 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hlt/GNN/InsertionSort.java">
+    <entry file="file://$PROJECT_DIR$/hlt/GNN/Util/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="82" lean-forward="true" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hlt/GNN/Matchup.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="36">
+          <caret line="298" column="6" lean-forward="true" selection-start-line="298" selection-start-column="6" selection-end-line="298" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/GNN/Evolution/Mutator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2175">
+          <caret line="145" column="7" lean-forward="true" selection-start-line="145" selection-start-column="7" selection-end-line="145" selection-end-column="7" />
           <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/GNN/Util/Matchup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/GNN/Evolution/Crossover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" column="83" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/NewGenNaughtNetworks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/GNN/Util/NetworkFileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="53" column="58" selection-start-line="53" selection-start-column="58" selection-end-line="53" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/GNN/Util/StatFileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="49" column="76" selection-start-line="49" selection-start-column="76" selection-end-line="49" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/MapCell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/ShipBot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/GameMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/Ship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/EntityId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/hlt/neuroph-2.94/neuroph-core-2.94.jar!/org/neuroph/core/Layer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/GNN/Evolution/Selector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/hlt/neuroph-2.94/neuroph-core-2.94.jar!/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/JSON-java-master/JSONTokener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="504" selection-start-line="504" selection-end-line="504" />
+          <folding>
+            <element signature="e#15976#15977#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/GNN/Evolution/MatchMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Halite/MyBot.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#7651#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/ControllerBot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Halite/run_game.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/hlt/neuroph-2.94/neuroph-core-2.94.jar!/org/neuroph/core/NeuralNetwork.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hlt/GNN/Networks/Bot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_game.bat">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/hlt/GNN/Trainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        <state relative-caret-position="285">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyBot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#7976#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_game.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="169" selection-start-line="5" selection-start-column="169" selection-end-line="5" selection-end-column="169" />
         </state>
       </provider>
     </entry>

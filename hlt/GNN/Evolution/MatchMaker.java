@@ -19,6 +19,7 @@ public class MatchMaker {
     public MatchMaker(List<Bot> bots) {
         numMatches = new HashMap<>();
         prevMatches = new HashMap<>();
+        matchups = new ArrayList<>();
         for (Bot bot: bots) {
             numMatches.put(bot, 0);
             prevMatches.put(bot, new ArrayList<>());

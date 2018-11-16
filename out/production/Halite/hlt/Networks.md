@@ -33,6 +33,28 @@ The highest of the outputs will be the output that is taken. If that output woul
 
 
 
+javac -cp ".:/home/<username>/Documents/test/jars/slf4j.jar:/home/<username>/Documents/test/jars/neuroph.jar" Test.java
+
+javac -cp ".:/home/<username>/Documents/test/slf4j.jar:/home/<username>/Documents/test/neuroph.jar" Test.java
+
+javac -cp ".:/home/<username>/Documents/test/neuroph.jar" Test.java
+
+javac -cp "/home/<username>/Documents/test/slf4j.jar:/home/<username>/Documents/test/neuroph.jar" Test.java
+
+javac -cp "/home/<username>/Documents/test/neuroph.jar" Test.java
+
+
+
+javac -cp ".:/home/michael/Documents/test/jars/slf4j.jar:/home/michael/Documents/test/jars/neuroph.jar" Test.java
+
+javac -cp ".:/home/michael/Documents/test/slf4j.jar:/home/michael/Documents/test/neuroph.jar" Test.java
+
+javac -cp ".:/home/<username>/Documents/test/neuroph.jar" Test.java
+
+javac -cp "/home/<username>/Documents/test/slf4j.jar:/home/<username>/Documents/test/neuroph.jar" Test.java
+
+javac -cp "/home/<username>/Documents/test/neuroph.jar" Test.java
+
 # Controller
 
 The controller takes in 2 inputs
@@ -48,3 +70,13 @@ And has 2 outputs
 * Do nothing
 
 Note: I just kinda wanted to keep it in the same format, since for ships, only 1 action can be taken or the bot dies.
+
+
+
+```
+javac -cp ".:/home/michael/Documents/Github/Halite/hlt/neuroph-2.94/neuroph-core-2.94.jar" MyBot.java
+```
+
+```
+./hlt/neuroph-2.94/neuroph-core-2.94.jar
+```

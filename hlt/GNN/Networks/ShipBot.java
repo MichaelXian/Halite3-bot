@@ -9,7 +9,14 @@ public class ShipBot implements AI{
     private NeuralNetwork network;
     private String filePath;
 
-    ShipBot(NeuralNetwork network, String filePath) {
+
+    public ShipBot(NeuralNetwork network) {
+        this.network = network;
+        this.filePath = null;
+    }
+
+
+    public ShipBot(NeuralNetwork network, String filePath) {
         this.network = network;
         this.filePath = filePath;
     }
@@ -37,7 +44,7 @@ public class ShipBot implements AI{
     @Override
     public List<String> getOutput() {
         double[] outputPrimitive = network.getOutput(); // Get output
-        Double[] output = {};
+        Double[] output = new Double[outputPrimitive.length];
         for (int i = 0; i < outputPrimitive.length; i++) {
             output[i] = new Double(outputPrimitive[i]); // Wrap the output
         }

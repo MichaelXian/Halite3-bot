@@ -16,6 +16,7 @@ import hlt.GNN.Util.NetworkFileManager;
 import hlt.GNN.Util.StatFileManager;
 import org.json.JSONObject;
 import org.json.JSONException;
+import org.neuroph.core.NeuralNetwork;
 // Can't resolve org.json.* but can resolve org.json.specificClass... ok then...
 
 public class Trainer {
@@ -30,7 +31,7 @@ public class Trainer {
         bots = new ArrayList<>();
         generation = StatFileManager.getGeneration();
         while (true) {
-            // Load bots
+            // Load botsException in thread "main" java.lang.NoClassDefFoundError: org/neuroph/core/NeuralNetwork
             loadBots();
             // Initialize matchmaker and selector
             matchMaker = new MatchMaker(bots);

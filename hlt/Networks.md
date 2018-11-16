@@ -31,8 +31,6 @@ And has 6 outputs
 
 The highest of the outputs will be the output that is taken. If that output would kill the bot, it is discarded and the second highest output is taken, then third highest, etc (This is done in the bot itself, rather than in the neural network).
 
-
-
 # Controller
 
 The controller takes in 2 inputs
@@ -48,3 +46,13 @@ And has 2 outputs
 * Do nothing
 
 Note: I just kinda wanted to keep it in the same format, since for ships, only 1 action can be taken or the bot dies.
+
+
+
+```
+javac -cp ".:/home/michael/Documents/Github/Halite/hlt/neuroph-2.94/neuroph-core-2.94.jar" MyBot.java
+```
+
+```
+./hlt/neuroph-2.94/neuroph-core-2.94.jar
+```

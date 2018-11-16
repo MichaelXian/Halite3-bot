@@ -12,7 +12,12 @@ public class ControllerBot implements AI{
     private NeuralNetwork network;
     private String filePath;
 
-    ControllerBot(NeuralNetwork network, String filePath) {
+    public ControllerBot(NeuralNetwork network) {
+        this.network = network;
+    }
+
+
+    public ControllerBot(NeuralNetwork network, String filePath) {
         this.network = network;
         this.filePath = filePath;
     }
@@ -29,7 +34,7 @@ public class ControllerBot implements AI{
     @Override
     public List<String> getOutput() {
         double[] outputPrimitive = network.getOutput(); // Get output
-        Double[] output = {};
+        Double[] output = new Double[outputPrimitive.length];
         for (int i = 0; i < outputPrimitive.length; i++) {
             output[i] = new Double(outputPrimitive[i]); // Wrap the output
         }

@@ -1,7 +1,9 @@
-package hlt.GNN.Networks;
+package hlt.GNN.Util;
 
 
-import hlt.GNN.Matchup;
+import hlt.GNN.Networks.Bot;
+import hlt.GNN.Networks.ControllerBot;
+import hlt.GNN.Networks.ShipBot;
 import org.neuroph.core.NeuralNetwork;
 
 public class NetworkFileManager {

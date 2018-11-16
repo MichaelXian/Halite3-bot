@@ -1,17 +1,14 @@
 package hlt.GNN.Networks;
 
-import hlt.GNN.StatFileManager;
-import hlt.GNN.Trainer;
+import hlt.GNN.Util.NetworkFileManager;
+import hlt.GNN.Util.StatFileManager;
 import org.neuroph.core.NeuralNetwork;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
 
 public class NewGenNaughtNetworks {
 
     /**
-     * Creates new gen1 neural networks, and resets the generation to 1
+     * Creates 100 new gen0 neural networks, and resets the generation to 0
      * @param args
      */
     public static void main(String[] args) {

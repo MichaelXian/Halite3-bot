@@ -1,4 +1,4 @@
-package hlt.GNN;
+package hlt.GNN.Util;
 
 import java.io.File;
 import java.io.FileNotFoundException;

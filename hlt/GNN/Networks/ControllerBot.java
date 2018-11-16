@@ -1,6 +1,6 @@
 package hlt.GNN.Networks;
 
-import hlt.GNN.InsertionSort;
+import hlt.GNN.Util.InsertionSort;
 import org.neuroph.core.NeuralNetwork;
 
 import java.util.ArrayList;

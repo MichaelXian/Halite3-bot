@@ -7,7 +7,7 @@ public class Bot {
     private ControllerBot controllerBot;
     private int botNum;
 
-    Bot(NeuralNetwork shipNetwork, String shipPath, NeuralNetwork controllerNetwork, String controllerPath, int botNum) {
+    public Bot(NeuralNetwork shipNetwork, String shipPath, NeuralNetwork controllerNetwork, String controllerPath, int botNum) {
         this.shipBot = new ShipBot(shipNetwork, shipPath);
         this.controllerBot = new ControllerBot(controllerNetwork, controllerPath);
         this.botNum = botNum;

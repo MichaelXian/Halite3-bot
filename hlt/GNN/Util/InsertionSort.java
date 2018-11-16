@@ -1,4 +1,4 @@
-package hlt.GNN;
+package hlt.GNN.Util;
 
 import java.util.ArrayList;
 

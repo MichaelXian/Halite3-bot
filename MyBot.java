@@ -38,7 +38,7 @@ public class MyBot {
             data.put("totalHalite", me.halite);
             data.put("numShips", me.ships.size());
             controllerBot.setInput(data);
-            handleOutput(controllerBot.getOutput(), commandQueue, me);
+            handleOutput(controllerBot.getOutput(), commandQueue, me, gameMap);
             for (final Ship ship : me.ships.values()) {
                 Entity enemyShip = closest(ship, enemy.ships);
                 Entity allyShip = closest(ship, me.ships);
@@ -128,10 +128,10 @@ public class MyBot {
      * @param commandQueue
      * @param me
      */
-    private static void handleOutput(List<String> output, ArrayList<Command> commandQueue, Player me) {
+    private static void handleOutput(List<String> output, ArrayList<Command> commandQueue, Player me, GameMap gameMap) {
         String str = output.get(0);
         if (str == "create") {
-            if (curHalite >= SHIP_COST) {
+            if (curHalite >= SHIP_COST && !gameMap.at(me.shipyard).isOccupied()) {
                 commandQueue.add(me.shipyard.spawn());
                 curHalite -= SHIP_COST;
             }
@@ -203,10 +203,12 @@ public class MyBot {
             return true;
         }
         if (str == "convert") {
-            return curHalite >= (4000 - ship.halite - gameMap.at(ship.position).halite);
+            boolean enoughHalite = curHalite >= (4000 - ship.halite - gameMap.at(ship.position).halite);
+            boolean notOwned = !gameMap.at(ship).hasStructure();
+            return enoughHalite && notOwned;
+
         }
-        //int cost = gameMap.at(ship.position).halite/10;
-        //return curHalite >= cost;
-        return true;
+        int cost = (gameMap.at(ship.position).halite)/10;
+        return ship.halite >= cost;
     }
 }

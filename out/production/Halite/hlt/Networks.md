@@ -31,30 +31,6 @@ And has 6 outputs
 
 The highest of the outputs will be the output that is taken. If that output would kill the bot, it is discarded and the second highest output is taken, then third highest, etc (This is done in the bot itself, rather than in the neural network).
 
-
-
-javac -cp ".:/home/<username>/Documents/test/jars/slf4j.jar:/home/<username>/Documents/test/jars/neuroph.jar" Test.java
-
-javac -cp ".:/home/<username>/Documents/test/slf4j.jar:/home/<username>/Documents/test/neuroph.jar" Test.java
-
-javac -cp ".:/home/<username>/Documents/test/neuroph.jar" Test.java
-
-javac -cp "/home/<username>/Documents/test/slf4j.jar:/home/<username>/Documents/test/neuroph.jar" Test.java
-
-javac -cp "/home/<username>/Documents/test/neuroph.jar" Test.java
-
-
-
-javac -cp ".:/home/michael/Documents/test/jars/slf4j.jar:/home/michael/Documents/test/jars/neuroph.jar" Test.java
-
-javac -cp ".:/home/michael/Documents/test/slf4j.jar:/home/michael/Documents/test/neuroph.jar" Test.java
-
-javac -cp ".:/home/<username>/Documents/test/neuroph.jar" Test.java
-
-javac -cp "/home/<username>/Documents/test/slf4j.jar:/home/<username>/Documents/test/neuroph.jar" Test.java
-
-javac -cp "/home/<username>/Documents/test/neuroph.jar" Test.java
-
 # Controller
 
 The controller takes in 2 inputs

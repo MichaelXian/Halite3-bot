@@ -31,6 +31,7 @@ public class Trainer {
         bots = new ArrayList<>();
         generation = StatFileManager.getGeneration();
         while (true) {
+            System.out.println("Generation: " + generation);
             // Load botsException in thread "main" java.lang.NoClassDefFoundError: org/neuroph/core/NeuralNetwork
             loadBots();
             // Initialize matchmaker and selector
@@ -38,10 +39,14 @@ public class Trainer {
             selector = new Selector(bots);
             matchups = matchMaker.getMatchups(); // Get the matchups
             matchMaker = null; // Deallocate some memory, we no longer need matchmaker since we have the matchups
+            int i = 0;
             for (Matchup matchup : matchups) {
+                i++;
+                System.out.print("Matchup " + i + "/" + matchups.size());
                 // Play each matchup, and grade the bots accordingly.
                 JSONObject matchResults = playMatchup(matchup);
                 selector.grade(matchup, matchResults);
+                System.out.print(" Bot1: " + matchResults.getJSONObject("0").getInt("score") + " Bot2: " + matchResults.getJSONObject("1").getInt("score") +  "\n");
             }
             // Record some stats
             StatFileManager.updateScores(generation, selector.getBestScore(), selector.getAverageScore());

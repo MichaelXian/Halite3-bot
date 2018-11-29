@@ -28,7 +28,6 @@ public class MyBot {
         Game game = new Game();
         game.ready("GNNBot");
         for (;;) {
-            Log.log("Hi");
             game.updateFrame();
             final Player me = game.me;
             timeToReturn = shouldReturn(game, me, me.ships, me.dropoffs, me.shipyard);
@@ -80,8 +79,6 @@ public class MyBot {
             int dist = dist(ship.position, closestDrop);
             maxDist = maxDist > dist ? maxDist : dist;
         }
-        Log.log(Integer.toString(maxDist));
-        Log.log(Integer.toString(turnsLeft));
         return maxDist >= turnsLeft;
     }
 
@@ -284,6 +281,7 @@ public class MyBot {
      * @param gameMap
      */
 
+
     private static void doCommand(String str, Ship ship, ArrayList<Command> commandQueue, GameMap gameMap) {
         if (str == "convert") {
             curHalite -= (4000 - ship.halite - gameMap.at(ship.position).halite);
@@ -316,7 +314,7 @@ public class MyBot {
 
 
     /**
-     * Checks if the command would kill the player
+     * Checks if the command would kill the player (or if not enough halite for ship to move)
      * @param str
      * @param ship
      * @param gameMap

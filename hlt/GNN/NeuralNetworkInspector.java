@@ -33,16 +33,9 @@ public class NeuralNetworkInspector {
     static int generation;
 
     public static void main(String[] args) {
-        NeuralNetwork shipNetwork = NeuralNetworkFactory.emptyNeuralNet(13,6);
-        Neuron biasNeuron = new Neuron();
-        for (Neuron neuron: shipNetwork.getLayerAt(0).getNeurons()) {
-            if (neuron instanceof BiasNeuron) {
-                biasNeuron = neuron;
-            }
-        }
-        if (biasNeuron instanceof BiasNeuron) {
-            Neuron north = shipNetwork.getLayerAt(6).getNeuronAt(1);
-            north.addInputConnection(biasNeuron);
-        }
+        Bot bot = NetworkFileManager.loadBot(0);
+        NeuralNetwork shipNetwork = bot.getShipBot().getNeuralNetwork();
+        Mutator.mutateWeights(shipNetwork);
+        NetworkFileManager.saveBot(bot, 0);
     }
 }

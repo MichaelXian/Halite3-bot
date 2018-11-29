@@ -59,6 +59,16 @@ public class ShipBot implements AI{
         return outputKeys;
     }
 
+    public List<Double> getOutputValues() {
+        double[] outputPrimitive = network.getOutput(); // Get output
+        Double[] output = new Double[outputPrimitive.length];
+        for (int i = 0; i < outputPrimitive.length; i++) {
+            output[i] = new Double(outputPrimitive[i]); // Wrap the output
+        }
+        ArrayList<Double> outputValues = new ArrayList<>(Arrays.asList(output));
+        return outputValues;
+    }
+
 
     @Override
     public NeuralNetwork getNeuralNetwork() {

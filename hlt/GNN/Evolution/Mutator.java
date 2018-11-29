@@ -19,14 +19,28 @@ public class Mutator {
     private static final Double ADD_CONNECTION_CHANCE = 1 * MULTIPLIER * 0;
     private static final Double REMOVE_LAYER_CHANCE = 0.0005 * MULTIPLIER * 0;
     private static final Double ADD_LAYER_CHANCE = 0.0005 * MULTIPLIER * 0;
-    private static final Double WEIGHT_DELTA = 0.01 * MULTIPLIER;
+    public static final Double WEIGHT_DELTA = 0.01 * MULTIPLIER;
     private static Random random = new Random();
 
 
     public static void mutate(Bot bot) {
-        mutate(bot.getControllerBot().getNeuralNetwork());
-        mutate(bot.getShipBot().getNeuralNetwork());
+        mutateWeights(bot.getControllerBot().getNeuralNetwork());
+        mutateWeights(bot.getShipBot().getNeuralNetwork());
     }
+
+    public static void mutateWeights(NeuralNetwork network) {
+        List<Layer> layers = network.getLayers();
+        for (Layer layer: layers) {                                                  // For each layer
+            List<Neuron> neurons = layer.getNeurons();
+            for (Neuron neuron: neurons) {                                           // For each neuron
+                List<Connection> connections = neuron.getOutConnections();
+                for (Connection connection: connections) {                           // For each connection coming out
+                    mutateConnection(connection);                                    // Mutate it's weight
+                }
+            }
+        }
+    }
+
 
     /**
      * Mutates the given network
@@ -135,7 +149,7 @@ public class Mutator {
      * @param connection
      */
     private static void mutateConnection(Connection connection) {
-        connection.getWeight().inc(WEIGHT_DELTA * 2 * (Math.random() - 1/2));
+        connection.getWeight().inc(WEIGHT_DELTA * 2 * (Math.random() - (double) 1/2));
     }
 
     /**

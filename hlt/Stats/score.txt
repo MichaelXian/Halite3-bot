@@ -916,3 +916,14 @@ Generation: 913 High: 707.0 Mean: 324.24 Standard Deviation: 151.0648284677807
 Generation: 914 High: 864.0 Mean: 337.14 Standard Deviation: 180.74933028921572
 Generation: 915 High: 615.0 Mean: 331.18 Standard Deviation: 170.16400206859265
 Generation: 916 High: 732.0 Mean: 346.82 Standard Deviation: 167.77075907320682
+~Now only mutates connection weights
+Generation: 0 High: 5001.0 Mean: 2745.7 Standard Deviation: 2350.4790766990445
+Generation: 1 High: 5001.0 Mean: 971.36 Standard Deviation: 1633.1697126753234
+Generation: 2 High: 5001.0 Mean: 513.6 Standard Deviation: 816.1400492562533
+Generation: 3 High: 5001.0 Mean: 461.68 Standard Deviation: 820.4227676021673
+Generation: 4 High: 5001.0 Mean: 441.62 Standard Deviation: 822.7804297624002
+Generation: 5 High: 759.0 Mean: 351.12 Standard Deviation: 185.3352249303948
+Generation: 6 High: 5001.0 Mean: 395.77 Standard Deviation: 681.465228093114
+Generation: 7 High: 5001.0 Mean: 528.55 Standard Deviation: 817.1538334365202
+Generation: 8 High: 5001.0 Mean: 370.73 Standard Deviation: 685.7633098234404
+Generation: 9 High: 5001.0 Mean: 367.91 Standard Deviation: 493.01927132719686

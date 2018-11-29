@@ -15,6 +15,7 @@ public class MyBot {
     static HashMap<String, Integer> data;
     static HashMap<Ship, Position> newLocations;
     static int curHalite;
+    static boolean timeToReturn;
     public static void main(final String[] args) {
         Bot bot;
         if (args.length > 0) {
@@ -22,14 +23,15 @@ public class MyBot {
         } else {
             bot = NetworkFileManager.loadBest();
         }
-
         ControllerBot controllerBot = bot.getControllerBot();
         ShipBot shipBot = bot.getShipBot();
         Game game = new Game();
         game.ready("GNNBot");
         for (;;) {
+            Log.log("Hi");
             game.updateFrame();
             final Player me = game.me;
+            timeToReturn = shouldReturn(game, me, me.ships, me.dropoffs, me.shipyard);
             final GameMap gameMap = game.gameMap;
             Map<EntityId, Ship> enemyShips = getEnemies(game, me);
             final ArrayList<Command> commandQueue = new ArrayList<>();
@@ -43,12 +45,44 @@ public class MyBot {
                 Position enemyShipPos = closest(ship, enemyShips);   // Find closest enemy
                 Position allyShipPos = closestAlly(ship, newLocations);      // Find closest ally (hopefully it helps not crash)
                 Position dropPos = getClosestDrop(me, ship);
+                if (timeToReturn) {
+                    goTo(gameMap, commandQueue, ship, dropPos);
+                    continue;
+                }
                 setShipData(gameMap, ship, enemyShipPos, allyShipPos, dropPos);
                 shipBot.setInput(data);
                 handleOutput(shipBot.getOutput(), ship, commandQueue, gameMap);
             }
             game.endTurn(commandQueue);
         }
+    }
+
+    private static void goTo(GameMap gameMap, ArrayList<Command> commandQueue, Ship ship, Position position) {
+        int xDistance = xDist(ship.position, position);
+        int yDistance = yDist(ship.position, position);
+        if (xDistance > 0) {
+            doCommand("west", ship, commandQueue, gameMap);
+        } else if (xDistance < 0) {
+            doCommand("east", ship, commandQueue, gameMap);
+        } else if (yDistance > 0) {
+            doCommand("south", ship, commandQueue, gameMap);
+        } else if (yDistance < 0) {
+            doCommand("north", ship, commandQueue, gameMap);
+        }
+    }
+
+    private static boolean shouldReturn(Game game, Player me, Map<EntityId, Ship> ships, Map<EntityId, Dropoff> dropoffs, Shipyard shipyard) {
+        int turnsLeft = Constants.MAX_TURNS - game.turnNumber;
+        int maxDist = 0;
+        for (Map.Entry<EntityId, Ship> entry : ships.entrySet()) {
+            Ship ship = entry.getValue();
+            Position closestDrop = getClosestDrop(me, ship);
+            int dist = dist(ship.position, closestDrop);
+            maxDist = maxDist > dist ? maxDist : dist;
+        }
+        Log.log(Integer.toString(maxDist));
+        Log.log(Integer.toString(turnsLeft));
+        return maxDist >= turnsLeft;
     }
 
     /**
@@ -260,8 +294,6 @@ public class MyBot {
             commandQueue.add(ship.stayStill());
             return;
         }
-        //int cost = gameMap.at(ship.position).halite/10;
-        //curHalite -= cost;
         switch (str) {
             case "north":
                 commandQueue.add(ship.move(Direction.NORTH));

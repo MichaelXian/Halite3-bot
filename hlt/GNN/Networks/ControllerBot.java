@@ -9,10 +9,12 @@ import java.util.List;
 import java.util.Map;
 
 public class ControllerBot implements AI{
+    public static final int INPUTS = 2;
+    public static final int OUTPUTS = 2;
     private NeuralNetwork network;
     private String filePath;
-    private final double TOTAL_HALITE_MULTIPLIER = 1/10000;
-    private final double NUM_SHIPS_MULTIPLIER = 1/10000;
+    private final double TOTAL_HALITE_MULTIPLIER = 1.0/10000.0;
+    private final double NUM_SHIPS_MULTIPLIER = 1.0/10000.0;
 
     public ControllerBot(NeuralNetwork network) {
         this.network = network;

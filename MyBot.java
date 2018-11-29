@@ -30,7 +30,8 @@ public class MyBot {
         for (;;) {
             game.updateFrame();
             final Player me = game.me;
-            timeToReturn = shouldReturn(game, me, me.ships, me.dropoffs, me.shipyard);
+            //timeToReturn = shouldReturn(game, me, me.ships, me.dropoffs, me.shipyard);
+            int turnsLeft = Constants.MAX_TURNS - game.turnNumber;
             final GameMap gameMap = game.gameMap;
             Map<EntityId, Ship> enemyShips = getEnemies(game, me);
             final ArrayList<Command> commandQueue = new ArrayList<>();
@@ -44,11 +45,11 @@ public class MyBot {
                 Position enemyShipPos = closest(ship, enemyShips);   // Find closest enemy
                 Position allyShipPos = closestAlly(ship, newLocations);      // Find closest ally (hopefully it helps not crash)
                 Position dropPos = getClosestDrop(me, ship);
-                if (timeToReturn) {
-                    goTo(gameMap, commandQueue, ship, dropPos);
-                    continue;
-                }
-                setShipData(gameMap, ship, enemyShipPos, allyShipPos, dropPos);
+                //if (timeToReturn) {
+                //    goTo(gameMap, commandQueue, ship, dropPos);
+                //    continue;
+                //}
+                setShipData(turnsLeft, gameMap, ship, enemyShipPos, allyShipPos, dropPos);
                 shipBot.setInput(data);
                 handleOutput(shipBot.getOutput(), ship, commandQueue, gameMap);
             }
@@ -131,13 +132,14 @@ public class MyBot {
 
     /**
      * Sets the data relevant to the given ship
+     * @param turnsLeft
      * @param gameMap
      * @param ship The ship
      * @param enemyShipPos The closest enemy ship's position
      * @param allyShipPos The closest allied ship's position
      * @param dropPos The closest dropoff's position point, either a dropoff or a shipyard
      */
-    private static void setShipData(GameMap gameMap, Ship ship, Position enemyShipPos, Position allyShipPos, Position dropPos) {
+    private static void setShipData(int turnsLeft, GameMap gameMap, Ship ship, Position enemyShipPos, Position allyShipPos, Position dropPos) {
         data.put("enemyDistX", xDist(ship.position, enemyShipPos));
         data.put("enemyDistY", yDist(ship.position, enemyShipPos));
         data.put("allyDistX", xDist(ship.position, allyShipPos));
@@ -150,6 +152,7 @@ public class MyBot {
         data.put("southHalite", gameMap.at(ship.position.directionalOffset(Direction.SOUTH)).halite);
         data.put("eastHalite", gameMap.at(ship.position.directionalOffset(Direction.EAST)).halite);
         data.put("westHalite", gameMap.at(ship.position.directionalOffset(Direction.WEST)).halite);
+        data.put("turnsLeft", turnsLeft);
     }
 
     /**

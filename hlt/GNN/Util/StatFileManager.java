@@ -47,8 +47,8 @@ public class StatFileManager {
      * @param highScore
      * @param average
      */
-    public static void updateScores(int generation, double highScore, double average) {
-        String scores = "Generation: " + generation + " High: " + highScore + " Mean: " + average;
+    public static void updateScores(int generation, double highScore, double average, double standradDeviation) {
+        String scores = "Generation: " + generation + " High: " + highScore + " Mean: " + average + " Standard Deviation: " + standradDeviation;
         try(PrintWriter output = new PrintWriter(new FileWriter(SCORE_FILE_PATH,true)))
         {
             output.printf("%s\r\n", scores);

@@ -47,10 +47,10 @@ public class Trainer {
                 // Play each matchup, and grade the bots accordingly.
                 JSONObject matchResults = playMatchup(matchup);
                 selector.grade(matchup, matchResults);
-                System.out.print(" Bot1: " + matchResults.getJSONObject("0").getInt("score") + " Bot2: " + matchResults.getJSONObject("1").getInt("score") +  "\n");
+                System.out.print(" Bot" + matchup.getBot1().getBotNum() + ": " + matchResults.getJSONObject("0").getInt("score") + " Bot" + matchup.getBot2().getBotNum() +": " + matchResults.getJSONObject("1").getInt("score") +  "\n");
             }
             // Record some stats
-            StatFileManager.updateScores(generation, selector.getBestScore(), selector.getAverageScore());
+            StatFileManager.updateScores(generation, selector.getBestScore(), selector.getAverageScore(), selector.getStandardDeviation());
             Bot bestBot = selector.getBestBot(); // Save the best bot for the actual competition
             NetworkFileManager.saveBest(bestBot);
             // Select bots to survive to next generation

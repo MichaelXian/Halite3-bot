@@ -15,8 +15,8 @@ public class NewGenNaughtNetworks {
         NeuralNetwork shipNetwork;
         NeuralNetwork controllerNetwork;
         for (int i = 0; i < 100; i ++) {
-            shipNetwork = NeuralNetworkFactory.randomNeuralNet(13,6);
-            controllerNetwork = NeuralNetworkFactory.randomNeuralNet(2, 2);
+            shipNetwork = NeuralNetworkFactory.connectedNeuralNetwork(13,6);
+            controllerNetwork = NeuralNetworkFactory.connectedNeuralNetwork(2, 2);
             NetworkFileManager.saveBot(shipNetwork, controllerNetwork, i);
         }
         StatFileManager.setGeneration(0);

@@ -46,7 +46,7 @@ public class Selector {
 
 
     /**
-     * Selects given number of nets and returns them. Breaks getBestBot, getBestScore, getAverageScore.
+     * Selects given number of nets and returns them. Breaks getBestBot, getBestScore, getAverageScore, getStandardDeviation.
      * @param number
      * @return
      */
@@ -125,6 +125,23 @@ public class Selector {
         return sum/num;
     }
 
+    /**
+     * Gets the standard deviation of all the bots. Should be run before select(n)
+     * @return
+     */
+    public Double getStandardDeviation() {
+        calcAverageGrades();
+        Double variance = 0d;
+        Double average = getAverageScore();
+        int num = 0;
+        for (Map.Entry<Bot, Double>  entry : averageGrades.entrySet()){
+            num ++;
+            variance += Math.pow(entry.getValue() - average ,2);
+        }
+        variance /= num;
+        return Math.sqrt(variance);
+    }
+
 
     /**
      * Selects one bot to survive to the next generation randomly.
@@ -134,8 +151,12 @@ public class Selector {
         normalize();
         Double random = Math.random();
         Double sum = 0d;
+        double grade;
         for (Bot bot : bots) {
-            sum += averageGrades.get(bot);
+            grade = averageGrades.get(bot);
+            if (grade != 5001) {
+                sum += grade;
+            }
             if (random <= sum) {
                 return bot;
             }

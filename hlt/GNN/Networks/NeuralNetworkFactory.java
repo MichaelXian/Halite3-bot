@@ -12,7 +12,7 @@ public class NeuralNetworkFactory {
 
     private static final Double NEW_NEURON_CHANCE = 0.3;
     private static final Double NEW_CONNECTION_CHANCE = 0.1;
-    private static final int NUM_LAYERS = 8;
+    private static final int NUM_LAYERS = 3;
 
 
     /**
@@ -26,13 +26,21 @@ public class NeuralNetworkFactory {
     }
 
     /**
-     * Creates a random neural net with 3 hidden layers
+     * Creates a fully connected network with NUM_LAYERS-2 hidden layers
+     */
+    public static NeuralNetwork connectedNeuralNetwork(int inputs, int outputs) {
+        NeuralNetwork neuralNetwork = new MultiLayerPerceptron(inputs, inputs, outputs);
+        return neuralNetwork;
+    }
+
+    /**
+     * Creates a random neural net with NUM_LAYERS-2 hidden layers
      * @return
      */
     public static NeuralNetwork randomNeuralNet(int inputs, int outputs) {
         NeuralNetwork neuralNetwork = new MultiLayerPerceptron(inputs, outputs);
         //Remove Bias neuron
-        removeBiasNeuron(neuralNetwork);
+        //removeBiasNeuron(neuralNetwork);
         //Create layers in-between
         for (int i = 0; i < (NUM_LAYERS - 2); i ++) {
             Layer layer = new Layer();

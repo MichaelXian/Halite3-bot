@@ -1,497 +1,918 @@
-Generation: 1 High: 5001.0 Mean: 4520.1
-Generation: 2 High: 5001.0 Mean: 5001.0
-Generation: 3 High: 5001.0 Mean: 5001.0
-Generation: 4 High: 5001.0 Mean: 4818.14
-Generation: 5 High: 5001.0 Mean: 4766.07
-Generation: 6 High: 5001.0 Mean: 4852.26
-Generation: 7 High: 5001.0 Mean: 4814.25
-Generation: 8 High: 5001.0 Mean: 4954.95
-Generation: 9 High: 5001.0 Mean: 4767.78
-Generation: 10 High: 5001.0 Mean: 4712.69
-Generation: 11 High: 5001.0 Mean: 4806.23
-Generation: 12 High: 5001.0 Mean: 4811.9
-Generation: 13 High: 5001.0 Mean: 4814.05
-Generation: 14 High: 5001.0 Mean: 4758.2
-Generation: 15 High: 5001.0 Mean: 4902.99
-Generation: 16 High: 5001.0 Mean: 4758.22
-Generation: 17 High: 5001.0 Mean: 4765.11
-Generation: 18 High: 5001.0 Mean: 4783.36
-Generation: 19 High: 5001.0 Mean: 4588.89
-Generation: 20 High: 5001.0 Mean: 4448.16
-Generation: 21 High: 5001.0 Mean: 4720.63
-Generation: 22 High: 5001.0 Mean: 4903.11
-Generation: 23 High: 5001.0 Mean: 3920.38
-Generation: 24 High: 5001.0 Mean: 3639.98
-Generation: 25 High: 5001.0 Mean: 3571.84
-Generation: 26 High: 5001.0 Mean: 3378.86
-Generation: 27 High: 5001.0 Mean: 3509.06
-Generation: 28 High: 5001.0 Mean: 3376.14
-Generation: 29 High: 5001.0 Mean: 3436.66
-Generation: 0 High: 5001.0 Mean: 3177.1
-Generation: 1 High: 5001.0 Mean: 2408.47
-Generation: 2 High: 5001.0 Mean: 2058.33
-Generation: 3 High: 5001.0 Mean: 1893.4
-Generation: 4 High: 5001.0 Mean: 1699.78
-Generation: 5 High: 5001.0 Mean: 1293.11
-Generation: 6 High: 5001.0 Mean: 1120.13
-Generation: 7 High: 5001.0 Mean: 1212.54
-Generation: 8 High: 5001.0 Mean: 1429.01
-Generation: 9 High: 5001.0 Mean: 1246.39
-Generation: 10 High: 5001.0 Mean: 1393.18
-Generation: 11 High: 5001.0 Mean: 1152.85
-Generation: 12 High: 5001.0 Mean: 1194.42
-Generation: 13 High: 5001.0 Mean: 924.99
-Generation: 14 High: 5001.0 Mean: 1184.26
-Generation: 15 High: 5001.0 Mean: 1120.14
-Generation: 16 High: 5001.0 Mean: 1113.91
-Generation: 17 High: 5001.0 Mean: 1215.04
-Generation: 18 High: 5001.0 Mean: 1111.15
-Generation: 19 High: 5001.0 Mean: 1150.01
-Generation: 20 High: 5001.0 Mean: 846.51
-Generation: 21 High: 5001.0 Mean: 1013.04
-Generation: 22 High: 5001.0 Mean: 1380.88
-Generation: 23 High: 5001.0 Mean: 1225.22
-Generation: 24 High: 5001.0 Mean: 1359.09
-Generation: 25 High: 5001.0 Mean: 1393.97
-Generation: 26 High: 5001.0 Mean: 1176.78
-Generation: 27 High: 5001.0 Mean: 1052.73
-Generation: 28 High: 5001.0 Mean: 1191.03
-Generation: 29 High: 5001.0 Mean: 1318.55
-Generation: 30 High: 5001.0 Mean: 1232.29
-Generation: 31 High: 5001.0 Mean: 1009.26
-Generation: 32 High: 5001.0 Mean: 985.44
-Generation: 33 High: 5001.0 Mean: 1202.75
-Generation: 34 High: 5001.0 Mean: 1068.26
-Generation: 35 High: 5001.0 Mean: 1009.81
-Generation: 36 High: 5001.0 Mean: 1062.12
-Generation: 37 High: 5001.0 Mean: 981.86
-Generation: 38 High: 5001.0 Mean: 1242.75
-Generation: 39 High: 5001.0 Mean: 1102.75
-Generation: 40 High: 5001.0 Mean: 759.51
-Generation: 41 High: 5001.0 Mean: 1146.89
-Generation: 42 High: 5001.0 Mean: 987.56
-Generation: 43 High: 5001.0 Mean: 1012.73
-Generation: 44 High: 5001.0 Mean: 1007.4
-Generation: 45 High: 5001.0 Mean: 1348.64
-Generation: 46 High: 5001.0 Mean: 1424.06
-Generation: 47 High: 5001.0 Mean: 1130.16
-Generation: 48 High: 5001.0 Mean: 1035.62
-Generation: 49 High: 5001.0 Mean: 1083.65
-Generation: 50 High: 5001.0 Mean: 1131.05
-Generation: 51 High: 5001.0 Mean: 1228.94
-Generation: 52 High: 5001.0 Mean: 1419.29
-Generation: 53 High: 5001.0 Mean: 1089.53
-Generation: 54 High: 5001.0 Mean: 987.37
-Generation: 55 High: 5001.0 Mean: 1051.95
-Generation: 56 High: 5001.0 Mean: 1044.29
-Generation: 57 High: 5001.0 Mean: 1170.16
-Generation: 58 High: 5001.0 Mean: 889.92
-Generation: 59 High: 5001.0 Mean: 1437.05
-Generation: 60 High: 5001.0 Mean: 1462.55
-Generation: 61 High: 5001.0 Mean: 1097.33
-Generation: 62 High: 5001.0 Mean: 899.86
-Generation: 63 High: 5001.0 Mean: 1294.14
-Generation: 64 High: 5001.0 Mean: 1428.89
-Generation: 65 High: 5001.0 Mean: 1176.0
-Generation: 66 High: 5001.0 Mean: 1071.29
-Generation: 67 High: 5001.0 Mean: 1300.06
-Generation: 68 High: 5001.0 Mean: 1209.43
-Generation: 69 High: 5001.0 Mean: 1086.4
-Generation: 70 High: 5001.0 Mean: 1226.0
-Generation: 71 High: 5001.0 Mean: 1233.83
-Generation: 72 High: 5001.0 Mean: 1319.27
-Generation: 73 High: 5001.0 Mean: 1437.51
-Generation: 74 High: 5001.0 Mean: 1061.4
-Generation: 75 High: 5001.0 Mean: 978.86
-Generation: 76 High: 5001.0 Mean: 1088.08
-Generation: 77 High: 5001.0 Mean: 1197.07
-Generation: 78 High: 5001.0 Mean: 1256.94
-Generation: 79 High: 5001.0 Mean: 1003.8
-Generation: 80 High: 5001.0 Mean: 991.03
-Generation: 81 High: 5001.0 Mean: 1010.68
-Generation: 82 High: 5001.0 Mean: 1175.76
-Generation: 83 High: 5001.0 Mean: 840.39
-Generation: 84 High: 5001.0 Mean: 905.54
-Generation: 85 High: 5001.0 Mean: 1143.6
-Generation: 86 High: 5001.0 Mean: 1210.78
-Generation: 87 High: 5001.0 Mean: 1414.95
-Generation: 88 High: 5001.0 Mean: 1260.71
-Generation: 89 High: 5001.0 Mean: 1288.97
-Generation: 90 High: 5001.0 Mean: 1359.79
-Generation: 91 High: 5001.0 Mean: 1431.35
-Generation: 92 High: 5001.0 Mean: 1179.47
-Generation: 93 High: 5001.0 Mean: 1248.11
-Generation: 94 High: 5001.0 Mean: 934.22
-Generation: 95 High: 5001.0 Mean: 976.19
-Generation: 96 High: 5001.0 Mean: 867.79
-Generation: 97 High: 5001.0 Mean: 803.41
-Generation: 98 High: 5001.0 Mean: 1097.54
-Generation: 99 High: 5001.0 Mean: 893.61
-Generation: 100 High: 5001.0 Mean: 1018.62
-Generation: 101 High: 5001.0 Mean: 954.35
-Generation: 102 High: 5001.0 Mean: 1064.78
-Generation: 103 High: 5001.0 Mean: 1036.01
-Generation: 104 High: 5001.0 Mean: 960.27
-Generation: 105 High: 5001.0 Mean: 1034.3
-Generation: 106 High: 5001.0 Mean: 1018.76
-Generation: 107 High: 5001.0 Mean: 929.44
-Generation: 108 High: 5001.0 Mean: 1051.67
-Generation: 109 High: 5001.0 Mean: 1332.79
-Generation: 110 High: 5001.0 Mean: 1162.82
-Generation: 111 High: 5001.0 Mean: 1336.23
-Generation: 112 High: 5001.0 Mean: 1144.67
-Generation: 113 High: 5001.0 Mean: 1149.67
-Generation: 114 High: 5001.0 Mean: 918.22
-Generation: 115 High: 5001.0 Mean: 1213.74
-Generation: 116 High: 5001.0 Mean: 1170.98
-Generation: 117 High: 5001.0 Mean: 1167.27
-Generation: 118 High: 5001.0 Mean: 1139.12
-Generation: 119 High: 5001.0 Mean: 1171.09
-Generation: 120 High: 5001.0 Mean: 1059.08
-Generation: 121 High: 5001.0 Mean: 972.44
-Generation: 122 High: 5001.0 Mean: 1125.34
-Generation: 123 High: 5001.0 Mean: 879.33
-Generation: 124 High: 5001.0 Mean: 1094.5
-Generation: 125 High: 5001.0 Mean: 1159.89
-Generation: 126 High: 5001.0 Mean: 1059.75
-Generation: 127 High: 5001.0 Mean: 1095.61
-Generation: 128 High: 5001.0 Mean: 1025.44
-Generation: 129 High: 5001.0 Mean: 981.79
-Generation: 130 High: 5001.0 Mean: 1146.69
-Generation: 131 High: 5001.0 Mean: 940.48
-Generation: 132 High: 5001.0 Mean: 1015.14
-Generation: 133 High: 5001.0 Mean: 1114.19
-Generation: 134 High: 5001.0 Mean: 1072.87
-Generation: 135 High: 5001.0 Mean: 1355.76
-Generation: 136 High: 5001.0 Mean: 1237.19
-Generation: 137 High: 5001.0 Mean: 1361.48
-Generation: 138 High: 5001.0 Mean: 1148.16
-Generation: 139 High: 5001.0 Mean: 879.51
-Generation: 140 High: 5001.0 Mean: 1164.79
-Generation: 141 High: 5001.0 Mean: 1062.18
-Generation: 142 High: 5001.0 Mean: 1135.45
-Generation: 143 High: 5001.0 Mean: 1093.88
-Generation: 144 High: 5001.0 Mean: 1089.94
-Generation: 145 High: 5001.0 Mean: 1208.85
-Generation: 146 High: 5001.0 Mean: 1246.86
-Generation: 147 High: 5001.0 Mean: 1253.97
-Generation: 148 High: 5001.0 Mean: 1226.76
-Generation: 149 High: 5001.0 Mean: 1063.63
-Generation: 150 High: 5001.0 Mean: 817.89
-Generation: 151 High: 5001.0 Mean: 1182.82
-Generation: 152 High: 5001.0 Mean: 1084.36
-Generation: 153 High: 5001.0 Mean: 1137.97
-Generation: 154 High: 5001.0 Mean: 1399.62
-Generation: 155 High: 5001.0 Mean: 944.32
-Generation: 156 High: 5001.0 Mean: 904.01
-Generation: 157 High: 5001.0 Mean: 1060.63
-Generation: 158 High: 5001.0 Mean: 1228.9
-Generation: 159 High: 5001.0 Mean: 1067.41
-Generation: 160 High: 5001.0 Mean: 993.6
-Generation: 161 High: 5001.0 Mean: 1098.94
-Generation: 162 High: 5001.0 Mean: 1384.29
-Generation: 163 High: 5001.0 Mean: 1070.67
-Generation: 164 High: 5001.0 Mean: 1023.47
-Generation: 165 High: 5001.0 Mean: 1146.86
-Generation: 166 High: 5001.0 Mean: 1154.18
-Generation: 167 High: 5001.0 Mean: 1256.17
-Generation: 168 High: 5001.0 Mean: 1070.57
-Generation: 169 High: 5001.0 Mean: 951.23
-Generation: 170 High: 5001.0 Mean: 925.12
-Generation: 171 High: 5001.0 Mean: 1126.76
-Generation: 172 High: 5001.0 Mean: 1030.11
-Generation: 173 High: 5001.0 Mean: 1084.57
-Generation: 174 High: 5001.0 Mean: 1251.78
-Generation: 175 High: 5001.0 Mean: 1132.3
-Generation: 176 High: 5001.0 Mean: 1339.85
-Generation: 177 High: 5001.0 Mean: 1025.39
-Generation: 178 High: 5001.0 Mean: 1030.4
-Generation: 179 High: 5001.0 Mean: 806.07
-Generation: 180 High: 5001.0 Mean: 1089.15
-Generation: 181 High: 5001.0 Mean: 917.71
-Generation: 182 High: 5001.0 Mean: 946.94
-Generation: 183 High: 5001.0 Mean: 1065.39
-Generation: 184 High: 5001.0 Mean: 1018.71
-Generation: 185 High: 5001.0 Mean: 914.51
-Generation: 186 High: 5001.0 Mean: 962.87
-Generation: 187 High: 5001.0 Mean: 1092.81
-Generation: 188 High: 5001.0 Mean: 953.61
-Generation: 189 High: 5001.0 Mean: 1034.49
-Generation: 190 High: 5001.0 Mean: 934.87
-Generation: 191 High: 5001.0 Mean: 1221.59
-Generation: 192 High: 5001.0 Mean: 1224.74
-Generation: 193 High: 5001.0 Mean: 1128.89
-Generation: 194 High: 5001.0 Mean: 935.16
-Generation: 195 High: 5001.0 Mean: 876.1
-Generation: 196 High: 5001.0 Mean: 935.74
-Generation: 197 High: 5001.0 Mean: 998.05
-Generation: 198 High: 5001.0 Mean: 777.17
-Generation: 199 High: 5001.0 Mean: 1053.35
-Generation: 200 High: 5001.0 Mean: 1027.16
-Generation: 201 High: 5001.0 Mean: 904.68
-Generation: 202 High: 5001.0 Mean: 1098.15
-Generation: 203 High: 5001.0 Mean: 1092.94
-Generation: 204 High: 5001.0 Mean: 1269.83
-Generation: 205 High: 5001.0 Mean: 1498.72
-Generation: 206 High: 5001.0 Mean: 1108.98
-Generation: 207 High: 5001.0 Mean: 1115.15
-Generation: 208 High: 5001.0 Mean: 1030.66
-Generation: 209 High: 5001.0 Mean: 1119.93
-Generation: 210 High: 5001.0 Mean: 1004.91
-Generation: 211 High: 5001.0 Mean: 1017.65
-Generation: 212 High: 5001.0 Mean: 830.91
-Generation: 213 High: 5001.0 Mean: 983.02
-Generation: 214 High: 5001.0 Mean: 964.49
-Generation: 215 High: 5001.0 Mean: 1457.31
-Generation: 216 High: 5001.0 Mean: 1455.96
-Generation: 217 High: 5001.0 Mean: 890.32
-Generation: 218 High: 5001.0 Mean: 1086.98
-Generation: 219 High: 5001.0 Mean: 1121.46
-Generation: 220 High: 5001.0 Mean: 1152.06
-Generation: 221 High: 5001.0 Mean: 938.65
-Generation: 222 High: 5001.0 Mean: 1198.27
-Generation: 223 High: 5001.0 Mean: 1109.46
-Generation: 224 High: 5001.0 Mean: 1426.45
-Generation: 225 High: 5001.0 Mean: 1228.29
-Generation: 226 High: 5001.0 Mean: 1279.32
-Generation: 227 High: 5001.0 Mean: 859.54
-Generation: 228 High: 5001.0 Mean: 1139.47
-Generation: 229 High: 5001.0 Mean: 1450.97
-Generation: 230 High: 5001.0 Mean: 1140.23
-Generation: 231 High: 5001.0 Mean: 1041.43
-Generation: 232 High: 5001.0 Mean: 1341.78
-Generation: 233 High: 5001.0 Mean: 905.48
-Generation: 234 High: 5001.0 Mean: 1015.74
-Generation: 235 High: 5001.0 Mean: 1006.37
-Generation: 236 High: 5001.0 Mean: 944.22
-Generation: 237 High: 5001.0 Mean: 1214.26
-Generation: 238 High: 5001.0 Mean: 1017.94
-Generation: 239 High: 5001.0 Mean: 943.54
-Generation: 240 High: 5001.0 Mean: 1150.28
-Generation: 241 High: 5001.0 Mean: 1405.46
-Generation: 242 High: 5001.0 Mean: 939.14
-Generation: 243 High: 5001.0 Mean: 1290.59
-Generation: 244 High: 5001.0 Mean: 1175.68
-Generation: 245 High: 5001.0 Mean: 1018.28
-Generation: 246 High: 5001.0 Mean: 689.28
-Generation: 247 High: 5001.0 Mean: 1025.76
-Generation: 248 High: 5001.0 Mean: 1130.51
-Generation: 249 High: 5001.0 Mean: 691.35
-Generation: 250 High: 5001.0 Mean: 976.51
-Generation: 251 High: 5001.0 Mean: 1131.05
-Generation: 252 High: 5001.0 Mean: 1143.51
-Generation: 253 High: 5001.0 Mean: 978.02
-Generation: 254 High: 5001.0 Mean: 1057.22
-Generation: 255 High: 5001.0 Mean: 940.44
-Generation: 256 High: 5001.0 Mean: 1499.29
-Generation: 257 High: 5001.0 Mean: 1462.61
-Generation: 258 High: 5001.0 Mean: 962.38
-Generation: 259 High: 5001.0 Mean: 1243.32
-Generation: 260 High: 5001.0 Mean: 1132.37
-Generation: 261 High: 5001.0 Mean: 1123.63
-Generation: 262 High: 5001.0 Mean: 1246.83
-Generation: 263 High: 5001.0 Mean: 1082.03
-Generation: 264 High: 5001.0 Mean: 1061.42
-Generation: 265 High: 5001.0 Mean: 1126.45
-Generation: 266 High: 5001.0 Mean: 980.3
-Generation: 267 High: 5001.0 Mean: 1061.76
-Generation: 268 High: 5001.0 Mean: 924.37
-Generation: 269 High: 5001.0 Mean: 888.01
-Generation: 270 High: 5001.0 Mean: 1292.92
-Generation: 271 High: 5001.0 Mean: 1281.25
-Generation: 272 High: 5001.0 Mean: 1375.52
-Generation: 273 High: 5001.0 Mean: 1107.7
-Generation: 274 High: 5001.0 Mean: 1206.73
-Generation: 275 High: 5001.0 Mean: 1135.3
-Generation: 276 High: 5001.0 Mean: 923.1
-Generation: 277 High: 5001.0 Mean: 1021.16
-Generation: 278 High: 5001.0 Mean: 934.73
-Generation: 279 High: 5001.0 Mean: 1167.01
-Generation: 280 High: 5001.0 Mean: 1281.83
-Generation: 281 High: 5001.0 Mean: 1250.64
-Generation: 282 High: 5001.0 Mean: 1060.63
-Generation: 283 High: 5001.0 Mean: 1116.34
-Generation: 284 High: 5001.0 Mean: 1038.92
-Generation: 285 High: 5001.0 Mean: 1092.49
-Generation: 286 High: 5001.0 Mean: 1055.89
-Generation: 287 High: 5001.0 Mean: 1083.31
-Generation: 288 High: 5001.0 Mean: 1031.59
-Generation: 289 High: 5001.0 Mean: 1224.61
-Generation: 290 High: 5001.0 Mean: 1119.21
-Generation: 291 High: 5001.0 Mean: 1231.3
-Generation: 292 High: 5001.0 Mean: 1097.61
-Generation: 293 High: 5001.0 Mean: 1152.88
-Generation: 294 High: 5001.0 Mean: 1020.87
-Generation: 295 High: 5001.0 Mean: 1074.78
-Generation: 296 High: 5001.0 Mean: 1075.9
-Generation: 297 High: 5001.0 Mean: 1145.49
-Generation: 298 High: 5001.0 Mean: 1060.79
-Generation: 299 High: 5001.0 Mean: 1156.53
-Generation: 300 High: 5001.0 Mean: 797.54
-Generation: 301 High: 5001.0 Mean: 997.02
-Generation: 302 High: 5001.0 Mean: 1281.48
-Generation: 303 High: 5001.0 Mean: 1086.6
-Generation: 304 High: 5001.0 Mean: 1030.67
-Generation: 305 High: 5001.0 Mean: 1299.0
-Generation: 306 High: 5001.0 Mean: 1047.49
-Generation: 307 High: 5001.0 Mean: 945.19
-Generation: 308 High: 5001.0 Mean: 1048.02
-Generation: 309 High: 5001.0 Mean: 853.94
-Generation: 310 High: 5001.0 Mean: 963.87
-Generation: 311 High: 5001.0 Mean: 1075.54
-Generation: 312 High: 5001.0 Mean: 1113.88
-Generation: 313 High: 5001.0 Mean: 973.17
-Generation: 314 High: 5001.0 Mean: 936.82
-Generation: 315 High: 5001.0 Mean: 975.7
-Generation: 316 High: 5001.0 Mean: 1138.54
-Generation: 317 High: 5001.0 Mean: 1086.84
-Generation: 318 High: 5001.0 Mean: 1292.52
-Generation: 319 High: 5001.0 Mean: 1296.31
-Generation: 320 High: 5001.0 Mean: 984.33
-Generation: 321 High: 5001.0 Mean: 1236.15
-Generation: 322 High: 5001.0 Mean: 1585.06
-Generation: 323 High: 5001.0 Mean: 1413.22
-Generation: 324 High: 5001.0 Mean: 786.01
-Generation: 325 High: 5001.0 Mean: 913.09
-Generation: 326 High: 5001.0 Mean: 886.9
-Generation: 327 High: 5001.0 Mean: 896.75
-Generation: 328 High: 5001.0 Mean: 1012.83
-Generation: 329 High: 5001.0 Mean: 983.75
-Generation: 330 High: 5001.0 Mean: 874.03
-Generation: 331 High: 5001.0 Mean: 847.49
-Generation: 332 High: 5001.0 Mean: 971.0
-Generation: 333 High: 5001.0 Mean: 1048.39
-Generation: 334 High: 5001.0 Mean: 809.84
-Generation: 335 High: 5001.0 Mean: 625.95
-Generation: 336 High: 5001.0 Mean: 1066.41
-Generation: 337 High: 5001.0 Mean: 1415.96
-Generation: 338 High: 5001.0 Mean: 998.88
-Generation: 339 High: 5001.0 Mean: 993.25
-Generation: 340 High: 5001.0 Mean: 1184.35
-Generation: 341 High: 5001.0 Mean: 956.09
-Generation: 342 High: 5001.0 Mean: 927.5
-Generation: 343 High: 5001.0 Mean: 997.35
-Generation: 344 High: 5001.0 Mean: 1003.99
-Generation: 345 High: 5001.0 Mean: 861.04
-Generation: 346 High: 5001.0 Mean: 1063.94
-Generation: 347 High: 5001.0 Mean: 1191.77
-Generation: 348 High: 5001.0 Mean: 1107.79
-Generation: 349 High: 5001.0 Mean: 1195.87
-Generation: 350 High: 5001.0 Mean: 1101.6
-Generation: 351 High: 5001.0 Mean: 857.26
-Generation: 352 High: 5001.0 Mean: 975.72
-Generation: 353 High: 5001.0 Mean: 1032.39
-Generation: 354 High: 5001.0 Mean: 1145.83
-Generation: 355 High: 5001.0 Mean: 1110.78
-Generation: 356 High: 5001.0 Mean: 1283.84
-Generation: 357 High: 5001.0 Mean: 1148.11
-Generation: 358 High: 5001.0 Mean: 1441.48
-Generation: 359 High: 5001.0 Mean: 1503.92
-Generation: 360 High: 5001.0 Mean: 1244.37
-Generation: 361 High: 5001.0 Mean: 1457.5
-Generation: 362 High: 5001.0 Mean: 1566.68
-Generation: 363 High: 5001.0 Mean: 1050.7
-Generation: 364 High: 5001.0 Mean: 1419.65
-Generation: 365 High: 5001.0 Mean: 1748.03
-Generation: 366 High: 5001.0 Mean: 1406.16
-Generation: 367 High: 5001.0 Mean: 954.57
-Generation: 368 High: 5001.0 Mean: 1053.22
-Generation: 369 High: 5001.0 Mean: 983.32
-Generation: 370 High: 5001.0 Mean: 1399.22
-Generation: 371 High: 5001.0 Mean: 1152.33
-Generation: 372 High: 5001.0 Mean: 1159.18
-Generation: 373 High: 5001.0 Mean: 1477.44
-Generation: 374 High: 5001.0 Mean: 915.17
-Generation: 375 High: 5001.0 Mean: 1239.01
-Generation: 376 High: 5001.0 Mean: 1225.63
-Generation: 377 High: 5001.0 Mean: 949.37
-Generation: 378 High: 5001.0 Mean: 947.5
-Generation: 379 High: 5001.0 Mean: 1032.93
-Generation: 380 High: 5001.0 Mean: 1384.59
-Generation: 381 High: 5001.0 Mean: 1048.53
-Generation: 382 High: 5001.0 Mean: 1112.84
-Generation: 383 High: 5001.0 Mean: 1235.62
-Generation: 384 High: 5001.0 Mean: 1240.28
-Generation: 385 High: 5001.0 Mean: 1255.03
-Generation: 386 High: 5001.0 Mean: 1139.11
-Generation: 387 High: 5001.0 Mean: 1258.67
-Generation: 388 High: 5001.0 Mean: 1258.67
-Generation: 389 High: 5001.0 Mean: 1223.35
-Generation: 390 High: 5001.0 Mean: 1308.83
-Generation: 391 High: 5001.0 Mean: 986.99
-Generation: 392 High: 5001.0 Mean: 1000.96
-Generation: 393 High: 5001.0 Mean: 987.71
-Generation: 394 High: 5001.0 Mean: 1017.16
-Generation: 395 High: 5001.0 Mean: 1280.56
-Generation: 396 High: 5001.0 Mean: 853.03
-Generation: 397 High: 5001.0 Mean: 1083.04
-Generation: 398 High: 5001.0 Mean: 1196.39
-Generation: 399 High: 5001.0 Mean: 1051.16
-Generation: 400 High: 5001.0 Mean: 1069.62
-Generation: 401 High: 5001.0 Mean: 1185.78
-Generation: 402 High: 5001.0 Mean: 1220.54
-Generation: 403 High: 5001.0 Mean: 1092.1
-Generation: 404 High: 5001.0 Mean: 1578.35
-Generation: 405 High: 5001.0 Mean: 1267.2
-Generation: 406 High: 5001.0 Mean: 1520.92
-Generation: 407 High: 5001.0 Mean: 1241.19
-Generation: 408 High: 5001.0 Mean: 1531.18
-Generation: 409 High: 5001.0 Mean: 1174.67
-Generation: 410 High: 5001.0 Mean: 1419.0
-Generation: 411 High: 5001.0 Mean: 1318.96
-Generation: 412 High: 5001.0 Mean: 1097.63
-Generation: 413 High: 5001.0 Mean: 1332.55
-Generation: 414 High: 5001.0 Mean: 879.52
-Generation: 415 High: 5001.0 Mean: 1263.42
-Generation: 416 High: 5001.0 Mean: 1150.05
-Normalized input:
-Generation: 0 High: 5001.0 Mean: 2744.97
-Generation: 1 High: 5001.0 Mean: 1617.03
-Generation: 2 High: 5001.0 Mean: 1179.02
-Generation: 3 High: 5001.0 Mean: 982.5
-Generation: 4 High: 5001.0 Mean: 1170.54
-Generation: 5 High: 5001.0 Mean: 1056.66
-Generation: 6 High: 5001.0 Mean: 1260.53
-Generation: 7 High: 5001.0 Mean: 1111.09
-Generation: 8 High: 5001.0 Mean: 1039.14
-Generation: 9 High: 5001.0 Mean: 946.58
-Generation: 10 High: 5001.0 Mean: 1154.61
-Generation: 11 High: 5001.0 Mean: 1152.83
-Generation: 12 High: 5001.0 Mean: 1462.79
-Generation: 13 High: 5001.0 Mean: 1143.24
-Generation: 14 High: 5001.0 Mean: 1195.4
-Generation: 15 High: 5001.0 Mean: 1207.2
-Generation: 16 High: 5001.0 Mean: 1022.13
-Generation: 17 High: 5001.0 Mean: 929.33
-Generation: 18 High: 5001.0 Mean: 1119.44
-Generation: 19 High: 5001.0 Mean: 1034.47
-Generation: 20 High: 5001.0 Mean: 1280.09
-Generation: 21 High: 5001.0 Mean: 1062.24
-Generation: 22 High: 5001.0 Mean: 1206.61
-Generation: 23 High: 5001.0 Mean: 1123.85
-Generation: 24 High: 5001.0 Mean: 1218.47
-Generation: 25 High: 5001.0 Mean: 1084.34
-Generation: 26 High: 5001.0 Mean: 876.99
-Generation: 27 High: 5001.0 Mean: 776.84
-Generation: 28 High: 5001.0 Mean: 869.44
-Generation: 29 High: 5001.0 Mean: 1073.91
-Generation: 30 High: 5001.0 Mean: 914.59
-Generation: 31 High: 5001.0 Mean: 1242.04
-Generation: 32 High: 5001.0 Mean: 1178.91
-Generation: 33 High: 5001.0 Mean: 1290.2
-Generation: 34 High: 5001.0 Mean: 1231.39
-Normalized input for controller:
-Generation: 0 High: 5001.0 Mean: 2933.84
-Generation: 1 High: 5001.0 Mean: 1185.27
-Generation: 2 High: 5001.0 Mean: 1141.61
-Generation: 3 High: 5001.0 Mean: 1061.73
-Generation: 4 High: 5001.0 Mean: 846.21
-Generation: 5 High: 5001.0 Mean: 1001.2
-Generation: 6 High: 5001.0 Mean: 1170.05
-Generation: 7 High: 5001.0 Mean: 1358.73
-Generation: 8 High: 5001.0 Mean: 1109.02
-Generation: 9 High: 5001.0 Mean: 1310.27
-Generation: 10 High: 5001.0 Mean: 952.33
-Generation: 11 High: 5001.0 Mean: 954.62
-Generation: 12 High: 5001.0 Mean: 910.82
-Generation: 13 High: 5001.0 Mean: 953.02
+~Fewer hidden layers (from 6 to 1)
+Generation: 0 High: 5001.0 Mean: 2244.36 Standard Deviation: 2255.049518392003
+Generation: 1 High: 5001.0 Mean: 579.08 Standard Deviation: 1026.9300724002587
+Generation: 2 High: 5001.0 Mean: 426.97 Standard Deviation: 672.9420102059313
+Generation: 3 High: 5001.0 Mean: 452.68 Standard Deviation: 668.9328647928727
+Generation: 4 High: 5001.0 Mean: 533.04 Standard Deviation: 811.237165322201
+Generation: 5 High: 5001.0 Mean: 386.77 Standard Deviation: 679.2388071216191
+Generation: 6 High: 5001.0 Mean: 599.58 Standard Deviation: 1028.0043402632111
+Generation: 7 High: 5001.0 Mean: 422.95 Standard Deviation: 677.923113265804
+Generation: 8 High: 5001.0 Mean: 385.8 Standard Deviation: 500.6491585931208
+Generation: 9 High: 5001.0 Mean: 373.35 Standard Deviation: 669.6137300712999
+Generation: 10 High: 5001.0 Mean: 434.33 Standard Deviation: 812.4449649668586
+Generation: 11 High: 948.0 Mean: 328.45 Standard Deviation: 190.58155078600873
+Generation: 12 High: 738.0 Mean: 368.63 Standard Deviation: 191.88077834947399
+Generation: 13 High: 5001.0 Mean: 350.29 Standard Deviation: 493.09841401083423
+Generation: 14 High: 5001.0 Mean: 400.76 Standard Deviation: 677.1452742211233
+Generation: 15 High: 535.0 Mean: 264.39 Standard Deviation: 143.93949388545178
+Generation: 16 High: 791.0 Mean: 360.26 Standard Deviation: 178.45871343254717
+Generation: 17 High: 5001.0 Mean: 395.43 Standard Deviation: 503.2592225682506
+Generation: 18 High: 5001.0 Mean: 400.3 Standard Deviation: 498.3708960202231
+Generation: 19 High: 5001.0 Mean: 379.13 Standard Deviation: 497.88092261101946
+Generation: 20 High: 5001.0 Mean: 424.03 Standard Deviation: 675.0573968930344
+Generation: 21 High: 5001.0 Mean: 370.65 Standard Deviation: 670.5995284072303
+Generation: 22 High: 690.0 Mean: 328.48 Standard Deviation: 159.31795127982284
+Generation: 23 High: 5001.0 Mean: 343.9 Standard Deviation: 495.1778165467437
+Generation: 24 High: 565.0 Mean: 304.18 Standard Deviation: 142.87766655429394
+Generation: 25 High: 606.0 Mean: 329.42 Standard Deviation: 143.94222313136618
+Generation: 26 High: 658.0 Mean: 274.54 Standard Deviation: 158.55033396369743
+Generation: 27 High: 588.0 Mean: 325.26 Standard Deviation: 112.97341457174781
+Generation: 28 High: 5001.0 Mean: 344.19 Standard Deviation: 493.72155502874296
+Generation: 29 High: 832.0 Mean: 372.62 Standard Deviation: 192.02842393770774
+Generation: 30 High: 750.0 Mean: 325.92 Standard Deviation: 154.87580056290273
+Generation: 31 High: 952.0 Mean: 321.04 Standard Deviation: 216.75211279247083
+Generation: 32 High: 738.0 Mean: 296.42 Standard Deviation: 173.5864153671018
+Generation: 33 High: 734.0 Mean: 359.06 Standard Deviation: 189.2690582213585
+Generation: 34 High: 726.0 Mean: 284.64 Standard Deviation: 149.18870734743967
+Generation: 35 High: 759.0 Mean: 294.7 Standard Deviation: 137.7923437640858
+Generation: 36 High: 812.0 Mean: 328.78 Standard Deviation: 186.4638613780161
+Generation: 37 High: 806.0 Mean: 377.56 Standard Deviation: 178.07853997604536
+Generation: 38 High: 835.0 Mean: 356.3 Standard Deviation: 171.90954016575114
+Generation: 39 High: 682.0 Mean: 335.14 Standard Deviation: 135.88318659790104
+Generation: 40 High: 674.0 Mean: 385.92 Standard Deviation: 158.52581367083405
+Generation: 41 High: 648.0 Mean: 290.3 Standard Deviation: 144.35903158444918
+Generation: 42 High: 809.0 Mean: 314.54 Standard Deviation: 205.77377967078314
+Generation: 43 High: 864.0 Mean: 375.02 Standard Deviation: 231.18118349035254
+Generation: 44 High: 731.0 Mean: 355.38 Standard Deviation: 206.53773408266102
+Generation: 45 High: 745.0 Mean: 326.16 Standard Deviation: 172.58752677989222
+Generation: 46 High: 896.0 Mean: 356.66 Standard Deviation: 202.3617167351572
+Generation: 47 High: 960.0 Mean: 341.94 Standard Deviation: 193.85720621116977
+Generation: 48 High: 734.0 Mean: 342.36 Standard Deviation: 160.8493406887327
+Generation: 49 High: 768.0 Mean: 326.5 Standard Deviation: 136.63487841689619
+Generation: 50 High: 633.0 Mean: 309.26 Standard Deviation: 162.7685239842152
+Generation: 51 High: 946.0 Mean: 409.1 Standard Deviation: 226.87531818159508
+Generation: 52 High: 874.0 Mean: 373.48 Standard Deviation: 159.6916077945238
+Generation: 53 High: 909.0 Mean: 368.28 Standard Deviation: 216.72535984512749
+Generation: 54 High: 625.0 Mean: 338.18 Standard Deviation: 157.10438440731053
+Generation: 55 High: 931.0 Mean: 364.54 Standard Deviation: 194.50791346369434
+Generation: 56 High: 618.0 Mean: 302.5 Standard Deviation: 148.20543174931208
+Generation: 57 High: 761.0 Mean: 328.5 Standard Deviation: 161.93829071593908
+Generation: 58 High: 538.0 Mean: 301.46 Standard Deviation: 132.26053228382227
+Generation: 59 High: 554.0 Mean: 285.6 Standard Deviation: 127.70137039202046
+Generation: 60 High: 918.0 Mean: 374.96 Standard Deviation: 167.35805448199977
+Generation: 61 High: 660.0 Mean: 319.88 Standard Deviation: 159.34009413829278
+Generation: 62 High: 700.0 Mean: 335.12 Standard Deviation: 156.6418386000369
+Generation: 63 High: 751.0 Mean: 379.14 Standard Deviation: 164.2067002287056
+Generation: 64 High: 668.0 Mean: 347.86 Standard Deviation: 155.3866158972516
+Generation: 65 High: 926.0 Mean: 403.78 Standard Deviation: 223.14948263439913
+Generation: 66 High: 642.0 Mean: 274.34 Standard Deviation: 152.45531935619692
+Generation: 67 High: 837.0 Mean: 333.36 Standard Deviation: 168.064958870075
+Generation: 68 High: 866.0 Mean: 339.04 Standard Deviation: 201.1988031773549
+Generation: 69 High: 956.0 Mean: 325.24 Standard Deviation: 212.43987949535284
+Generation: 70 High: 585.0 Mean: 321.4 Standard Deviation: 120.41345439775411
+Generation: 71 High: 847.0 Mean: 380.0 Standard Deviation: 194.9626630921931
+Generation: 72 High: 889.0 Mean: 327.06 Standard Deviation: 223.39457558320433
+Generation: 73 High: 717.0 Mean: 332.6 Standard Deviation: 194.89894817571488
+Generation: 74 High: 798.0 Mean: 347.8 Standard Deviation: 184.91479118772517
+Generation: 75 High: 924.0 Mean: 320.78 Standard Deviation: 164.4587838943241
+Generation: 76 High: 812.0 Mean: 315.0 Standard Deviation: 162.36871619865693
+Generation: 77 High: 789.0 Mean: 373.8 Standard Deviation: 183.43369374245296
+Generation: 78 High: 735.0 Mean: 287.02 Standard Deviation: 163.0817574102021
+Generation: 79 High: 759.0 Mean: 325.74 Standard Deviation: 156.543899274293
+Generation: 80 High: 991.0 Mean: 357.48 Standard Deviation: 203.87380802839783
+Generation: 81 High: 843.0 Mean: 294.84 Standard Deviation: 187.78022899123337
+Generation: 82 High: 922.0 Mean: 358.32 Standard Deviation: 177.13841367698885
+Generation: 83 High: 707.0 Mean: 312.48 Standard Deviation: 135.32335201287322
+Generation: 84 High: 887.0 Mean: 330.42 Standard Deviation: 173.86294487325353
+Generation: 85 High: 775.0 Mean: 336.38 Standard Deviation: 187.37042349314356
+Generation: 86 High: 839.0 Mean: 361.54 Standard Deviation: 190.02402058687213
+Generation: 87 High: 875.0 Mean: 413.16 Standard Deviation: 197.8637268424913
+Generation: 88 High: 832.0 Mean: 355.64 Standard Deviation: 227.47437306211
+Generation: 89 High: 843.0 Mean: 367.88 Standard Deviation: 189.68296075293634
+Generation: 90 High: 839.0 Mean: 322.18 Standard Deviation: 192.5977871108596
+Generation: 91 High: 584.0 Mean: 323.02 Standard Deviation: 146.28403740668358
+Generation: 92 High: 574.0 Mean: 325.66 Standard Deviation: 143.57849560432092
+Generation: 93 High: 869.0 Mean: 380.3 Standard Deviation: 181.46760041395822
+Generation: 94 High: 817.0 Mean: 330.7 Standard Deviation: 183.9200097868636
+Generation: 95 High: 616.0 Mean: 261.56 Standard Deviation: 130.75047380411286
+Generation: 96 High: 848.0 Mean: 322.02 Standard Deviation: 184.29297219373288
+Generation: 97 High: 974.0 Mean: 355.38 Standard Deviation: 211.16144439740896
+Generation: 98 High: 691.0 Mean: 310.18 Standard Deviation: 156.8577304438643
+Generation: 99 High: 701.0 Mean: 332.4 Standard Deviation: 141.6062145528931
+Generation: 100 High: 710.0 Mean: 370.68 Standard Deviation: 195.9676952969545
+Generation: 101 High: 930.0 Mean: 354.64 Standard Deviation: 188.05943315877565
+Generation: 102 High: 730.0 Mean: 317.16 Standard Deviation: 174.41919160459383
+Generation: 103 High: 642.0 Mean: 283.94 Standard Deviation: 152.62154631637043
+Generation: 104 High: 604.0 Mean: 316.84 Standard Deviation: 144.8298808947933
+Generation: 105 High: 901.0 Mean: 330.34 Standard Deviation: 207.44585896083828
+Generation: 106 High: 968.0 Mean: 321.78 Standard Deviation: 220.38704952877785
+Generation: 107 High: 932.0 Mean: 344.28 Standard Deviation: 226.4938003566543
+Generation: 108 High: 798.0 Mean: 322.24 Standard Deviation: 144.8934173798106
+Generation: 109 High: 694.0 Mean: 371.08 Standard Deviation: 136.1951306031166
+Generation: 110 High: 775.0 Mean: 348.54 Standard Deviation: 182.88031167952443
+Generation: 111 High: 765.0 Mean: 325.52 Standard Deviation: 157.70748111614745
+Generation: 112 High: 693.0 Mean: 296.34 Standard Deviation: 145.7973401677823
+Generation: 113 High: 766.0 Mean: 299.3 Standard Deviation: 176.4140867391264
+Generation: 114 High: 959.0 Mean: 370.42 Standard Deviation: 199.5196321167418
+Generation: 115 High: 685.0 Mean: 325.48 Standard Deviation: 152.16704505246858
+Generation: 116 High: 820.0 Mean: 365.26 Standard Deviation: 180.9911390096211
+Generation: 117 High: 656.0 Mean: 316.06 Standard Deviation: 182.5600624452128
+Generation: 118 High: 974.0 Mean: 401.22 Standard Deviation: 221.12994279382426
+Generation: 119 High: 731.0 Mean: 346.36 Standard Deviation: 146.37810765274978
+Generation: 120 High: 635.0 Mean: 290.5 Standard Deviation: 134.82481225649823
+Generation: 121 High: 583.0 Mean: 274.78 Standard Deviation: 135.90353784946143
+Generation: 122 High: 874.0 Mean: 310.04 Standard Deviation: 178.16205656648668
+Generation: 123 High: 644.0 Mean: 347.58 Standard Deviation: 147.3109758300446
+Generation: 124 High: 731.0 Mean: 339.26 Standard Deviation: 193.00132745657476
+Generation: 125 High: 772.0 Mean: 353.84 Standard Deviation: 189.84281498123653
+Generation: 126 High: 810.0 Mean: 344.0 Standard Deviation: 163.314543136856
+Generation: 127 High: 862.0 Mean: 310.42 Standard Deviation: 168.35891303996948
+Generation: 128 High: 950.0 Mean: 358.24 Standard Deviation: 230.19127350966198
+Generation: 129 High: 780.0 Mean: 405.0 Standard Deviation: 200.1000749625047
+Generation: 130 High: 998.0 Mean: 370.12 Standard Deviation: 193.1489207839381
+Generation: 131 High: 696.0 Mean: 302.88 Standard Deviation: 142.13228204739414
+Generation: 132 High: 891.0 Mean: 373.72 Standard Deviation: 196.0738677131657
+Generation: 133 High: 883.0 Mean: 355.9 Standard Deviation: 210.8543810310803
+Generation: 134 High: 766.0 Mean: 379.68 Standard Deviation: 171.15518572336623
+Generation: 135 High: 893.0 Mean: 399.96 Standard Deviation: 179.53350216603025
+Generation: 136 High: 959.0 Mean: 319.88 Standard Deviation: 203.4720265785938
+Generation: 137 High: 827.0 Mean: 318.74 Standard Deviation: 192.88097988137656
+Generation: 138 High: 855.0 Mean: 382.06 Standard Deviation: 149.98618736403697
+Generation: 139 High: 948.0 Mean: 420.28 Standard Deviation: 229.98269847968996
+Generation: 140 High: 613.0 Mean: 297.44 Standard Deviation: 128.31417069053597
+Generation: 141 High: 880.0 Mean: 388.56 Standard Deviation: 169.93447678443601
+Generation: 142 High: 883.0 Mean: 366.1 Standard Deviation: 221.07195661141648
+Generation: 143 High: 869.0 Mean: 323.32 Standard Deviation: 177.75707468340045
+Generation: 144 High: 866.0 Mean: 344.14 Standard Deviation: 204.61925715826456
+Generation: 145 High: 658.0 Mean: 315.28 Standard Deviation: 148.23670800446152
+Generation: 146 High: 764.0 Mean: 326.04 Standard Deviation: 169.72129624770136
+Generation: 147 High: 762.0 Mean: 334.82 Standard Deviation: 154.86080072116377
+Generation: 148 High: 692.0 Mean: 314.84 Standard Deviation: 162.59696922144647
+Generation: 149 High: 823.0 Mean: 335.72 Standard Deviation: 163.64180883869503
+Generation: 150 High: 724.0 Mean: 307.68 Standard Deviation: 162.23186370130864
+Generation: 151 High: 737.0 Mean: 354.12 Standard Deviation: 165.96465165811662
+Generation: 152 High: 683.0 Mean: 300.88 Standard Deviation: 172.7061828655824
+Generation: 153 High: 902.0 Mean: 313.02 Standard Deviation: 148.25430718869524
+Generation: 154 High: 920.0 Mean: 395.62 Standard Deviation: 202.81330232506934
+Generation: 155 High: 601.0 Mean: 283.06 Standard Deviation: 131.1653018141612
+Generation: 156 High: 756.0 Mean: 326.0 Standard Deviation: 182.88061679686012
+Generation: 157 High: 743.0 Mean: 299.24 Standard Deviation: 164.55802137847914
+Generation: 158 High: 901.0 Mean: 368.76 Standard Deviation: 196.15030563320565
+Generation: 159 High: 801.0 Mean: 350.58 Standard Deviation: 183.56569287315097
+Generation: 160 High: 704.0 Mean: 297.46 Standard Deviation: 137.83674546360996
+Generation: 161 High: 848.0 Mean: 396.76 Standard Deviation: 171.4105667687963
+Generation: 162 High: 668.0 Mean: 325.3 Standard Deviation: 161.47089521025146
+Generation: 163 High: 531.0 Mean: 286.84 Standard Deviation: 119.99605993531624
+Generation: 164 High: 758.0 Mean: 363.96 Standard Deviation: 176.6775548845976
+Generation: 165 High: 683.0 Mean: 335.52 Standard Deviation: 164.34162467250957
+Generation: 166 High: 559.0 Mean: 302.12 Standard Deviation: 127.64413656725483
+Generation: 167 High: 991.0 Mean: 384.48 Standard Deviation: 192.1435130312757
+Generation: 168 High: 704.0 Mean: 353.3 Standard Deviation: 164.39528582048817
+Generation: 169 High: 783.0 Mean: 376.86 Standard Deviation: 218.76444043765432
+Generation: 170 High: 856.0 Mean: 349.2 Standard Deviation: 226.70147771904803
+Generation: 171 High: 641.0 Mean: 303.94 Standard Deviation: 131.65126812909926
+Generation: 172 High: 704.0 Mean: 278.88 Standard Deviation: 155.431224662228
+Generation: 173 High: 972.0 Mean: 411.88 Standard Deviation: 216.50918132956855
+Generation: 174 High: 757.0 Mean: 283.24 Standard Deviation: 150.37879637768086
+Generation: 175 High: 1000.0 Mean: 327.48 Standard Deviation: 206.11086725352453
+Generation: 176 High: 957.0 Mean: 403.9 Standard Deviation: 218.9297832639497
+Generation: 177 High: 656.0 Mean: 279.9 Standard Deviation: 115.29340831114327
+Generation: 178 High: 606.0 Mean: 307.84 Standard Deviation: 149.42534724737962
+Generation: 179 High: 873.0 Mean: 303.88 Standard Deviation: 154.93400401461264
+Generation: 180 High: 957.0 Mean: 335.88 Standard Deviation: 181.4344664059175
+Generation: 181 High: 732.0 Mean: 326.36 Standard Deviation: 149.13949979800793
+Generation: 182 High: 896.0 Mean: 296.02 Standard Deviation: 149.4576180728169
+Generation: 183 High: 972.0 Mean: 389.7 Standard Deviation: 208.02329196510667
+Generation: 184 High: 560.0 Mean: 314.5 Standard Deviation: 131.86132867524125
+Generation: 185 High: 865.0 Mean: 358.4 Standard Deviation: 185.30461408178698
+Generation: 186 High: 729.0 Mean: 312.96 Standard Deviation: 136.57100131433467
+Generation: 187 High: 852.0 Mean: 333.5 Standard Deviation: 183.82635828411549
+Generation: 188 High: 665.0 Mean: 319.9 Standard Deviation: 148.6025908253285
+Generation: 189 High: 694.0 Mean: 286.1 Standard Deviation: 160.57636812432898
+Generation: 190 High: 955.0 Mean: 313.82 Standard Deviation: 202.0588716191398
+Generation: 191 High: 717.0 Mean: 346.88 Standard Deviation: 161.18121974969665
+Generation: 192 High: 817.0 Mean: 329.16 Standard Deviation: 148.63934337852817
+Generation: 193 High: 797.0 Mean: 332.74 Standard Deviation: 175.30394291059173
+Generation: 194 High: 624.0 Mean: 317.6 Standard Deviation: 104.36896090313444
+Generation: 195 High: 600.0 Mean: 344.68 Standard Deviation: 135.16071026744422
+Generation: 196 High: 892.0 Mean: 311.86 Standard Deviation: 159.61992482143322
+Generation: 197 High: 853.0 Mean: 342.58 Standard Deviation: 185.72669059669374
+Generation: 198 High: 933.0 Mean: 333.76 Standard Deviation: 197.21587765694724
+Generation: 199 High: 713.0 Mean: 342.22 Standard Deviation: 140.87076204805595
+Generation: 200 High: 638.0 Mean: 317.32 Standard Deviation: 138.50796944580483
+Generation: 201 High: 518.0 Mean: 305.86 Standard Deviation: 118.85285187996115
+Generation: 202 High: 631.0 Mean: 327.48 Standard Deviation: 131.36304503169833
+Generation: 203 High: 819.0 Mean: 391.4 Standard Deviation: 197.6745810669647
+Generation: 204 High: 606.0 Mean: 361.58 Standard Deviation: 114.10768422853911
+Generation: 205 High: 702.0 Mean: 316.58 Standard Deviation: 150.09491530361714
+Generation: 206 High: 817.0 Mean: 312.26 Standard Deviation: 131.53171632727978
+Generation: 207 High: 903.0 Mean: 347.94 Standard Deviation: 185.39616069379653
+Generation: 208 High: 728.0 Mean: 348.34 Standard Deviation: 174.24989067428425
+Generation: 209 High: 770.0 Mean: 365.0 Standard Deviation: 160.05561533417062
+Generation: 210 High: 866.0 Mean: 290.52 Standard Deviation: 186.17338585308056
+Generation: 211 High: 806.0 Mean: 367.06 Standard Deviation: 178.12505831577994
+Generation: 212 High: 977.0 Mean: 382.44 Standard Deviation: 202.60386570843113
+Generation: 213 High: 672.0 Mean: 315.36 Standard Deviation: 174.33138099607885
+Generation: 214 High: 609.0 Mean: 322.98 Standard Deviation: 137.20356992440102
+Generation: 215 High: 798.0 Mean: 313.54 Standard Deviation: 135.25223990751505
+Generation: 216 High: 927.0 Mean: 335.28 Standard Deviation: 216.86899640105315
+Generation: 217 High: 722.0 Mean: 327.98 Standard Deviation: 176.12955345426846
+Generation: 218 High: 904.0 Mean: 383.28 Standard Deviation: 194.18064167161464
+Generation: 219 High: 779.0 Mean: 407.36 Standard Deviation: 165.18217337231042
+Generation: 220 High: 783.0 Mean: 312.98 Standard Deviation: 171.09149482075372
+Generation: 221 High: 798.0 Mean: 316.92 Standard Deviation: 198.83790785461414
+Generation: 222 High: 973.0 Mean: 352.58 Standard Deviation: 192.46496720182606
+Generation: 223 High: 880.0 Mean: 363.16 Standard Deviation: 203.03116608048128
+Generation: 224 High: 923.0 Mean: 319.96 Standard Deviation: 206.67984517122127
+Generation: 225 High: 809.0 Mean: 355.3 Standard Deviation: 171.74693592608867
+Generation: 226 High: 758.0 Mean: 392.26 Standard Deviation: 171.44909565232467
+Generation: 227 High: 845.0 Mean: 311.24 Standard Deviation: 176.4118544769597
+Generation: 228 High: 794.0 Mean: 316.7 Standard Deviation: 172.15960617984697
+Generation: 229 High: 597.0 Mean: 287.0 Standard Deviation: 136.45585366703767
+Generation: 230 High: 611.0 Mean: 330.54 Standard Deviation: 136.4567638484806
+Generation: 231 High: 753.0 Mean: 309.98 Standard Deviation: 159.85036628046865
+Generation: 232 High: 753.0 Mean: 336.78 Standard Deviation: 133.48412489880585
+Generation: 233 High: 672.0 Mean: 337.74 Standard Deviation: 159.89631765616116
+Generation: 234 High: 611.0 Mean: 298.04 Standard Deviation: 143.90065461977576
+Generation: 235 High: 861.0 Mean: 368.6 Standard Deviation: 188.74056267797866
+Generation: 236 High: 827.0 Mean: 426.5 Standard Deviation: 202.90936400274876
+Generation: 237 High: 647.0 Mean: 275.16 Standard Deviation: 123.08848199567663
+Generation: 238 High: 807.0 Mean: 299.98 Standard Deviation: 169.4295712088064
+Generation: 239 High: 872.0 Mean: 356.44 Standard Deviation: 210.32823490915334
+Generation: 240 High: 846.0 Mean: 318.32 Standard Deviation: 148.92527522217307
+Generation: 241 High: 874.0 Mean: 387.58 Standard Deviation: 196.42923305862593
+Generation: 242 High: 787.0 Mean: 393.04 Standard Deviation: 169.98058242046355
+Generation: 243 High: 590.0 Mean: 328.34 Standard Deviation: 154.6916429546212
+Generation: 244 High: 898.0 Mean: 330.9 Standard Deviation: 188.45468951448245
+Generation: 245 High: 827.0 Mean: 290.98 Standard Deviation: 162.87105206266708
+Generation: 246 High: 715.0 Mean: 353.44 Standard Deviation: 149.83539768692842
+Generation: 247 High: 653.0 Mean: 304.52 Standard Deviation: 181.18291751707713
+Generation: 248 High: 984.0 Mean: 367.4 Standard Deviation: 233.22641359846014
+Generation: 249 High: 985.0 Mean: 314.44 Standard Deviation: 191.7374413097244
+Generation: 250 High: 614.0 Mean: 328.82 Standard Deviation: 137.77876324020332
+Generation: 251 High: 797.0 Mean: 338.06 Standard Deviation: 161.6974223665919
+Generation: 252 High: 806.0 Mean: 343.9 Standard Deviation: 166.11553208535312
+Generation: 253 High: 868.0 Mean: 368.16 Standard Deviation: 185.99218908330528
+Generation: 254 High: 811.0 Mean: 410.08 Standard Deviation: 176.26920774769482
+Generation: 255 High: 734.0 Mean: 330.74 Standard Deviation: 173.79353382677965
+Generation: 256 High: 832.0 Mean: 342.66 Standard Deviation: 163.76258547055244
+Generation: 257 High: 692.0 Mean: 314.46 Standard Deviation: 164.8303624942929
+Generation: 258 High: 943.0 Mean: 449.18 Standard Deviation: 234.24138746173782
+Generation: 259 High: 995.0 Mean: 345.84 Standard Deviation: 202.92484914371624
+Generation: 260 High: 971.0 Mean: 370.62 Standard Deviation: 215.604256915303
+Generation: 261 High: 797.0 Mean: 447.54 Standard Deviation: 212.63623491775803
+Generation: 262 High: 735.0 Mean: 404.82 Standard Deviation: 161.28629079993132
+Generation: 263 High: 725.0 Mean: 369.36 Standard Deviation: 156.14618279035835
+Generation: 264 High: 652.0 Mean: 291.94 Standard Deviation: 147.3149564708214
+Generation: 265 High: 801.0 Mean: 330.42 Standard Deviation: 185.90880452522944
+Generation: 266 High: 933.0 Mean: 335.36 Standard Deviation: 205.87974742553
+Generation: 267 High: 855.0 Mean: 354.54 Standard Deviation: 174.4576980244781
+Generation: 268 High: 571.0 Mean: 257.92 Standard Deviation: 105.6401135932748
+Generation: 269 High: 875.0 Mean: 348.38 Standard Deviation: 180.63409312751563
+Generation: 270 High: 758.0 Mean: 321.52 Standard Deviation: 180.2117909571957
+Generation: 271 High: 796.0 Mean: 310.2 Standard Deviation: 148.12521729941872
+Generation: 272 High: 988.0 Mean: 346.68 Standard Deviation: 226.25432062172865
+Generation: 273 High: 912.0 Mean: 343.94 Standard Deviation: 204.36520349609427
+Generation: 274 High: 656.0 Mean: 329.14 Standard Deviation: 172.85253946644815
+Generation: 275 High: 798.0 Mean: 287.26 Standard Deviation: 141.13494393664524
+Generation: 276 High: 662.0 Mean: 309.78 Standard Deviation: 152.45042341692596
+Generation: 277 High: 610.0 Mean: 292.28 Standard Deviation: 141.51905030772357
+Generation: 278 High: 752.0 Mean: 364.82 Standard Deviation: 171.34219445308855
+Generation: 279 High: 809.0 Mean: 332.0 Standard Deviation: 171.0459587362414
+Generation: 280 High: 672.0 Mean: 343.54 Standard Deviation: 151.8367821049959
+Generation: 281 High: 639.0 Mean: 328.42 Standard Deviation: 144.86284409744277
+Generation: 282 High: 750.0 Mean: 278.02 Standard Deviation: 184.33865465495828
+Generation: 283 High: 787.0 Mean: 357.64 Standard Deviation: 154.64472315601336
+Generation: 284 High: 886.0 Mean: 368.7 Standard Deviation: 239.28763026951486
+Generation: 285 High: 863.0 Mean: 322.92 Standard Deviation: 187.33721893953697
+Generation: 286 High: 848.0 Mean: 355.66 Standard Deviation: 162.67508844319096
+Generation: 287 High: 696.0 Mean: 350.06 Standard Deviation: 151.57709721458585
+Generation: 288 High: 706.0 Mean: 310.16 Standard Deviation: 155.76923444634372
+Generation: 289 High: 683.0 Mean: 363.46 Standard Deviation: 160.80313554156828
+Generation: 290 High: 720.0 Mean: 312.1 Standard Deviation: 146.13298737793596
+Generation: 291 High: 686.0 Mean: 335.08 Standard Deviation: 165.8716178253531
+Generation: 292 High: 674.0 Mean: 286.96 Standard Deviation: 165.5653297040174
+Generation: 293 High: 922.0 Mean: 328.1 Standard Deviation: 178.7512517438689
+Generation: 294 High: 684.0 Mean: 345.96 Standard Deviation: 160.85695011406875
+Generation: 295 High: 846.0 Mean: 351.54 Standard Deviation: 206.78928502221774
+Generation: 296 High: 920.0 Mean: 307.74 Standard Deviation: 170.16060766229066
+Generation: 297 High: 687.0 Mean: 309.18 Standard Deviation: 150.87487398503438
+Generation: 298 High: 702.0 Mean: 316.5 Standard Deviation: 154.53507692430222
+Generation: 299 High: 758.0 Mean: 379.94 Standard Deviation: 160.52880240006775
+Generation: 300 High: 922.0 Mean: 327.68 Standard Deviation: 223.9009102259301
+Generation: 301 High: 936.0 Mean: 404.8 Standard Deviation: 192.72415520634675
+Generation: 302 High: 910.0 Mean: 324.82 Standard Deviation: 171.37930913619653
+Generation: 303 High: 685.0 Mean: 306.26 Standard Deviation: 158.2324631673286
+Generation: 304 High: 881.0 Mean: 329.82 Standard Deviation: 212.3432777367817
+Generation: 305 High: 975.0 Mean: 340.94 Standard Deviation: 230.84318573438551
+Generation: 306 High: 720.0 Mean: 368.9 Standard Deviation: 166.24202236498442
+Generation: 307 High: 496.0 Mean: 271.56 Standard Deviation: 129.3409695340189
+Generation: 308 High: 607.0 Mean: 265.42 Standard Deviation: 146.05561817335203
+Generation: 309 High: 774.0 Mean: 353.08 Standard Deviation: 184.7072104710588
+Generation: 310 High: 602.0 Mean: 319.62 Standard Deviation: 154.49115055562243
+Generation: 311 High: 680.0 Mean: 314.78 Standard Deviation: 160.12636135252689
+Generation: 312 High: 649.0 Mean: 325.66 Standard Deviation: 128.98458977722882
+Generation: 313 High: 704.0 Mean: 316.76 Standard Deviation: 158.38542357174163
+Generation: 314 High: 679.0 Mean: 303.7 Standard Deviation: 177.95631486407
+Generation: 315 High: 730.0 Mean: 329.86 Standard Deviation: 175.59988724369956
+Generation: 316 High: 616.0 Mean: 345.76 Standard Deviation: 155.3103422184112
+Generation: 317 High: 741.0 Mean: 338.56 Standard Deviation: 194.89239697843524
+Generation: 318 High: 703.0 Mean: 314.06 Standard Deviation: 151.95728478753495
+Generation: 319 High: 656.0 Mean: 309.48 Standard Deviation: 142.00975177782686
+Generation: 320 High: 582.0 Mean: 282.02 Standard Deviation: 121.00685765691131
+Generation: 321 High: 751.0 Mean: 331.28 Standard Deviation: 172.56720893611282
+Generation: 322 High: 684.0 Mean: 334.06 Standard Deviation: 170.5757790543546
+Generation: 323 High: 748.0 Mean: 366.02 Standard Deviation: 186.67774264759038
+Generation: 324 High: 590.0 Mean: 288.24 Standard Deviation: 155.04961270509514
+Generation: 325 High: 915.0 Mean: 300.66 Standard Deviation: 212.65395458349698
+Generation: 326 High: 915.0 Mean: 391.46 Standard Deviation: 188.30488150868527
+Generation: 327 High: 790.0 Mean: 331.62 Standard Deviation: 152.03590233888835
+Generation: 328 High: 713.0 Mean: 335.0 Standard Deviation: 168.32028992370468
+Generation: 329 High: 608.0 Mean: 323.56 Standard Deviation: 134.0491193555556
+Generation: 330 High: 710.0 Mean: 322.0 Standard Deviation: 151.05389766570076
+Generation: 331 High: 671.0 Mean: 397.56 Standard Deviation: 148.51749526570939
+Generation: 332 High: 916.0 Mean: 393.04 Standard Deviation: 174.28149184580676
+Generation: 333 High: 823.0 Mean: 306.3 Standard Deviation: 182.27619153361744
+Generation: 334 High: 657.0 Mean: 300.56 Standard Deviation: 138.2803181946006
+Generation: 335 High: 588.0 Mean: 280.48 Standard Deviation: 134.55693813401078
+Generation: 336 High: 882.0 Mean: 319.1 Standard Deviation: 214.33872725198313
+Generation: 337 High: 666.0 Mean: 287.7 Standard Deviation: 145.73005867013157
+Generation: 338 High: 731.0 Mean: 336.88 Standard Deviation: 173.50373367740536
+Generation: 339 High: 843.0 Mean: 326.82 Standard Deviation: 180.50370522512824
+Generation: 340 High: 747.0 Mean: 260.26 Standard Deviation: 147.18964773379955
+Generation: 341 High: 767.0 Mean: 334.36 Standard Deviation: 173.40804594943106
+Generation: 342 High: 884.0 Mean: 343.76 Standard Deviation: 193.78240993444174
+Generation: 343 High: 809.0 Mean: 333.02 Standard Deviation: 168.9032255464649
+Generation: 344 High: 794.0 Mean: 360.14 Standard Deviation: 211.19517134631653
+Generation: 345 High: 906.0 Mean: 336.6 Standard Deviation: 176.25992170655243
+Generation: 346 High: 749.0 Mean: 346.06 Standard Deviation: 191.38154665484342
+Generation: 347 High: 723.0 Mean: 287.16 Standard Deviation: 154.7054439895377
+Generation: 348 High: 668.0 Mean: 319.08 Standard Deviation: 172.7029634951294
+Generation: 349 High: 951.0 Mean: 373.96 Standard Deviation: 161.74881266952164
+Generation: 350 High: 767.0 Mean: 354.74 Standard Deviation: 189.64322397597022
+Generation: 351 High: 874.0 Mean: 342.54 Standard Deviation: 177.20453831660183
+Generation: 352 High: 576.0 Mean: 346.64 Standard Deviation: 121.89663818169886
+Generation: 353 High: 668.0 Mean: 352.56 Standard Deviation: 150.22531877150402
+Generation: 354 High: 736.0 Mean: 316.16 Standard Deviation: 156.81981507449873
+Generation: 355 High: 865.0 Mean: 292.44 Standard Deviation: 159.29785434838726
+Generation: 356 High: 834.0 Mean: 388.66 Standard Deviation: 190.904647402833
+Generation: 357 High: 892.0 Mean: 325.48 Standard Deviation: 187.88392586913866
+Generation: 358 High: 769.0 Mean: 338.06 Standard Deviation: 156.12525868673526
+Generation: 359 High: 593.0 Mean: 327.56 Standard Deviation: 132.5485812824868
+Generation: 360 High: 943.0 Mean: 352.5 Standard Deviation: 195.48731416641849
+Generation: 361 High: 761.0 Mean: 291.54 Standard Deviation: 159.88348382494053
+Generation: 362 High: 799.0 Mean: 341.6 Standard Deviation: 156.52181956519675
+Generation: 363 High: 728.0 Mean: 348.0 Standard Deviation: 174.04861389853124
+Generation: 364 High: 878.0 Mean: 368.66 Standard Deviation: 196.44415084191226
+Generation: 365 High: 697.0 Mean: 357.66 Standard Deviation: 136.8582639083223
+Generation: 366 High: 925.0 Mean: 362.02 Standard Deviation: 209.68724233963303
+Generation: 367 High: 897.0 Mean: 362.58 Standard Deviation: 194.0743249376383
+Generation: 368 High: 716.0 Mean: 267.46 Standard Deviation: 151.33924937041274
+Generation: 369 High: 694.0 Mean: 321.86 Standard Deviation: 134.9118245373622
+Generation: 370 High: 908.0 Mean: 330.52 Standard Deviation: 189.53893953486184
+Generation: 371 High: 620.0 Mean: 354.26 Standard Deviation: 141.43052145841787
+Generation: 372 High: 582.0 Mean: 264.38 Standard Deviation: 123.12382222786948
+Generation: 373 High: 621.0 Mean: 343.36 Standard Deviation: 143.10691946932542
+Generation: 374 High: 742.0 Mean: 341.7 Standard Deviation: 172.39411242847018
+Generation: 375 High: 533.0 Mean: 303.4 Standard Deviation: 136.1152452886891
+Generation: 376 High: 994.0 Mean: 388.46 Standard Deviation: 218.2025856858712
+Generation: 377 High: 713.0 Mean: 324.84 Standard Deviation: 140.25881220087385
+Generation: 378 High: 751.0 Mean: 313.16 Standard Deviation: 172.1449807574999
+Generation: 379 High: 844.0 Mean: 344.38 Standard Deviation: 170.65484347067334
+Generation: 380 High: 777.0 Mean: 326.4 Standard Deviation: 170.01588161110124
+Generation: 381 High: 960.0 Mean: 358.14 Standard Deviation: 214.42555911084847
+Generation: 382 High: 863.0 Mean: 363.56 Standard Deviation: 203.86938563698084
+Generation: 383 High: 604.0 Mean: 284.66 Standard Deviation: 132.9773830393725
+Generation: 384 High: 831.0 Mean: 374.04 Standard Deviation: 146.4434307164374
+Generation: 385 High: 658.0 Mean: 326.88 Standard Deviation: 142.72135649579567
+Generation: 386 High: 749.0 Mean: 264.98 Standard Deviation: 173.33822313615653
+Generation: 387 High: 902.0 Mean: 332.76 Standard Deviation: 230.2186404268777
+Generation: 388 High: 708.0 Mean: 327.42 Standard Deviation: 168.30342717841484
+Generation: 389 High: 723.0 Mean: 388.4 Standard Deviation: 149.5760676044132
+Generation: 390 High: 621.0 Mean: 259.92 Standard Deviation: 125.41703871484133
+Generation: 391 High: 757.0 Mean: 336.1 Standard Deviation: 168.27932136777824
+Generation: 392 High: 775.0 Mean: 365.68 Standard Deviation: 212.67265362523693
+Generation: 393 High: 585.0 Mean: 324.1 Standard Deviation: 126.69052845418243
+Generation: 394 High: 633.0 Mean: 307.7 Standard Deviation: 124.50851376512372
+Generation: 395 High: 927.0 Mean: 363.98 Standard Deviation: 211.7575490980192
+Generation: 396 High: 912.0 Mean: 395.0 Standard Deviation: 207.16013129943704
+Generation: 397 High: 648.0 Mean: 285.76 Standard Deviation: 134.42552733763034
+Generation: 398 High: 1000.0 Mean: 357.36 Standard Deviation: 189.15588914966415
+Generation: 399 High: 742.0 Mean: 287.28 Standard Deviation: 159.55827023379265
+Generation: 400 High: 957.0 Mean: 402.66 Standard Deviation: 221.29849615395037
+Generation: 401 High: 962.0 Mean: 320.16 Standard Deviation: 188.088315426557
+Generation: 402 High: 940.0 Mean: 262.08 Standard Deviation: 154.17196113431262
+Generation: 403 High: 767.0 Mean: 357.34 Standard Deviation: 200.95537912681016
+Generation: 404 High: 715.0 Mean: 400.92 Standard Deviation: 192.009149781983
+Generation: 405 High: 755.0 Mean: 347.6 Standard Deviation: 181.2199768237486
+Generation: 406 High: 786.0 Mean: 337.44 Standard Deviation: 189.3157320457019
+Generation: 407 High: 730.0 Mean: 348.6 Standard Deviation: 157.54580286380212
+Generation: 408 High: 928.0 Mean: 319.84 Standard Deviation: 211.51145217221693
+Generation: 409 High: 790.0 Mean: 297.28 Standard Deviation: 173.83176234509045
+Generation: 410 High: 949.0 Mean: 366.08 Standard Deviation: 219.32695593565333
+Generation: 411 High: 629.0 Mean: 300.38 Standard Deviation: 158.26267911292285
+Generation: 412 High: 824.0 Mean: 327.68 Standard Deviation: 187.44934675799752
+Generation: 413 High: 699.0 Mean: 326.32 Standard Deviation: 173.91290233907316
+Generation: 414 High: 816.0 Mean: 371.2 Standard Deviation: 215.8366975284788
+Generation: 415 High: 839.0 Mean: 336.0 Standard Deviation: 206.29939408539232
+Generation: 416 High: 846.0 Mean: 365.72 Standard Deviation: 188.99799364014422
+Generation: 417 High: 659.0 Mean: 310.22 Standard Deviation: 189.46548920581816
+Generation: 418 High: 902.0 Mean: 358.76 Standard Deviation: 179.06921120058584
+Generation: 419 High: 827.0 Mean: 333.94 Standard Deviation: 201.68702585937453
+Generation: 420 High: 486.0 Mean: 294.72 Standard Deviation: 105.92243199624903
+Generation: 421 High: 897.0 Mean: 369.68 Standard Deviation: 194.99686561583493
+Generation: 422 High: 819.0 Mean: 378.78 Standard Deviation: 175.4651292992428
+Generation: 423 High: 687.0 Mean: 325.62 Standard Deviation: 161.63946176599327
+Generation: 424 High: 835.0 Mean: 307.04 Standard Deviation: 189.99346936144937
+Generation: 425 High: 674.0 Mean: 290.98 Standard Deviation: 188.86402410199784
+Generation: 426 High: 708.0 Mean: 336.08 Standard Deviation: 186.28181231671542
+Generation: 427 High: 822.0 Mean: 347.12 Standard Deviation: 197.08146944855073
+Generation: 428 High: 626.0 Mean: 324.38 Standard Deviation: 141.14090689803578
+Generation: 429 High: 697.0 Mean: 323.64 Standard Deviation: 166.55422660503095
+Generation: 430 High: 868.0 Mean: 356.84 Standard Deviation: 202.28646618100777
+Generation: 431 High: 814.0 Mean: 351.14 Standard Deviation: 152.56867437321463
+Generation: 432 High: 739.0 Mean: 297.02 Standard Deviation: 162.9303519912726
+Generation: 433 High: 668.0 Mean: 290.36 Standard Deviation: 150.03556378405753
+Generation: 434 High: 732.0 Mean: 327.42 Standard Deviation: 140.34316370953022
+Generation: 435 High: 712.0 Mean: 324.58 Standard Deviation: 133.6998264770751
+Generation: 436 High: 692.0 Mean: 391.24 Standard Deviation: 160.5610861946318
+Generation: 437 High: 787.0 Mean: 365.78 Standard Deviation: 171.86172232350054
+Generation: 438 High: 832.0 Mean: 336.68 Standard Deviation: 193.82532755034882
+Generation: 439 High: 783.0 Mean: 324.98 Standard Deviation: 175.8587490004407
+Generation: 440 High: 533.0 Mean: 296.88 Standard Deviation: 117.01378380344772
+Generation: 441 High: 902.0 Mean: 354.14 Standard Deviation: 203.62622719089993
+Generation: 442 High: 740.0 Mean: 324.32 Standard Deviation: 159.00382888471583
+Generation: 443 High: 737.0 Mean: 331.12 Standard Deviation: 145.26618877082166
+Generation: 444 High: 731.0 Mean: 307.84 Standard Deviation: 151.67997362868968
+Generation: 445 High: 740.0 Mean: 312.3 Standard Deviation: 174.27647575045805
+Generation: 446 High: 610.0 Mean: 285.22 Standard Deviation: 160.68743448073346
+Generation: 447 High: 649.0 Mean: 299.24 Standard Deviation: 140.5958121709178
+Generation: 448 High: 927.0 Mean: 345.2 Standard Deviation: 210.68962955019884
+Generation: 449 High: 857.0 Mean: 336.64 Standard Deviation: 191.46360071825663
+Generation: 450 High: 767.0 Mean: 365.16 Standard Deviation: 158.92078026488537
+Generation: 451 High: 904.0 Mean: 361.9 Standard Deviation: 208.32976263606693
+Generation: 452 High: 776.0 Mean: 328.22 Standard Deviation: 177.62739540960453
+Generation: 453 High: 635.0 Mean: 358.34 Standard Deviation: 158.55341182074892
+Generation: 454 High: 678.0 Mean: 289.88 Standard Deviation: 139.73498345081663
+Generation: 455 High: 721.0 Mean: 356.02 Standard Deviation: 165.38820876954927
+Generation: 456 High: 584.0 Mean: 296.74 Standard Deviation: 148.14665841658393
+Generation: 457 High: 815.0 Mean: 275.52 Standard Deviation: 151.77644613048497
+Generation: 458 High: 825.0 Mean: 356.1 Standard Deviation: 201.27744533354945
+Generation: 459 High: 975.0 Mean: 310.76 Standard Deviation: 202.38869138368378
+Generation: 460 High: 904.0 Mean: 389.72 Standard Deviation: 225.02142475773272
+Generation: 461 High: 721.0 Mean: 346.74 Standard Deviation: 148.65649128107393
+Generation: 462 High: 741.0 Mean: 355.06 Standard Deviation: 168.9461938014586
+Generation: 463 High: 601.0 Mean: 313.88 Standard Deviation: 143.00190767958307
+Generation: 464 High: 749.0 Mean: 340.76 Standard Deviation: 162.28475714003454
+Generation: 465 High: 829.0 Mean: 333.22 Standard Deviation: 198.9638449568162
+Generation: 466 High: 829.0 Mean: 320.84 Standard Deviation: 169.49741708946482
+Generation: 467 High: 843.0 Mean: 306.32 Standard Deviation: 161.3582895298534
+Generation: 468 High: 578.0 Mean: 323.82 Standard Deviation: 141.94698869648485
+Generation: 469 High: 649.0 Mean: 334.9 Standard Deviation: 170.15454739735875
+Generation: 470 High: 632.0 Mean: 313.12 Standard Deviation: 164.6062744855128
+Generation: 471 High: 594.0 Mean: 360.78 Standard Deviation: 127.05688332396635
+Generation: 472 High: 753.0 Mean: 352.4 Standard Deviation: 173.76961759755358
+Generation: 473 High: 886.0 Mean: 313.14 Standard Deviation: 200.08208415547853
+Generation: 474 High: 886.0 Mean: 353.5 Standard Deviation: 178.96549946847298
+Generation: 475 High: 720.0 Mean: 328.24 Standard Deviation: 168.65652196105552
+Generation: 476 High: 791.0 Mean: 347.22 Standard Deviation: 184.36629735393615
+Generation: 477 High: 752.0 Mean: 307.36 Standard Deviation: 185.58413294244735
+Generation: 478 High: 834.0 Mean: 362.6 Standard Deviation: 205.81146712464778
+Generation: 479 High: 631.0 Mean: 326.34 Standard Deviation: 139.18356368479718
+Generation: 480 High: 935.0 Mean: 333.74 Standard Deviation: 182.8184684324863
+Generation: 481 High: 742.0 Mean: 309.76 Standard Deviation: 152.18220132459652
+Generation: 482 High: 780.0 Mean: 364.6 Standard Deviation: 181.1101322400268
+Generation: 483 High: 568.0 Mean: 320.26 Standard Deviation: 151.5879691796153
+Generation: 484 High: 594.0 Mean: 314.46 Standard Deviation: 137.40730839369502
+Generation: 485 High: 703.0 Mean: 284.32 Standard Deviation: 170.93290379561216
+Generation: 486 High: 839.0 Mean: 377.48 Standard Deviation: 215.65650836457496
+Generation: 487 High: 876.0 Mean: 336.5 Standard Deviation: 187.18058125777898
+Generation: 488 High: 917.0 Mean: 374.38 Standard Deviation: 223.3770704436782
+Generation: 489 High: 800.0 Mean: 308.3 Standard Deviation: 182.26379234505134
+Generation: 490 High: 841.0 Mean: 322.82 Standard Deviation: 172.77322593503888
+Generation: 491 High: 590.0 Mean: 279.08 Standard Deviation: 123.93818459215866
+Generation: 492 High: 824.0 Mean: 283.56 Standard Deviation: 135.80282176744345
+Generation: 493 High: 829.0 Mean: 338.98 Standard Deviation: 184.8822857928795
+Generation: 494 High: 745.0 Mean: 366.58 Standard Deviation: 183.3311855631769
+Generation: 495 High: 922.0 Mean: 307.52 Standard Deviation: 176.08875489366147
+Generation: 496 High: 607.0 Mean: 325.34 Standard Deviation: 156.60837908617788
+Generation: 497 High: 862.0 Mean: 330.36 Standard Deviation: 183.07580506445956
+Generation: 498 High: 659.0 Mean: 339.34 Standard Deviation: 151.6927961374567
+Generation: 499 High: 992.0 Mean: 258.86 Standard Deviation: 199.8121127459494
+Generation: 500 High: 817.0 Mean: 344.02 Standard Deviation: 210.7327682160513
+Generation: 501 High: 598.0 Mean: 287.66 Standard Deviation: 133.32540793112165
+Generation: 502 High: 822.0 Mean: 365.38 Standard Deviation: 200.8255850234228
+Generation: 503 High: 779.0 Mean: 346.2 Standard Deviation: 166.48651597051332
+Generation: 504 High: 982.0 Mean: 325.12 Standard Deviation: 194.77501277114575
+Generation: 505 High: 855.0 Mean: 256.68 Standard Deviation: 177.46846931215697
+Generation: 506 High: 949.0 Mean: 345.44 Standard Deviation: 186.22160562083008
+Generation: 507 High: 933.0 Mean: 371.5 Standard Deviation: 223.55144821718332
+Generation: 508 High: 880.0 Mean: 305.4 Standard Deviation: 191.04899895053097
+Generation: 509 High: 966.0 Mean: 349.68 Standard Deviation: 236.14677130970895
+Generation: 510 High: 918.0 Mean: 373.08 Standard Deviation: 200.34448732121382
+Generation: 511 High: 778.0 Mean: 348.34 Standard Deviation: 202.12625856132593
+Generation: 512 High: 757.0 Mean: 309.18 Standard Deviation: 193.61566982039446
+Generation: 513 High: 913.0 Mean: 356.4 Standard Deviation: 202.46639227289052
+Generation: 514 High: 718.0 Mean: 309.82 Standard Deviation: 174.81026171252077
+Generation: 515 High: 851.0 Mean: 318.84 Standard Deviation: 199.78201720875677
+Generation: 516 High: 957.0 Mean: 417.9 Standard Deviation: 239.06018070770375
+Generation: 517 High: 556.0 Mean: 313.88 Standard Deviation: 120.03126925930592
+Generation: 518 High: 765.0 Mean: 348.0 Standard Deviation: 170.16580149959628
+Generation: 519 High: 623.0 Mean: 340.48 Standard Deviation: 147.3247080431521
+Generation: 520 High: 840.0 Mean: 401.72 Standard Deviation: 155.3691140478055
+Generation: 521 High: 935.0 Mean: 344.48 Standard Deviation: 220.09336564285627
+Generation: 522 High: 930.0 Mean: 383.66 Standard Deviation: 211.3052398782387
+Generation: 523 High: 465.0 Mean: 271.34 Standard Deviation: 117.17143167171764
+Generation: 524 High: 776.0 Mean: 339.64 Standard Deviation: 174.7394357321781
+Generation: 525 High: 646.0 Mean: 285.04 Standard Deviation: 154.20816580194446
+Generation: 526 High: 694.0 Mean: 333.4 Standard Deviation: 187.17318183970687
+Generation: 527 High: 810.0 Mean: 293.08 Standard Deviation: 163.67539094194947
+Generation: 528 High: 606.0 Mean: 310.42 Standard Deviation: 148.4495995279206
+Generation: 529 High: 587.0 Mean: 293.66 Standard Deviation: 114.49377450324536
+Generation: 530 High: 946.0 Mean: 367.52 Standard Deviation: 221.7555627261693
+Generation: 531 High: 630.0 Mean: 293.42 Standard Deviation: 158.38220733403105
+Generation: 532 High: 678.0 Mean: 307.98 Standard Deviation: 122.68716151252339
+Generation: 533 High: 843.0 Mean: 378.84 Standard Deviation: 189.7474489947098
+Generation: 534 High: 608.0 Mean: 284.44 Standard Deviation: 149.35610600172998
+Generation: 535 High: 985.0 Mean: 389.16 Standard Deviation: 232.78903410599045
+Generation: 536 High: 989.0 Mean: 346.64 Standard Deviation: 191.7383383676827
+Generation: 537 High: 808.0 Mean: 339.5 Standard Deviation: 204.82580403845606
+Generation: 538 High: 729.0 Mean: 338.78 Standard Deviation: 190.42450367534104
+Generation: 539 High: 793.0 Mean: 306.26 Standard Deviation: 156.8711330997517
+Generation: 540 High: 626.0 Mean: 324.24 Standard Deviation: 145.17486834848518
+Generation: 541 High: 779.0 Mean: 355.64 Standard Deviation: 206.1929930914239
+Generation: 542 High: 732.0 Mean: 292.76 Standard Deviation: 138.24088541383117
+Generation: 543 High: 546.0 Mean: 300.14 Standard Deviation: 122.08538159828969
+Generation: 544 High: 546.0 Mean: 284.26 Standard Deviation: 144.89358992032743
+Generation: 545 High: 791.0 Mean: 341.18 Standard Deviation: 178.70732385663436
+Generation: 546 High: 950.0 Mean: 395.16 Standard Deviation: 203.2277894383541
+Generation: 547 High: 602.0 Mean: 339.9 Standard Deviation: 143.79168960687542
+Generation: 548 High: 838.0 Mean: 307.22 Standard Deviation: 219.4167988099362
+Generation: 549 High: 905.0 Mean: 353.06 Standard Deviation: 187.7337913109945
+Generation: 550 High: 956.0 Mean: 351.68 Standard Deviation: 217.38495256111906
+Generation: 551 High: 648.0 Mean: 322.92 Standard Deviation: 138.99436535341997
+Generation: 552 High: 958.0 Mean: 354.04 Standard Deviation: 254.94414760884408
+Generation: 553 High: 695.0 Mean: 327.7 Standard Deviation: 158.47514000624832
+Generation: 554 High: 924.0 Mean: 337.48 Standard Deviation: 233.4560549653832
+Generation: 555 High: 786.0 Mean: 344.3 Standard Deviation: 178.65433104181943
+Generation: 556 High: 525.0 Mean: 270.9 Standard Deviation: 124.51847252516393
+Generation: 557 High: 622.0 Mean: 341.94 Standard Deviation: 120.93641469797258
+Generation: 558 High: 854.0 Mean: 414.76 Standard Deviation: 176.86634049473625
+Generation: 559 High: 849.0 Mean: 342.52 Standard Deviation: 192.95504554170128
+Generation: 560 High: 852.0 Mean: 289.3 Standard Deviation: 197.76089097695734
+Generation: 561 High: 575.0 Mean: 303.0 Standard Deviation: 131.6402673956567
+Generation: 562 High: 768.0 Mean: 332.32 Standard Deviation: 178.0263396242253
+Generation: 563 High: 830.0 Mean: 314.34 Standard Deviation: 196.39537774601516
+Generation: 564 High: 598.0 Mean: 325.88 Standard Deviation: 155.782109370749
+Generation: 565 High: 804.0 Mean: 351.82 Standard Deviation: 187.9648573537086
+Generation: 566 High: 839.0 Mean: 399.22 Standard Deviation: 209.3425221974743
+Generation: 567 High: 699.0 Mean: 275.3 Standard Deviation: 147.1104686961468
+Generation: 568 High: 862.0 Mean: 357.94 Standard Deviation: 153.44893743522633
+Generation: 569 High: 855.0 Mean: 374.16 Standard Deviation: 152.04885530644424
+Generation: 570 High: 596.0 Mean: 347.98 Standard Deviation: 143.07193854840992
+Generation: 571 High: 765.0 Mean: 297.1 Standard Deviation: 154.56238222801824
+Generation: 572 High: 694.0 Mean: 326.46 Standard Deviation: 142.7438559098079
+Generation: 573 High: 836.0 Mean: 329.5 Standard Deviation: 185.79216883388816
+Generation: 574 High: 814.0 Mean: 381.8 Standard Deviation: 181.11156782491838
+Generation: 575 High: 588.0 Mean: 373.96 Standard Deviation: 143.9141355114222
+Generation: 576 High: 788.0 Mean: 320.22 Standard Deviation: 181.22177462987165
+Generation: 577 High: 763.0 Mean: 345.02 Standard Deviation: 141.53649564688254
+Generation: 578 High: 817.0 Mean: 363.36 Standard Deviation: 156.69432153080723
+Generation: 579 High: 896.0 Mean: 298.24 Standard Deviation: 167.5347796727593
+Generation: 580 High: 900.0 Mean: 362.54 Standard Deviation: 229.28691284065914
+Generation: 581 High: 917.0 Mean: 355.42 Standard Deviation: 242.91250194257188
+Generation: 582 High: 518.0 Mean: 308.14 Standard Deviation: 122.82670882181934
+Generation: 583 High: 567.0 Mean: 311.6 Standard Deviation: 150.48494941355438
+Generation: 584 High: 884.0 Mean: 386.7 Standard Deviation: 208.29375890794236
+Generation: 585 High: 921.0 Mean: 307.6 Standard Deviation: 181.1219478693843
+Generation: 586 High: 595.0 Mean: 333.18 Standard Deviation: 153.52038170874906
+Generation: 587 High: 822.0 Mean: 345.24 Standard Deviation: 176.85322275830876
+Generation: 588 High: 875.0 Mean: 304.36 Standard Deviation: 171.40895659212214
+Generation: 589 High: 963.0 Mean: 342.32 Standard Deviation: 236.84521865555988
+Generation: 590 High: 723.0 Mean: 294.12 Standard Deviation: 160.1270295733984
+Generation: 591 High: 894.0 Mean: 340.82 Standard Deviation: 190.30141250132635
+Generation: 592 High: 830.0 Mean: 379.52 Standard Deviation: 190.64293745114193
+Generation: 593 High: 663.0 Mean: 345.36 Standard Deviation: 142.7446335243465
+Generation: 594 High: 909.0 Mean: 327.44 Standard Deviation: 184.6131262938798
+Generation: 595 High: 865.0 Mean: 317.48 Standard Deviation: 186.455167801807
+Generation: 596 High: 823.0 Mean: 384.26 Standard Deviation: 195.7774052335969
+Generation: 597 High: 986.0 Mean: 358.76 Standard Deviation: 226.20482399807483
+Generation: 598 High: 920.0 Mean: 333.62 Standard Deviation: 187.8914463194107
+Generation: 599 High: 843.0 Mean: 352.04 Standard Deviation: 191.5420538680736
+Generation: 600 High: 847.0 Mean: 334.78 Standard Deviation: 159.18181931363893
+Generation: 601 High: 702.0 Mean: 339.16 Standard Deviation: 161.462238309767
+Generation: 602 High: 742.0 Mean: 313.5 Standard Deviation: 164.8554821654409
+Generation: 603 High: 613.0 Mean: 315.48 Standard Deviation: 158.5408767479226
+Generation: 604 High: 603.0 Mean: 307.52 Standard Deviation: 134.23997020261885
+Generation: 605 High: 772.0 Mean: 306.18 Standard Deviation: 176.31320880750823
+Generation: 606 High: 672.0 Mean: 343.52 Standard Deviation: 141.55214445567398
+Generation: 607 High: 777.0 Mean: 340.1 Standard Deviation: 181.39649941495563
+Generation: 608 High: 754.0 Mean: 332.6 Standard Deviation: 197.2065921819045
+Generation: 609 High: 735.0 Mean: 340.72 Standard Deviation: 190.73301130113788
+Generation: 610 High: 932.0 Mean: 324.22 Standard Deviation: 212.41942378228973
+Generation: 611 High: 639.0 Mean: 324.62 Standard Deviation: 162.61560687707683
+Generation: 612 High: 751.0 Mean: 323.16 Standard Deviation: 148.80676866325666
+Generation: 613 High: 650.0 Mean: 300.3 Standard Deviation: 157.23959425030327
+Generation: 614 High: 901.0 Mean: 316.24 Standard Deviation: 173.67055709014124
+Generation: 615 High: 756.0 Mean: 295.74 Standard Deviation: 156.5812006595939
+Generation: 616 High: 689.0 Mean: 333.82 Standard Deviation: 156.80314920306927
+Generation: 617 High: 756.0 Mean: 375.06 Standard Deviation: 167.76679170801353
+Generation: 618 High: 701.0 Mean: 322.26 Standard Deviation: 167.20763260090732
+Generation: 619 High: 786.0 Mean: 355.22 Standard Deviation: 197.07778058421505
+Generation: 620 High: 773.0 Mean: 334.72 Standard Deviation: 167.70009421583518
+Generation: 621 High: 751.0 Mean: 364.0 Standard Deviation: 161.87884358371232
+Generation: 622 High: 844.0 Mean: 367.74 Standard Deviation: 200.3864077226796
+Generation: 623 High: 800.0 Mean: 360.3 Standard Deviation: 163.48177268429654
+Generation: 624 High: 960.0 Mean: 333.22 Standard Deviation: 181.9214434859178
+Generation: 625 High: 897.0 Mean: 351.9 Standard Deviation: 174.60449593295127
+Generation: 626 High: 700.0 Mean: 311.38 Standard Deviation: 165.24114378689106
+Generation: 627 High: 785.0 Mean: 351.56 Standard Deviation: 190.5100690252355
+Generation: 628 High: 753.0 Mean: 363.02 Standard Deviation: 176.79168419357285
+Generation: 629 High: 768.0 Mean: 305.06 Standard Deviation: 142.60496625293248
+Generation: 630 High: 586.0 Mean: 342.64 Standard Deviation: 135.9679020945752
+Generation: 631 High: 697.0 Mean: 369.82 Standard Deviation: 138.0122733672625
+Generation: 632 High: 654.0 Mean: 344.86 Standard Deviation: 135.271875864867
+Generation: 633 High: 878.0 Mean: 374.08 Standard Deviation: 170.41289153112803
+Generation: 634 High: 796.0 Mean: 392.4 Standard Deviation: 158.84948851035057
+Generation: 635 High: 860.0 Mean: 279.78 Standard Deviation: 188.2769545111669
+Generation: 636 High: 932.0 Mean: 291.66 Standard Deviation: 174.40247819340186
+Generation: 637 High: 799.0 Mean: 317.04 Standard Deviation: 168.0257075569093
+Generation: 638 High: 939.0 Mean: 343.66 Standard Deviation: 212.77355192786536
+Generation: 639 High: 770.0 Mean: 351.24 Standard Deviation: 202.58524724174754
+Generation: 640 High: 798.0 Mean: 301.16 Standard Deviation: 177.3167064887006
+Generation: 641 High: 751.0 Mean: 330.98 Standard Deviation: 161.2948219875641
+Generation: 642 High: 757.0 Mean: 371.64 Standard Deviation: 209.7796710837349
+Generation: 643 High: 620.0 Mean: 304.1 Standard Deviation: 171.16357673290193
+Generation: 644 High: 871.0 Mean: 384.9 Standard Deviation: 176.9593456136183
+Generation: 645 High: 751.0 Mean: 355.14 Standard Deviation: 171.67434403544405
+Generation: 646 High: 690.0 Mean: 304.28 Standard Deviation: 171.54894811685674
+Generation: 647 High: 780.0 Mean: 364.62 Standard Deviation: 175.24164915909688
+Generation: 648 High: 757.0 Mean: 353.12 Standard Deviation: 156.99282021799593
+Generation: 649 High: 857.0 Mean: 361.14 Standard Deviation: 198.42328593186843
+Generation: 650 High: 845.0 Mean: 401.02 Standard Deviation: 203.71769584402827
+Generation: 651 High: 813.0 Mean: 285.4 Standard Deviation: 169.22080250371107
+Generation: 652 High: 698.0 Mean: 348.56 Standard Deviation: 172.7720069918736
+Generation: 653 High: 822.0 Mean: 297.42 Standard Deviation: 166.80888345648748
+Generation: 654 High: 797.0 Mean: 358.24 Standard Deviation: 207.2449333518192
+Generation: 655 High: 952.0 Mean: 329.94 Standard Deviation: 169.2743819956227
+Generation: 656 High: 624.0 Mean: 348.32 Standard Deviation: 146.62325054369788
+Generation: 657 High: 742.0 Mean: 318.58 Standard Deviation: 173.85972391557513
+Generation: 658 High: 632.0 Mean: 325.68 Standard Deviation: 155.75512062208423
+Generation: 659 High: 689.0 Mean: 351.34 Standard Deviation: 167.2766104391167
+Generation: 660 High: 575.0 Mean: 275.62 Standard Deviation: 131.67063302042715
+Generation: 661 High: 864.0 Mean: 382.3 Standard Deviation: 192.65162859420633
+Generation: 662 High: 832.0 Mean: 344.24 Standard Deviation: 186.0818701539728
+Generation: 663 High: 591.0 Mean: 287.3 Standard Deviation: 150.70305239111775
+Generation: 664 High: 603.0 Mean: 340.64 Standard Deviation: 152.4792130095116
+Generation: 665 High: 895.0 Mean: 361.5 Standard Deviation: 200.11249336310814
+Generation: 666 High: 674.0 Mean: 367.4 Standard Deviation: 137.099671772036
+Generation: 667 High: 832.0 Mean: 389.88 Standard Deviation: 202.97651489766
+Generation: 668 High: 671.0 Mean: 338.38 Standard Deviation: 160.43701443245567
+Generation: 669 High: 822.0 Mean: 346.56 Standard Deviation: 170.8111424936909
+Generation: 670 High: 694.0 Mean: 374.24 Standard Deviation: 159.30367980683934
+Generation: 671 High: 788.0 Mean: 315.32 Standard Deviation: 166.10881252961866
+Generation: 672 High: 776.0 Mean: 298.68 Standard Deviation: 166.0660639625086
+Generation: 673 High: 776.0 Mean: 324.82 Standard Deviation: 174.2474895084575
+Generation: 674 High: 797.0 Mean: 354.06 Standard Deviation: 203.18439014845603
+Generation: 675 High: 704.0 Mean: 326.0 Standard Deviation: 156.07254723365028
+Generation: 676 High: 591.0 Mean: 266.3 Standard Deviation: 137.03973876215608
+Generation: 677 High: 886.0 Mean: 366.86 Standard Deviation: 202.09304886611022
+Generation: 678 High: 903.0 Mean: 363.48 Standard Deviation: 201.6791749288954
+Generation: 679 High: 931.0 Mean: 319.64 Standard Deviation: 212.61738028674895
+Generation: 680 High: 954.0 Mean: 343.94 Standard Deviation: 185.99724836674332
+Generation: 681 High: 867.0 Mean: 340.08 Standard Deviation: 188.47077651455686
+Generation: 682 High: 762.0 Mean: 390.22 Standard Deviation: 200.94957476939334
+Generation: 683 High: 879.0 Mean: 336.5 Standard Deviation: 187.5155726866438
+Generation: 684 High: 690.0 Mean: 337.24 Standard Deviation: 158.29725960988713
+Generation: 685 High: 845.0 Mean: 356.22 Standard Deviation: 173.2267057933043
+Generation: 686 High: 686.0 Mean: 355.68 Standard Deviation: 137.9715101026295
+Generation: 687 High: 687.0 Mean: 276.96 Standard Deviation: 132.1057091877561
+Generation: 688 High: 587.0 Mean: 305.38 Standard Deviation: 140.45139942343047
+Generation: 689 High: 601.0 Mean: 324.72 Standard Deviation: 128.63172858980013
+Generation: 690 High: 663.0 Mean: 373.16 Standard Deviation: 161.69753986996835
+Generation: 691 High: 870.0 Mean: 330.88 Standard Deviation: 186.06575611863676
+Generation: 692 High: 755.0 Mean: 344.02 Standard Deviation: 166.5610386615069
+Generation: 693 High: 802.0 Mean: 367.16 Standard Deviation: 158.48752127533575
+Generation: 694 High: 981.0 Mean: 387.18 Standard Deviation: 207.8020875737296
+Generation: 695 High: 941.0 Mean: 316.32 Standard Deviation: 178.9123181896652
+Generation: 696 High: 872.0 Mean: 298.88 Standard Deviation: 196.00067754984926
+Generation: 697 High: 858.0 Mean: 383.12 Standard Deviation: 164.16073099252452
+Generation: 698 High: 805.0 Mean: 327.76 Standard Deviation: 167.61474398154834
+Generation: 699 High: 752.0 Mean: 314.68 Standard Deviation: 171.4545350814612
+Generation: 700 High: 836.0 Mean: 352.2 Standard Deviation: 190.31973097921306
+Generation: 701 High: 678.0 Mean: 337.68 Standard Deviation: 179.5775531629719
+Generation: 702 High: 685.0 Mean: 335.96 Standard Deviation: 181.53875178594785
+Generation: 703 High: 686.0 Mean: 254.92 Standard Deviation: 140.70775955859716
+Generation: 704 High: 634.0 Mean: 309.82 Standard Deviation: 149.22891006772116
+Generation: 705 High: 862.0 Mean: 334.04 Standard Deviation: 196.84094695972175
+Generation: 706 High: 580.0 Mean: 308.92 Standard Deviation: 139.01968781435238
+Generation: 707 High: 590.0 Mean: 315.76 Standard Deviation: 146.0908703512988
+Generation: 708 High: 689.0 Mean: 322.32 Standard Deviation: 147.91408857847182
+Generation: 709 High: 954.0 Mean: 371.34 Standard Deviation: 188.5916869854024
+Generation: 710 High: 809.0 Mean: 394.72 Standard Deviation: 174.5580751497908
+Generation: 711 High: 882.0 Mean: 378.26 Standard Deviation: 196.24747743601705
+Generation: 712 High: 647.0 Mean: 352.16 Standard Deviation: 173.15165145039765
+Generation: 713 High: 660.0 Mean: 333.38 Standard Deviation: 189.90691298633664
+Generation: 714 High: 922.0 Mean: 342.82 Standard Deviation: 226.07005020568295
+Generation: 715 High: 854.0 Mean: 327.82 Standard Deviation: 192.72744381639058
+Generation: 716 High: 700.0 Mean: 312.78 Standard Deviation: 158.76010707983284
+Generation: 717 High: 745.0 Mean: 336.1 Standard Deviation: 209.9412536877876
+Generation: 718 High: 707.0 Mean: 339.62 Standard Deviation: 192.97107451636373
+Generation: 719 High: 827.0 Mean: 333.34 Standard Deviation: 194.05386984031
+Generation: 720 High: 908.0 Mean: 377.82 Standard Deviation: 208.24780334975924
+Generation: 721 High: 653.0 Mean: 252.92 Standard Deviation: 145.33366299656802
+Generation: 722 High: 697.0 Mean: 301.42 Standard Deviation: 176.99921920731745
+Generation: 723 High: 775.0 Mean: 335.14 Standard Deviation: 189.1473510255959
+Generation: 724 High: 708.0 Mean: 345.38 Standard Deviation: 180.4467666654075
+Generation: 725 High: 730.0 Mean: 360.1 Standard Deviation: 146.95989248771247
+Generation: 726 High: 881.0 Mean: 322.92 Standard Deviation: 214.61797128851998
+Generation: 727 High: 665.0 Mean: 302.8 Standard Deviation: 135.82724321725738
+Generation: 728 High: 889.0 Mean: 317.36 Standard Deviation: 180.57782366614126
+Generation: 729 High: 894.0 Mean: 368.16 Standard Deviation: 201.08936918693638
+Generation: 730 High: 661.0 Mean: 294.72 Standard Deviation: 158.98855807887557
+Generation: 731 High: 627.0 Mean: 300.84 Standard Deviation: 144.90167148794384
+Generation: 732 High: 634.0 Mean: 311.16 Standard Deviation: 156.08425417062415
+Generation: 733 High: 650.0 Mean: 301.12 Standard Deviation: 133.4684442106073
+Generation: 734 High: 785.0 Mean: 276.74 Standard Deviation: 128.30944002683515
+Generation: 735 High: 826.0 Mean: 355.6 Standard Deviation: 167.07627000864
+Generation: 736 High: 781.0 Mean: 376.6 Standard Deviation: 207.34473709260135
+Generation: 737 High: 881.0 Mean: 345.04 Standard Deviation: 175.84401724255505
+Generation: 738 High: 577.0 Mean: 314.26 Standard Deviation: 151.3545255352479
+Generation: 739 High: 680.0 Mean: 350.84 Standard Deviation: 178.50337363758703
+Generation: 740 High: 604.0 Mean: 341.18 Standard Deviation: 139.35776835182173
+Generation: 741 High: 813.0 Mean: 380.18 Standard Deviation: 220.08486454093114
+Generation: 742 High: 772.0 Mean: 331.04 Standard Deviation: 156.50878058434932
+Generation: 743 High: 639.0 Mean: 251.94 Standard Deviation: 158.43552758141087
+Generation: 744 High: 688.0 Mean: 274.04 Standard Deviation: 153.87942812474964
+Generation: 745 High: 870.0 Mean: 313.26 Standard Deviation: 175.2092246429965
+Generation: 746 High: 632.0 Mean: 348.08 Standard Deviation: 152.850101733692
+Generation: 747 High: 742.0 Mean: 318.28 Standard Deviation: 183.16888818792341
+Generation: 748 High: 813.0 Mean: 348.64 Standard Deviation: 192.5673658749062
+Generation: 749 High: 706.0 Mean: 290.68 Standard Deviation: 170.11612974671155
+Generation: 750 High: 712.0 Mean: 286.96 Standard Deviation: 163.4068493056518
+Generation: 751 High: 629.0 Mean: 281.42 Standard Deviation: 143.0887962071105
+Generation: 752 High: 866.0 Mean: 299.06 Standard Deviation: 178.21631911808748
+Generation: 753 High: 739.0 Mean: 342.14 Standard Deviation: 168.29652521665446
+Generation: 754 High: 829.0 Mean: 349.68 Standard Deviation: 191.22922789155433
+Generation: 755 High: 777.0 Mean: 356.68 Standard Deviation: 168.58415583915357
+Generation: 756 High: 649.0 Mean: 331.86 Standard Deviation: 142.81288597322015
+Generation: 757 High: 715.0 Mean: 375.56 Standard Deviation: 161.3135034645271
+Generation: 758 High: 783.0 Mean: 353.7 Standard Deviation: 188.16165921887486
+Generation: 759 High: 626.0 Mean: 337.76 Standard Deviation: 149.39244425338248
+Generation: 760 High: 797.0 Mean: 391.46 Standard Deviation: 189.9322205419607
+Generation: 761 High: 721.0 Mean: 296.62 Standard Deviation: 182.29875369842767
+Generation: 762 High: 910.0 Mean: 349.46 Standard Deviation: 196.4682376365197
+Generation: 763 High: 591.0 Mean: 279.9 Standard Deviation: 114.85316713090677
+Generation: 764 High: 667.0 Mean: 311.82 Standard Deviation: 154.39063313556295
+Generation: 765 High: 896.0 Mean: 293.98 Standard Deviation: 172.4891289328113
+Generation: 766 High: 955.0 Mean: 377.12 Standard Deviation: 205.6083305705292
+Generation: 767 High: 775.0 Mean: 309.82 Standard Deviation: 166.8408451189336
+Generation: 768 High: 764.0 Mean: 332.7 Standard Deviation: 173.0952627890203
+Generation: 769 High: 800.0 Mean: 341.92 Standard Deviation: 171.30555624380668
+Generation: 770 High: 801.0 Mean: 307.34 Standard Deviation: 201.51680922444163
+Generation: 771 High: 865.0 Mean: 397.48 Standard Deviation: 191.84558790860945
+Generation: 772 High: 927.0 Mean: 365.68 Standard Deviation: 209.61464071004198
+Generation: 773 High: 710.0 Mean: 288.02 Standard Deviation: 164.14024369422629
+Generation: 774 High: 702.0 Mean: 320.26 Standard Deviation: 138.8087619712819
+Generation: 775 High: 943.0 Mean: 313.78 Standard Deviation: 199.67796974128117
+Generation: 776 High: 937.0 Mean: 420.86 Standard Deviation: 210.90917571314915
+Generation: 777 High: 626.0 Mean: 327.12 Standard Deviation: 150.17691433772367
+Generation: 778 High: 640.0 Mean: 338.02 Standard Deviation: 161.689268660601
+Generation: 779 High: 655.0 Mean: 294.58 Standard Deviation: 151.7271353450002
+Generation: 780 High: 758.0 Mean: 293.92 Standard Deviation: 173.76096684813882
+Generation: 781 High: 917.0 Mean: 447.58 Standard Deviation: 225.11109168586069
+Generation: 782 High: 967.0 Mean: 382.36 Standard Deviation: 217.31716545178844
+Generation: 783 High: 731.0 Mean: 373.94 Standard Deviation: 189.17562316535393
+Generation: 784 High: 650.0 Mean: 342.1 Standard Deviation: 169.311931062167
+Generation: 785 High: 799.0 Mean: 281.96 Standard Deviation: 154.15965230889697
+Generation: 786 High: 827.0 Mean: 389.46 Standard Deviation: 160.46883934272097
+Generation: 787 High: 719.0 Mean: 334.2 Standard Deviation: 171.7106869126089
+Generation: 788 High: 665.0 Mean: 305.76 Standard Deviation: 154.05681549350555
+Generation: 789 High: 737.0 Mean: 344.82 Standard Deviation: 157.67697231999355
+Generation: 790 High: 876.0 Mean: 314.78 Standard Deviation: 185.48167456651885
+Generation: 791 High: 949.0 Mean: 319.28 Standard Deviation: 207.99192676640118
+Generation: 792 High: 704.0 Mean: 281.3 Standard Deviation: 139.6730825893092
+Generation: 793 High: 751.0 Mean: 350.62 Standard Deviation: 182.21897705782462
+Generation: 794 High: 868.0 Mean: 362.02 Standard Deviation: 185.723287715892
+Generation: 795 High: 826.0 Mean: 322.0 Standard Deviation: 178.68284752600067
+Generation: 796 High: 712.0 Mean: 286.56 Standard Deviation: 152.0202828572556
+Generation: 797 High: 883.0 Mean: 356.88 Standard Deviation: 207.06980851876983
+Generation: 798 High: 809.0 Mean: 388.02 Standard Deviation: 190.97942192812295
+Generation: 799 High: 971.0 Mean: 352.28 Standard Deviation: 195.83299415573458
+Generation: 800 High: 728.0 Mean: 324.16 Standard Deviation: 149.21224614621948
+Generation: 801 High: 935.0 Mean: 380.32 Standard Deviation: 225.05149988391548
+Generation: 802 High: 556.0 Mean: 299.44 Standard Deviation: 113.35716298496537
+Generation: 803 High: 812.0 Mean: 348.88 Standard Deviation: 174.84411800229367
+Generation: 804 High: 812.0 Mean: 287.68 Standard Deviation: 176.1019522890078
+Generation: 805 High: 641.0 Mean: 358.28 Standard Deviation: 134.54471970315296
+Generation: 806 High: 689.0 Mean: 365.12 Standard Deviation: 187.9968765697983
+Generation: 807 High: 846.0 Mean: 375.68 Standard Deviation: 213.8630814329579
+Generation: 808 High: 874.0 Mean: 363.0 Standard Deviation: 197.7144405449435
+Generation: 809 High: 772.0 Mean: 284.14 Standard Deviation: 158.52747522117426
+Generation: 810 High: 644.0 Mean: 352.76 Standard Deviation: 158.6673955165333
+Generation: 811 High: 595.0 Mean: 282.94 Standard Deviation: 150.3714613881238
+Generation: 812 High: 909.0 Mean: 338.48 Standard Deviation: 185.65357416435592
+Generation: 813 High: 946.0 Mean: 370.86 Standard Deviation: 195.66103444477648
+Generation: 814 High: 735.0 Mean: 350.02 Standard Deviation: 155.69656258247966
+Generation: 815 High: 838.0 Mean: 315.9 Standard Deviation: 162.2948243167354
+Generation: 816 High: 794.0 Mean: 369.3 Standard Deviation: 196.08949487415182
+Generation: 817 High: 661.0 Mean: 272.78 Standard Deviation: 161.34761107621026
+Generation: 818 High: 851.0 Mean: 314.06 Standard Deviation: 155.49783406851685
+Generation: 819 High: 885.0 Mean: 307.36 Standard Deviation: 158.91869115997648
+Generation: 820 High: 901.0 Mean: 322.22 Standard Deviation: 205.64953586137753
+Generation: 821 High: 887.0 Mean: 296.04 Standard Deviation: 170.31840299861898
+Generation: 822 High: 691.0 Mean: 362.06 Standard Deviation: 138.8658935808213
+Generation: 823 High: 790.0 Mean: 333.8 Standard Deviation: 193.7666637995298
+Generation: 824 High: 666.0 Mean: 403.7 Standard Deviation: 148.34678965181547
+Generation: 825 High: 870.0 Mean: 396.12 Standard Deviation: 199.54825381345734
+Generation: 826 High: 590.0 Mean: 275.44 Standard Deviation: 128.4556203519332
+Generation: 827 High: 690.0 Mean: 344.26 Standard Deviation: 149.62283381890614
+Generation: 828 High: 938.0 Mean: 341.52 Standard Deviation: 199.028564784053
+Generation: 829 High: 742.0 Mean: 313.3 Standard Deviation: 145.14051811951063
+Generation: 830 High: 719.0 Mean: 354.74 Standard Deviation: 148.4046913005111
+Generation: 831 High: 749.0 Mean: 358.7 Standard Deviation: 166.6672433323357
+Generation: 832 High: 627.0 Mean: 263.34 Standard Deviation: 137.89744160063304
+Generation: 833 High: 901.0 Mean: 338.38 Standard Deviation: 194.72985287315353
+Generation: 834 High: 736.0 Mean: 347.56 Standard Deviation: 173.26155488162973
+Generation: 835 High: 755.0 Mean: 348.06 Standard Deviation: 199.05159230712025
+Generation: 836 High: 868.0 Mean: 340.52 Standard Deviation: 185.22021919866094
+Generation: 837 High: 590.0 Mean: 276.76 Standard Deviation: 133.01106119417287
+Generation: 838 High: 961.0 Mean: 356.38 Standard Deviation: 229.57098161570858
+Generation: 839 High: 682.0 Mean: 320.18 Standard Deviation: 165.39984159605476
+Generation: 840 High: 954.0 Mean: 374.12 Standard Deviation: 221.9101295569898
+Generation: 841 High: 867.0 Mean: 383.86 Standard Deviation: 204.37377620428708
+Generation: 842 High: 871.0 Mean: 344.2 Standard Deviation: 200.1862133115066
+Generation: 843 High: 687.0 Mean: 269.42 Standard Deviation: 150.22184794496437
+Generation: 844 High: 762.0 Mean: 289.4 Standard Deviation: 158.85867933481003
+Generation: 845 High: 851.0 Mean: 330.28 Standard Deviation: 206.61491136895228
+Generation: 846 High: 846.0 Mean: 379.08 Standard Deviation: 219.63531956404464
+Generation: 847 High: 839.0 Mean: 312.48 Standard Deviation: 172.08314734453228
+Generation: 848 High: 636.0 Mean: 332.18 Standard Deviation: 163.8835794092868
+Generation: 849 High: 808.0 Mean: 347.76 Standard Deviation: 180.18097124835356
+Generation: 850 High: 765.0 Mean: 363.7 Standard Deviation: 153.51485270161973
+Generation: 851 High: 653.0 Mean: 285.22 Standard Deviation: 147.17585263894347
+Generation: 852 High: 674.0 Mean: 290.42 Standard Deviation: 144.57207060839932
+Generation: 853 High: 534.0 Mean: 283.52 Standard Deviation: 129.5989567859248
+Generation: 854 High: 582.0 Mean: 353.98 Standard Deviation: 149.50511563153955
+Generation: 855 High: 947.0 Mean: 335.46 Standard Deviation: 202.22830761295515
+Generation: 856 High: 759.0 Mean: 350.9 Standard Deviation: 174.18119875577847
+Generation: 857 High: 625.0 Mean: 328.4 Standard Deviation: 174.24522948993464
+Generation: 858 High: 637.0 Mean: 347.82 Standard Deviation: 131.71267061296726
+Generation: 859 High: 719.0 Mean: 362.7 Standard Deviation: 189.6691066041068
+Generation: 860 High: 566.0 Mean: 310.42 Standard Deviation: 135.76805073359492
+Generation: 861 High: 777.0 Mean: 304.0 Standard Deviation: 162.03530479497363
+Generation: 862 High: 729.0 Mean: 296.38 Standard Deviation: 148.12655265009033
+Generation: 863 High: 852.0 Mean: 363.96 Standard Deviation: 168.87012287554003
+Generation: 864 High: 695.0 Mean: 314.86 Standard Deviation: 140.57382544414165
+Generation: 865 High: 741.0 Mean: 309.98 Standard Deviation: 161.9096649369642
+Generation: 866 High: 859.0 Mean: 329.62 Standard Deviation: 194.75121463035856
+Generation: 867 High: 887.0 Mean: 346.14 Standard Deviation: 199.4391145186921
+Generation: 868 High: 757.0 Mean: 314.9 Standard Deviation: 192.84307091518747
+Generation: 869 High: 678.0 Mean: 314.64 Standard Deviation: 167.1636036941056
+Generation: 870 High: 539.0 Mean: 300.38 Standard Deviation: 128.77482517945813
+Generation: 871 High: 708.0 Mean: 371.66 Standard Deviation: 165.67795387437644
+Generation: 872 High: 908.0 Mean: 378.5 Standard Deviation: 214.491887958496
+Generation: 873 High: 752.0 Mean: 397.72 Standard Deviation: 182.65300873514235
+Generation: 874 High: 831.0 Mean: 295.96 Standard Deviation: 201.13179360807177
+Generation: 875 High: 623.0 Mean: 356.34 Standard Deviation: 152.39535557227455
+Generation: 876 High: 780.0 Mean: 313.36 Standard Deviation: 147.87207444274256
+Generation: 877 High: 849.0 Mean: 359.4 Standard Deviation: 169.5102356791471
+Generation: 878 High: 606.0 Mean: 358.24 Standard Deviation: 135.75987035939596
+Generation: 879 High: 841.0 Mean: 286.76 Standard Deviation: 183.00213769243243
+Generation: 880 High: 639.0 Mean: 362.88 Standard Deviation: 148.98182976457232
+Generation: 881 High: 785.0 Mean: 287.56 Standard Deviation: 162.2599346727343
+Generation: 882 High: 662.0 Mean: 309.64 Standard Deviation: 158.24320016986513
+Generation: 883 High: 735.0 Mean: 292.64 Standard Deviation: 152.91929374673424
+Generation: 884 High: 917.0 Mean: 351.3 Standard Deviation: 204.57226107172997
+Generation: 885 High: 768.0 Mean: 320.92 Standard Deviation: 151.2545986077779
+Generation: 886 High: 692.0 Mean: 323.76 Standard Deviation: 162.95098158648815
+Generation: 887 High: 926.0 Mean: 342.5 Standard Deviation: 208.57308071752692
+Generation: 888 High: 802.0 Mean: 332.06 Standard Deviation: 196.71465730849852
+Generation: 889 High: 767.0 Mean: 371.24 Standard Deviation: 204.99888389940074
+Generation: 890 High: 678.0 Mean: 299.7 Standard Deviation: 152.12327238131581
+Generation: 891 High: 912.0 Mean: 342.58 Standard Deviation: 211.07743508011467
+Generation: 892 High: 952.0 Mean: 365.02 Standard Deviation: 231.09560705474254
+Generation: 893 High: 672.0 Mean: 339.16 Standard Deviation: 160.37460646872998
+Generation: 894 High: 979.0 Mean: 339.04 Standard Deviation: 148.53174206209258
+Generation: 895 High: 979.0 Mean: 341.42 Standard Deviation: 188.6648976359938
+Generation: 896 High: 666.0 Mean: 296.04 Standard Deviation: 168.0270168752632
+Generation: 897 High: 710.0 Mean: 312.26 Standard Deviation: 148.06374438058762
+Generation: 898 High: 651.0 Mean: 353.8 Standard Deviation: 158.93961117355235
+Generation: 899 High: 870.0 Mean: 386.42 Standard Deviation: 203.33097058736533
+Generation: 900 High: 765.0 Mean: 368.78 Standard Deviation: 179.36112064770333
+Generation: 901 High: 746.0 Mean: 321.36 Standard Deviation: 183.7994298141319
+Generation: 902 High: 904.0 Mean: 432.98 Standard Deviation: 216.06512814427037
+Generation: 903 High: 826.0 Mean: 331.32 Standard Deviation: 192.12479694198765
+Generation: 904 High: 696.0 Mean: 299.02 Standard Deviation: 161.7337923873672
+Generation: 905 High: 833.0 Mean: 340.44 Standard Deviation: 174.2881705681714
+Generation: 906 High: 841.0 Mean: 377.34 Standard Deviation: 183.56226300631627
+Generation: 907 High: 673.0 Mean: 316.64 Standard Deviation: 139.07059502281558
+Generation: 908 High: 895.0 Mean: 307.14 Standard Deviation: 195.29577670804872
+Generation: 909 High: 710.0 Mean: 373.24 Standard Deviation: 180.80227432197862
+Generation: 910 High: 732.0 Mean: 377.18 Standard Deviation: 161.95933934170017
+Generation: 911 High: 747.0 Mean: 333.4 Standard Deviation: 137.32909378569423
+Generation: 912 High: 656.0 Mean: 323.82 Standard Deviation: 157.65528091377087
+Generation: 913 High: 707.0 Mean: 324.24 Standard Deviation: 151.0648284677807
+Generation: 914 High: 864.0 Mean: 337.14 Standard Deviation: 180.74933028921572
+Generation: 915 High: 615.0 Mean: 331.18 Standard Deviation: 170.16400206859265
+Generation: 916 High: 732.0 Mean: 346.82 Standard Deviation: 167.77075907320682

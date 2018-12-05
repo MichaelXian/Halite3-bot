@@ -13,4 +13,4 @@ javac -cp "${CP}" MyBot.java
 javac MyBot.java
 #./halite --replay-directory replays/ -vvv --width 32 --height 32 "java MyBot" "java MyBot"
 #./halite --no-replay --no-logs --results-as-json -vvv --width 32 --height 32 "java -cp ${CP} MyBot ${1}" "java -cp ${CP} MyBot ${2}"
-./halite --replay-directory replays/ --results-as-json -vvv --width 32 --height 32 "java -cp ${CP} MyBot ${1}" "java -cp ${CP} MyBot ${2}"
+./halite --replay-directory replays/ --results-as-json -vvv -s 1 --width 32 --height 32 "java -cp ${CP} MyBot ${1}" "java -cp ${CP} MyBot ${2}"

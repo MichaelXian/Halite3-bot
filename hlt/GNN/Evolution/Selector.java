@@ -6,6 +6,8 @@ import org.json.JSONObject;
 
 import java.util.*;
 
+import static java.lang.Math.pow;
+
 public class Selector {
     private Map<Bot, List<Integer>> grades; // The value is <Number of matchups the bot has played, total score>
     private Map<Bot, Double> averageGrades; // The average score over the bot's games
@@ -136,7 +138,7 @@ public class Selector {
         int num = 0;
         for (Map.Entry<Bot, Double>  entry : averageGrades.entrySet()){
             num ++;
-            variance += Math.pow(entry.getValue() - average ,2);
+            variance += pow(entry.getValue() - average ,2);
         }
         variance /= num;
         return Math.sqrt(variance);
@@ -179,6 +181,15 @@ public class Selector {
         for (Map.Entry<Bot, Double> entry: averageGrades.entrySet()) {
             entry.setValue(entry.getValue() / sum); // Divide every value by the sum
         }
+    }
+
+    /**
+     * A function that is applied to all averages to allow for different weightings of averages
+     * @param average
+     * @return
+     */
+    private Double evalFunction(Double average) {
+        return pow(average, 2);
     }
 
 

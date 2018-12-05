@@ -30,7 +30,7 @@ public class MyBot {
         for (;;) {
             game.updateFrame();
             final Player me = game.me;
-            //timeToReturn = shouldReturn(game, me, me.ships, me.dropoffs, me.shipyard);
+            timeToReturn = shouldReturn(game, me, me.ships, me.dropoffs, me.shipyard);
             int turnsLeft = Constants.MAX_TURNS - game.turnNumber;
             final GameMap gameMap = game.gameMap;
             Map<EntityId, Ship> enemyShips = getEnemies(game, me);
@@ -45,10 +45,10 @@ public class MyBot {
                 Position enemyShipPos = closest(ship, enemyShips);   // Find closest enemy
                 Position allyShipPos = closestAlly(ship, newLocations);      // Find closest ally (hopefully it helps not crash)
                 Position dropPos = getClosestDrop(me, ship);
-                //if (timeToReturn) {
-                //    goTo(gameMap, commandQueue, ship, dropPos);
-                //    continue;
-                //}
+                if (timeToReturn) {
+                    goTo(gameMap, commandQueue, ship, dropPos);
+                    continue;
+                }
                 setShipData(turnsLeft, gameMap, ship, enemyShipPos, allyShipPos, dropPos);
                 shipBot.setInput(data);
                 handleOutput(shipBot.getOutput(), ship, commandQueue, gameMap);

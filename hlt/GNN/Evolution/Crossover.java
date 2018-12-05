@@ -18,7 +18,7 @@ public class Crossover {
 
     public static Bot breed(List<Bot> bots) {
         // Choose 2 random parents
-        List<Bot> bots2 = new ArrayList<>(bots);
+        List<Bot> bots2 = new ArrayList<>(bots);  // Create a copy of the passed argument to mutate
         Bot bot = randomList(bots2);
         bots2.remove(bot);
         Bot bot2 = randomList(bots2);

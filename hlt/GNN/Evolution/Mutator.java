@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Random;
 
 public class Mutator {
-    private static final Double MULTIPLIER = 1.0;
+    private static final Double MULTIPLIER = 10.0;
     private static final Double REMOVE_NEURON_CHANCE = 10 * MULTIPLIER * 0; // Temporarily disable removing/adding neurons, connections, or layers
     private static final Double ADD_NEURON_CHANCE = 10 * MULTIPLIER * 0;
     private static final Double REMOVE_CONNECTION_CHANCE = 1 * MULTIPLIER * 0;

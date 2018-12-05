@@ -57,12 +57,15 @@ public class Trainer {
             bots = selector.select(NUM_SURVIVORS);
             // Breed back to 100 neural nets
             List<Bot> originalBots = new ArrayList<>(bots);
-            while (bots.size() < 100) {
-                bots.add(Crossover.breed(originalBots));
+            List<Bot> newBots = new ArrayList<>();      // List of newly created bots, that will be mutated later
+            while (newBots.size() < NUM_BOTS/2) {       // Create new bots until we have enough to reach NUM_BOTS in the next generation
+                Bot newBot = Crossover.breed(originalBots);
+                newBots.add(newBot);
             }
-            // Mutate bots
-            for (Bot bot: bots) {
+            // Mutate the new bots, and add them to the list of bots
+            for (Bot bot: newBots) {
                 Mutator.mutate(bot);
+                bots.add(bot);
             }
             saveBots();
             generation ++;

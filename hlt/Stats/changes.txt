@@ -1,0 +1,3 @@
+~Only new bots are mutated now (parents are not)
+~Same map every time to lower variation, hopefully they learn to not just go north and later can acclimate
+~Higher mutation rate

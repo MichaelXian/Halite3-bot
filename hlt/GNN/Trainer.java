@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.atomic.AtomicInteger;
 
 import hlt.GNN.Evolution.Crossover;
 import hlt.GNN.Evolution.MatchMaker;
@@ -23,14 +25,23 @@ public class Trainer {
     static final int NUM_SURVIVORS = 50;
     static final int NUM_BOTS = 100;
     static List<Bot> bots;
-    static List<Matchup> matchups;
+    static CopyOnWriteArrayList<Matchup> matchups;
+    static List<Thread> threads;
     static MatchMaker matchMaker;
     static Selector selector;
     static int generation;
+    static AtomicInteger matchNum;
 
     public static void main(String[] args) {
+        matchups = new CopyOnWriteArrayList<>();
+        matchNum = new AtomicInteger();
+        int numTimes = -1;
+        boolean remote = (args.length == 1);
+        if (args.length == 1) {
+            numTimes = Integer.parseInt(args[0]);
+        }
         generation = StatFileManager.getGeneration();
-        while (true) {
+        for (; numTimes != 0; numTimes--) {
             System.out.println("Generation: " + generation);
             bots = new ArrayList<>();
             // Load botsException in thread "main"
@@ -38,16 +49,21 @@ public class Trainer {
             // Initialize matchmaker and selector
             matchMaker = new MatchMaker(bots);
             selector = new Selector(bots);
-            matchups = matchMaker.getMatchups(); // Get the matchups
+            matchups.clear();                          // Clear matchups
+            matchups.addAll(matchMaker.getMatchups()); // Get the matchups
             matchMaker = null; // Deallocate some memory, we no longer need matchmaker since we have the matchups
-            int i = 0;
+            matchNum.set(0);                           // Reset match counter
+            threads = new ArrayList<>();
             for (Matchup matchup : matchups) {
-                i++;
-                System.out.print("Matchup " + i + "/" + matchups.size());
-                // Play each matchup, and grade the bots accordingly.
-                JSONObject matchResults = playMatchup(matchup);
-                selector.grade(matchup, matchResults);
-                System.out.print(" Bot" + matchup.getBot1().getBotNum() + ": " + matchResults.getJSONObject("0").getInt("score") + " Bot" + matchup.getBot2().getBotNum() +": " + matchResults.getJSONObject("1").getInt("score") +  "\n");
+                Thread matchupThread = new Thread(()->doMatchup(remote, matchup));
+                threads.add(matchupThread);
+            }
+            for (Thread thread : threads) {
+                try {
+                    thread.join();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
             // Record some stats
             StatFileManager.updateScores(generation, selector.getBestScore(), selector.getAverageScore(), selector.getStandardDeviation());
@@ -73,16 +89,30 @@ public class Trainer {
         }
     }
 
+    private static void doMatchup(boolean remote, Matchup matchup) {
+        JSONObject matchResults = playMatchup(matchup, remote);
+        analyzeMatchup(matchup, matchResults);
+    }
+
+    // Grades the bots and prints out information accordingly
+    private static synchronized void analyzeMatchup(Matchup matchup, JSONObject matchResults) throws JSONException {
+        matchNum.getAndIncrement();
+        System.out.print("Matchup " + matchNum + "/" + matchups.size());
+        // Play each matchup, and grade the bots accordingly.
+        selector.grade(matchup, matchResults);
+        System.out.print(" Bot" + matchup.getBot1().getBotNum() + ": " + matchResults.getJSONObject("0").getInt("score") + " Bot" + matchup.getBot2().getBotNum() +": " + matchResults.getJSONObject("1").getInt("score") +  "\n");
+    }
+
     private static void saveBots() {
         for (int i = 0; i < NUM_BOTS; i++) {
             NetworkFileManager.saveBot(bots.get(i), i);
         }
     }
 
-    private static org.json.JSONObject playMatchup(Matchup matchup) {
+    private static org.json.JSONObject playMatchup(Matchup matchup, boolean remote) {
         String botNum1 = new Integer(matchup.getBot1().getBotNum()).toString();
         String botNum2 = new Integer(matchup.getBot2().getBotNum()).toString();
-        return playMatch(botNum1, botNum2);
+        return playMatch(botNum1, botNum2, remote);
     }
 
     private static void loadBots() {
@@ -93,9 +123,11 @@ public class Trainer {
 
 
 
-    private static JSONObject playMatch(String botNum1, String botNum2) throws JSONException {
+    private static JSONObject playMatch(String botNum1, String botNum2, boolean remote) throws JSONException {
         String filePath =  new File("").getAbsolutePath(); // Get path of root dir
-        filePath = filePath.concat("/run_game.sh"); // Add the bash script
+        String fileName = remote ? "/run_game_remote.sh" : "/run_game.sh";
+        filePath = filePath.concat(fileName); // Add the bash script
+        System.out.println(filePath);
         String[] cmd = new String[]{"/bin/sh", filePath, botNum1, botNum2}; // Command to run
         String result = ""; // Initialize result & ret value
         JSONObject stats = null;

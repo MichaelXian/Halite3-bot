@@ -105,7 +105,7 @@ public class Selector {
         calcAverageGrades();
         Double maxGrade = 0d;
         for (Map.Entry<Bot, Double>  entry : averageGrades.entrySet()){
-            if (entry.getValue() >= maxGrade) {
+            if (entry.getValue() >= maxGrade && entry.getValue() != 5001.0) {
                 maxGrade = entry.getValue();
             }
         }

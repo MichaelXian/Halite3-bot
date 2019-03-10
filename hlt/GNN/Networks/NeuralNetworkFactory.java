@@ -29,7 +29,8 @@ public class NeuralNetworkFactory {
      * Creates a fully connected network with NUM_LAYERS-2 hidden layers
      */
     public static NeuralNetwork connectedNeuralNetwork(int inputs, int outputs) {
-        NeuralNetwork neuralNetwork = new MultiLayerPerceptron(inputs, inputs, outputs);
+        // 7 hidden layers
+        NeuralNetwork neuralNetwork = new MultiLayerPerceptron(inputs, inputs, inputs, inputs, inputs, inputs, inputs, inputs, outputs);
         return neuralNetwork;
     }
 
